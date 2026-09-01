@@ -12,12 +12,6 @@ if TYPE_CHECKING:
 
 
 class Player:
-    """Abstract strategy. Subclass and implement ``strategy``.
-
-    Each instance keeps its own action history and the opponent's history
-    for the current match. Call ``reset()`` between matches.
-    """
-
     name: str = "Player"
     classifier: dict = {
         "memory_depth": float("inf"),
@@ -32,18 +26,19 @@ class Player:
         self.history: list[Action] = []
         self.cooperations: int = 0
         self.defections: int = 0
+        self.expected_turns: int | None = None
         self.rng = random.Random()
 
     def reset(self) -> None:
         self.history = []
         self.cooperations = 0
         self.defections = 0
+        self.expected_turns = None
 
     def seed(self, value: int) -> None:
         self.rng = random.Random(value)
 
     def update(self, own: Action, opponent: Action) -> None:
-        """Record the realized actions after a round (post-noise)."""
         self.history.append(own)
         if own is Action.C:
             self.cooperations += 1
@@ -54,7 +49,6 @@ class Player:
         raise NotImplementedError
 
     def clone(self) -> Player:
-        """Return a fresh instance of the same class (used by ecology)."""
         return self.__class__()
 
     def __repr__(self) -> str:

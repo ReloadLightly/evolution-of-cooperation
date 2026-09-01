@@ -1,0 +1,20 @@
+first-tournament field, noise=0 (80 turns x 2 reps)
+  1 Downing            211.6
+  2 Grofman            204.7
+  3 Always Cooperate   202.7
+  4 Tit For Tat        201.2
+  ...
+  14 Always Defect     139.6
+  15 Anonymous         138.5
+
+first-tournament field, noise=0.05
+  1 Downing            178.2
+  2 Always Cooperate   168.4
+  5 Tit For Tat        165.7
+  Grudger/Davis climb in wins because one accidental D trips grim rules.
+
+GA vs clean 8-strategy field, noise=0
+  vs TFT 236   vs ALLC 400   vs ALLD 77   vs self 82    (farms suckers)
+
+GA vs first-tournament field, noise=0.05
+  vs TFT 240   vs ALLC 240   vs ALLD 40   vs self 240   (reciprocates; does not farm)

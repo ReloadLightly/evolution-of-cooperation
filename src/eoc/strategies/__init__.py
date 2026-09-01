@@ -1,3 +1,4 @@
+from eoc.strategies.first_tournament import Anonymous, Downing, Graaskamp, SteinAndRapoport
 from eoc.strategies.basic import (
     AlwaysCooperate,
     AlwaysDefect,
@@ -22,6 +23,10 @@ from eoc.strategies.basic import (
 )
 
 __all__ = [
+    "Anonymous",
+    "Downing",
+    "Graaskamp",
+    "SteinAndRapoport",
     "AlwaysCooperate",
     "AlwaysDefect",
     "BASIC_STRATEGIES",
