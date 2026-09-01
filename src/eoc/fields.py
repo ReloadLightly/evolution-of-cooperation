@@ -1,10 +1,4 @@
-"""Reusable opponent sets used as fitness environments.
-
-`axelrod_like_field` is not a bit-perfect replica of the 1980 first
-tournament — several of those programs were underspecified. It is the
-same kind of mix Axelrod used to score evolved rules in 1987: nice
-reciprocators, grim punishers, probe-and-exploit rules, and noise.
-"""
+"""Reusable opponent sets used as fitness environments."""
 
 from __future__ import annotations
 
@@ -12,8 +6,12 @@ from eoc.player import Player
 from eoc.strategies import (
     AlwaysCooperate,
     AlwaysDefect,
+    Anonymous,
     Davis,
+    Downing,
+    Feld,
     GenerousTitForTat,
+    Graaskamp,
     Grofman,
     Grudger,
     Joss,
@@ -21,16 +19,30 @@ from eoc.strategies import (
     Prober,
     Random,
     Shubik,
+    SteinAndRapoport,
     SuspiciousTitForTat,
     Tester,
     TitForTat,
     TitForTwoTats,
+    Tullock,
     TwoTitsForTat,
 )
 
 
+def representative_eight() -> list[Player]:
+    return [
+        TitForTat(),
+        AlwaysCooperate(),
+        AlwaysDefect(),
+        Grudger(),
+        Joss(0.9),
+        Random(0.5),
+        Tester(),
+        Pavlov(),
+    ]
+
+
 def axelrod_like_field() -> list[Player]:
-    """A compact mixed field in the spirit of the early tournaments."""
     return [
         TitForTat(),
         TitForTwoTats(),
@@ -51,15 +63,22 @@ def axelrod_like_field() -> list[Player]:
     ]
 
 
-def representative_eight() -> list[Player]:
-    """Smaller scoring set for a fast GA generation."""
+def first_tournament_field() -> list[Player]:
+    """Fuller 1980-style field. Nydegger and Tideman & Chieruzzi omitted."""
     return [
         TitForTat(),
+        SteinAndRapoport(),
+        Grudger(),
+        Davis(),
+        Graaskamp(),
+        Downing(),
+        Feld(),
+        Joss(0.9),
+        Tullock(),
+        Grofman(),
+        Shubik(),
+        Anonymous(),
+        Random(0.5),
         AlwaysCooperate(),
         AlwaysDefect(),
-        Grudger(),
-        Joss(0.9),
-        Random(0.5),
-        Tester(),
-        Pavlov(),
     ]
