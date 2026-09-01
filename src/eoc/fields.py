@@ -42,6 +42,20 @@ def representative_eight() -> list[Player]:
     ]
 
 
+def no_sucker_field() -> list[Player]:
+    """Eight-strategy mix without Always-Cooperate."""
+    return [
+        TitForTat(),
+        TitForTwoTats(),
+        GenerousTitForTat(0.1),
+        AlwaysDefect(),
+        Grudger(),
+        Joss(0.9),
+        Tester(),
+        Pavlov(),
+    ]
+
+
 def axelrod_like_field() -> list[Player]:
     return [
         TitForTat(),
@@ -64,7 +78,6 @@ def axelrod_like_field() -> list[Player]:
 
 
 def first_tournament_field() -> list[Player]:
-    """Fuller 1980-style field. Nydegger and Tideman & Chieruzzi omitted."""
     return [
         TitForTat(),
         SteinAndRapoport(),
