@@ -1,11 +1,12 @@
 """Genetic algorithm over Lookup70 genomes.
 
-Axelrod 1987 experiment 1: 70-bit lookup tables scored against a fixed
-field. Fitness is mean score per match. Operators: elitism, tournament
-selection, single-point crossover, bit-flip mutation.
+Experiment 1 (Axelrod 1987): score each genome against a fixed field.
+Experiment 2 (coevolution): the population is the environment. Fitness
+is mean score against every current peer, including a clone of itself.
 
-Coevolution (experiment 2): set coevolve=True to also score each genome
-against the rest of the current population.
+field_weight blends the two (1 = field only, 0 = peers only).
+Self-play is what makes farming Always-Cooperate stop paying: a
+population of farmers meets itself and collects P, not T.
 """
 
 from __future__ import annotations
@@ -56,6 +57,7 @@ class GeneticAlgorithm:
         elite: int = 2,
         tournament_k: int = 3,
         coevolve: bool = False,
+        field_weight: float | None = None,
         seed: int = 0,
         game: Game | None = None,
         field_reps: int = 1,
@@ -71,6 +73,12 @@ class GeneticAlgorithm:
         self.elite = min(elite, population_size)
         self.tournament_k = tournament_k
         self.coevolve = coevolve
+        if field_weight is None:
+            self.field_weight = 0.0 if coevolve else 1.0
+        else:
+            if not 0.0 <= field_weight <= 1.0:
+                raise ValueError("field_weight must be in [0, 1]")
+            self.field_weight = field_weight
         self.seed = seed
         self.game = game or Game()
         self.field_reps = field_reps
@@ -101,31 +109,37 @@ class GeneticAlgorithm:
                 n += 1
         return total / n if n else 0.0
 
-    def _score_against_peers(self, index: int) -> float:
-        total = 0.0
-        n = 0
-        me = self.population[index].genome
-        for j, other in enumerate(self.population):
-            if j == index:
-                continue
-            a = me.clone()
-            b = other.genome.clone()
-            seed = self.seed + 17 * index + 31 * j
-            s1, _ = Match(
-                a, b, turns=self.turns, noise=self.noise, game=self.game, seed=seed
-            ).play()
-            total += s1
-            n += 1
-        return total / n if n else 0.0
+    def _peer_scores(self) -> list[float]:
+        n = len(self.population)
+        totals = [0.0] * n
+        counts = [0] * n
+        for i in range(n):
+            for j in range(i, n):
+                a = self.population[i].genome.clone()
+                b = self.population[j].genome.clone()
+                seed = self.seed + 17 * i + 31 * j
+                s1, s2 = Match(
+                    a, b, turns=self.turns, noise=self.noise, game=self.game, seed=seed
+                ).play()
+                totals[i] += s1
+                counts[i] += 1
+                if i != j:
+                    totals[j] += s2
+                    counts[j] += 1
+        return [totals[i] / counts[i] for i in range(n)]
 
     def evaluate(self) -> None:
+        peer: list[float] | None = None
+        if self.field_weight < 1.0:
+            peer = self._peer_scores()
         for i, ind in enumerate(self.population):
-            field_score = self._score_against_field(ind.genome, tag=i)
-            if self.coevolve:
-                peer = self._score_against_peers(i)
-                ind.fitness = 0.5 * field_score + 0.5 * peer
+            if self.field_weight <= 0.0:
+                ind.fitness = peer[i] if peer else 0.0
+            elif self.field_weight >= 1.0:
+                ind.fitness = self._score_against_field(ind.genome, tag=i)
             else:
-                ind.fitness = field_score
+                field_score = self._score_against_field(ind.genome, tag=i)
+                ind.fitness = self.field_weight * field_score + (1.0 - self.field_weight) * peer[i]
         self.population.sort(key=lambda ind: ind.fitness, reverse=True)
 
     def _record(self, generation: int) -> GenerationRecord:
