@@ -1,0 +1,8 @@
+clean field (noise=0): champion nearest Pavlov
+  p=(0.18, 1.00, 0.30, 0.09, 0.79)
+  vs TFT 237, ALLC 261, ALLD 40, self 236
+
+noisy field (0.05): still farms ALLC, does not lock GTFT on this budget
+  vs TFT 141, ALLC 381, ALLD 55, self 147
+
+pure coevolve + noise: mean fitness 106 -> 67, collapses toward ALLD
