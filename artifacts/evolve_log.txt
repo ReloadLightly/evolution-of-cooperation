@@ -1,0 +1,38 @@
+gen   0  best= 191.12  mean= 152.28  TFT-agree= 53.1%  coop-table= 62.5%
+gen   1  best= 191.12  mean= 168.24  TFT-agree= 60.9%  coop-table= 45.3%
+gen   2  best= 193.00  mean= 181.02  TFT-agree= 51.6%  coop-table= 60.9%
+gen   3  best= 194.00  mean= 180.31  TFT-agree= 51.6%  coop-table= 51.6%
+gen   4  best= 200.75  mean= 180.96  TFT-agree= 48.4%  coop-table= 51.6%
+gen   5  best= 196.88  mean= 183.93  TFT-agree= 48.4%  coop-table= 51.6%
+gen   6  best= 198.75  mean= 186.14  TFT-agree= 48.4%  coop-table= 51.6%
+gen   7  best= 202.50  mean= 189.36  TFT-agree= 50.0%  coop-table= 53.1%
+gen   8  best= 205.88  mean= 194.04  TFT-agree= 48.4%  coop-table= 51.6%
+gen   9  best= 203.38  mean= 198.07  TFT-agree= 46.9%  coop-table= 53.1%
+gen  10  best= 204.25  mean= 199.06  TFT-agree= 50.0%  coop-table= 50.0%
+gen  11  best= 205.38  mean= 191.09  TFT-agree= 50.0%  coop-table= 53.1%
+gen  12  best= 208.00  mean= 198.60  TFT-agree= 48.4%  coop-table= 48.4%
+gen  13  best= 205.00  mean= 195.70  TFT-agree= 45.3%  coop-table= 51.6%
+gen  14  best= 207.50  mean= 194.65  TFT-agree= 48.4%  coop-table= 51.6%
+gen  15  best= 207.50  mean= 196.24  TFT-agree= 50.0%  coop-table= 43.8%
+gen  16  best= 207.50  mean= 194.94  TFT-agree= 51.6%  coop-table= 42.2%
+gen  17  best= 213.50  mean= 196.95  TFT-agree= 51.6%  coop-table= 42.2%
+gen  18  best= 213.25  mean= 196.17  TFT-agree= 51.6%  coop-table= 42.2%
+gen  19  best= 215.88  mean= 202.29  TFT-agree= 50.0%  coop-table= 40.6%
+gen  20  best= 216.50  mean= 199.62  TFT-agree= 51.6%  coop-table= 39.1%
+gen  21  best= 218.88  mean= 205.18  TFT-agree= 48.4%  coop-table= 42.2%
+gen  22  best= 218.88  mean= 202.91  TFT-agree= 51.6%  coop-table= 45.3%
+gen  23  best= 215.88  mean= 204.54  TFT-agree= 50.0%  coop-table= 46.9%
+gen  24  best= 218.88  mean= 203.30  TFT-agree= 46.9%  coop-table= 43.8%
+gen  25  best= 215.25  mean= 205.95  TFT-agree= 48.4%  coop-table= 42.2%
+gen  26  best= 216.62  mean= 194.25  TFT-agree= 56.2%  coop-table= 40.6%
+gen  27  best= 215.00  mean= 198.80  TFT-agree= 53.1%  coop-table= 43.8%
+gen  28  best= 215.12  mean= 196.26  TFT-agree= 51.6%  coop-table= 48.4%
+gen  29  best= 217.88  mean= 195.96  TFT-agree= 56.2%  coop-table= 46.9%
+
+evolved-champion  TFT-agree=56.2%  coop-table=46.9%
+
+  vs Tit For Tat                  score= 237.0  coop= 97.5%
+  vs Always Cooperate             score= 400.0  coop=  0.0%
+  vs Always Defect                score=  78.0  coop=  2.5%
+  vs Joss (0.9)                   score= 172.8  coop= 65.5%
+  vs Lookup70(TFT)                score= 237.0  coop= 97.5%
