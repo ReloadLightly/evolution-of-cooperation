@@ -1,0 +1,10 @@
+Shadow of the future — winner by match length
+
+  turns=1    winner=Always Defect
+  turns=2    winner=Always Defect
+  turns=5    winner=Grudger
+  turns=10   winner=Grudger
+  turns=25   winner=Grudger
+  turns=50   winner=Grudger
+  turns=100  winner=Grudger
+  turns=200  winner=Grudger

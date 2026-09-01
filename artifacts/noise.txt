@@ -1,0 +1,7 @@
+Noise experiment (20 seeds × 200 turns)
+
+  TFT vs TFT, noise=0              score=  600.0  coop=100.0%
+  TFT vs TFT, noise=0.05           score=  455.2  coop= 50.6%
+  GTFT vs GTFT, noise=0.05         score=  567.7  coop= 85.9%
+  Pavlov vs Pavlov, noise=0.05     score=  552.9  coop= 84.8%
+  TFT vs ALLD, noise=0.05          score=  220.9  coop= 11.3%

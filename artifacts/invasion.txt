@@ -1,0 +1,9 @@
+Invasion of ALLD by TFT (well-mixed replicator, 80 generations, 200-turn matches)
+With a long shadow of the future the critical frequency is only ~1/397.
+Clustering matters much more when matches are short or heavily discounted.
+
+  initial TFT=  1.0%  →  final TFT=100.00%
+  initial TFT=  5.0%  →  final TFT=100.00%
+  initial TFT= 10.0%  →  final TFT=100.00%
+  initial TFT= 25.0%  →  final TFT=100.00%
+  initial TFT= 50.0%  →  final TFT=100.00%

@@ -1,0 +1,18 @@
+Final population shares after 150 generations:
+
+  Generous Tit For Tat (0.1)        13.08%
+  Grofman                           12.26%
+  Tit For Tat                       12.21%
+  Shubik                            10.91%
+  Tit For Two Tats                  10.38%
+  Pavlov (Win-Stay Lose-Shift)       9.93%
+  Two Tits For Tat                   8.10%
+  Grudger                            8.03%
+  Davis                              7.99%
+  Always Cooperate                   7.11%
+  Prober                             0.00%
+  Suspicious Tit For Tat             0.00%
+  Joss (0.9)                         0.00%
+  Random (0.5)                       0.00%
+  Tester                             0.00%
+  Always Defect                      0.00%

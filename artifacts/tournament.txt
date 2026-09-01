@@ -1,0 +1,18 @@
+Rank  Strategy                               Total   Avg/match   Coop%    Wins
+------------------------------------------------------------------------------
+1     Generous Tit For Tat (0.1)           41684.0      521.05   82.2%       0
+2     Tit For Tat                          40959.0      511.99   75.7%       0
+3     Grofman                              40769.0      509.61   90.2%       0
+4     Tit For Two Tats                     40295.0      503.69   79.1%       0
+5     Shubik                               40080.0      501.00   69.9%       5
+6     Pavlov (Win-Stay Lose-Shift)         39261.0      490.76   78.4%       2
+7     Grudger                              38282.0      478.52   63.2%      10
+8     Davis                                37996.0      474.95   64.4%       5
+9     Two Tits For Tat                     37840.0      473.00   64.8%      10
+10    Always Cooperate                     37272.0      465.90  100.0%       0
+11    Prober                               32898.0      411.23   33.0%      20
+12    Suspicious Tit For Tat               30386.0      379.82   40.5%      29
+13    Random (0.5)                         29753.0      371.91   50.5%      25
+14    Tester                               28798.0      359.98    7.9%      62
+15    Joss (0.9)                           27346.0      341.82   27.1%      45
+16    Always Defect                        27220.0      340.25    0.0%      70

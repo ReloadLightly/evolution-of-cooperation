@@ -1,0 +1,3 @@
+Niceness check: strategies that never defect first tend to occupy the top half.
+  Top half (8): ['Generous Tit For Tat (0.1)', 'Tit For Tat', 'Tit For Two Tats', 'Shubik', 'Grofman', 'Pavlov (Win-Stay Lose-Shift)', 'Davis', 'Grudger']
+  Nice strategies in top half: 8/8
