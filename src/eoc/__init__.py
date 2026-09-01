@@ -7,6 +7,7 @@ from eoc.tournament import Tournament, TournamentResult
 from eoc.ecology import Ecology
 from eoc.evolve import GeneticAlgorithm
 from eoc.genomes import Lookup70, MemoryOne
+from eoc.lattice import Lattice
 
 __all__ = [
     "Action",
@@ -20,6 +21,7 @@ __all__ = [
     "Lookup70",
     "MemoryOne",
     "GeneticAlgorithm",
+    "Lattice",
 ]
 
 __version__ = "0.1.0"
