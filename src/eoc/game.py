@@ -11,15 +11,10 @@ from eoc.player import Player
 
 @dataclass(frozen=True)
 class Payoff:
-    """Standard Axelrod payoffs: T=5, R=3, P=1, S=0.
-
-    Temptation > Reward > Punishment > Sucker, and 2R > T+S.
-    """
-
-    temptation: float = 5.0  # T: defect vs cooperate
-    reward: float = 3.0  # R: mutual cooperate
-    punishment: float = 1.0  # P: mutual defect
-    sucker: float = 0.0  # S: cooperate vs defect
+    temptation: float = 5.0
+    reward: float = 3.0
+    punishment: float = 1.0
+    sucker: float = 0.0
 
     def score(self, mine: Action, theirs: Action) -> float:
         if mine is Action.C and theirs is Action.C:
@@ -32,8 +27,6 @@ class Payoff:
 
 
 class Game:
-    """Two-player Prisoner's Dilemma with Axelrod's canonical payoffs."""
-
     def __init__(self, payoff: Payoff | None = None) -> None:
         self.payoff = payoff or Payoff()
 
@@ -42,20 +35,6 @@ class Game:
 
 
 class Match:
-    """An iterated PD match between two players.
-
-    Parameters
-    ----------
-    player1, player2:
-        Strategy instances. Each is reset at the start of the match.
-    turns:
-        Fixed number of rounds (Axelrod's first tournament used 200).
-    noise:
-        Probability that an intended action is flipped (implementation error).
-    seed:
-        Optional RNG seed applied to both players for reproducibility.
-    """
-
     def __init__(
         self,
         player1: Player,
@@ -81,14 +60,13 @@ class Match:
     def play(self) -> tuple[float, float]:
         self.player1.reset()
         self.player2.reset()
+        self.player1.expected_turns = self.turns
+        self.player2.expected_turns = self.turns
         if self.seed is not None:
             self.player1.seed(self.seed)
             self.player2.seed(self.seed + 1)
-
-        total1 = 0.0
-        total2 = 0.0
+        total1 = total2 = 0.0
         self.history = []
-
         for _ in range(self.turns):
             a = self.player1.strategy(self.player2)
             b = self.player2.strategy(self.player1)
@@ -103,7 +81,6 @@ class Match:
             self.player1.update(a, b)
             self.player2.update(b, a)
             self.history.append((a, b))
-
         self.scores = (total1, total2)
         return self.scores
 
