@@ -1,0 +1,9 @@
+=== probe summary ===
+regime           TFT-agr    vs TFT   vs ALLC   vs ALLD   vs self
+field-only         45.3%     236.0     400.0      80.0      80.0
+mixed-0.5          57.8%     240.0     240.0      79.0     240.0
+coevolve           40.6%     173.0     346.0      77.0     196.0
+
+field-only farms Always-Cooperate (400) and defects against its own copies (80).
+mixed peer pressure restores TFT-like play: 240 vs TFT, ALLC, and self.
+pure coevolution on this budget is noisier: some self-cooperation (196), still some farming (346).
