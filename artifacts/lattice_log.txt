@@ -1,0 +1,10 @@
+lone TFT in 13x13 ALLD: 1 -> 0 in one generation.
+
+3x3 TFT cluster in 13x13 ALLD:
+  gen 0   TFT=9    ALLD=160   mean=32
+  gen 5   TFT=109  ALLD=60    mean=65
+  gen 10  TFT=169  ALLD=0     mean=90   (whole board TFT)
+
+TFT + ALLC + Grudger clusters:
+  ALLC grows a little then vanishes.
+  TFT and Grudger split the board and freeze (both score R against each other).
