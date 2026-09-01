@@ -5,6 +5,8 @@ from eoc.game import Game, Match, Payoff
 from eoc.player import Player
 from eoc.tournament import Tournament, TournamentResult
 from eoc.ecology import Ecology
+from eoc.evolve import GeneticAlgorithm
+from eoc.genomes import Lookup70, MemoryOne
 
 __all__ = [
     "Action",
@@ -15,6 +17,9 @@ __all__ = [
     "Tournament",
     "TournamentResult",
     "Ecology",
+    "Lookup70",
+    "MemoryOne",
+    "GeneticAlgorithm",
 ]
 
 __version__ = "0.1.0"
