@@ -10,3 +10,4 @@ build/
 artifacts/*.png
 artifacts/summary.json
 artifacts/forgiveness_live*/
+artifacts/forgiveness_e2_live*/

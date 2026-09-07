@@ -22,6 +22,8 @@ if not 0 <= args.run < len(runs):
 record = runs[args.run]
 strategy = MemoryOne(*record['champion'])
 print(f"Training: seed={record['seed']}, noise={record['train_noise']}, ALLC={record['include_allc']}")
+if 'field_reps' in record:
+    print(f"Training matches per opponent: {record['field_reps']}")
 print('Evolved probabilities:')
 for state, value in zip(('first move', 'after CC', 'after CD', 'after DC', 'after DD'), strategy.vector):
     print(f'  {state:12s}: cooperate with probability {value:.4f}')

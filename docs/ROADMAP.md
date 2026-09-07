@@ -10,10 +10,12 @@ strategies, measured results, and a short interpretation.
 | Step | Question | Status |
 |---|---|---|
 | E1 | How do noise and ALLC availability affect evolved forgiveness? | Controlled pilot; see [design](forgiveness_e1.md) and [results](../results/forgiveness_e1/summary.md) |
-| E2 | Do E1's findings survive less noisy fitness estimates? | Next: compare one versus multiple training matches per opponent with fresh held-out evaluation; report extra compute explicitly |
-| E3 | Does adding peer interaction change the evolved strategies? | Later: fixed field versus a defined mixed field/peer regime, using the existing coevolution engine |
+| E2 | Do E1's findings survive more training matches per opponent? | Completed: one versus five matches, 40 runs; [design](forgiveness_e2.md), [results](../results/forgiveness_e2/summary.md) |
+| E3 | Does adding peer interaction change the evolved strategies? | Next: fixed field versus a defined mixed field/peer regime, using the existing coevolution engine |
 | E4 | Can saved evolved strategies establish and maintain spatial cooperation? | Later: place inspected E3 strategies into the existing lattice and compare identical starting grids |
 
 E1 uses the existing five-probability representation. Subsequent steps depend on
 what the preceding results show. Increasing the engine's complexity is not itself
 a milestone. Older modules remain available for historical and educational work.
+
+The [README](../README.md) follows a research-paper structure; the [manuscript map](manuscript.md) links narrative, tables, figures and bibliography.
