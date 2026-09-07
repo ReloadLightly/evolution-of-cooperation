@@ -1,0 +1,91 @@
+{
+  "experiment": "E3",
+  "python": "3.12.13",
+  "platform": "Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "base_commit": "f6cebddfc6601bbefefea5440f68b38a8b05df42",
+  "source_sha256": {
+    "src/eoc/__init__.py": "96ed6f7bc9a3155ed5aa8f290ed0fd54985ec5c65d5ce3021b538b844fb40cf8",
+    "src/eoc/actions.py": "0fd87ffdaba048dedbbf8b892b5d2e02e86d1bedffab5709988802b16cae5c06",
+    "src/eoc/ecology.py": "5ceb420b5fb57d74b6b35e98d469b804969642961912696784e931e0fcbb0387",
+    "src/eoc/evolve.py": "1be5949b1e39abe52a7caedf35eb181aa3f966816860a9e767a80d8c85944bb3",
+    "src/eoc/evolve_m1.py": "12577e3b5a27ab4cfe0cc7051da11b8147b0e84b911a021d52b4bfbfb60ec5dd",
+    "src/eoc/fields.py": "7d4a194fc34466da43908533defa87f2c94783f934bfe68e79fbd3672c12f19c",
+    "src/eoc/game.py": "534252b3b608c3053017cb236654cd6f2db10f6b3d7a27bc135e3601f9ca7575",
+    "src/eoc/genomes.py": "70dc91fcc75af716944e13ae15ad2694968f05cca2908ffc1f9d82c60e428b8e",
+    "src/eoc/lattice.py": "1939e0629ddaa4236da2ab4b07ffdc354f08554dc99cd87eb7e8fb884c6b3197",
+    "src/eoc/player.py": "5c0ca7550c2a9da0473f506167ca3bb157d65885bba0716eba39792670d97205",
+    "src/eoc/strategies/__init__.py": "80ee698ff0455e7cd16b2b0ad7c1add382e0ac9d6aaf1401919eb6cee0e949d4",
+    "src/eoc/strategies/basic.py": "7b07939fbd859713d2dab5385160755351a3ff5c825f922560ed936e9f005251",
+    "src/eoc/strategies/first_tournament.py": "b9116622f271710b1dbcc948ef3871a3cfcc06f27d0bfb10484c72c0f5e47dbd",
+    "src/eoc/tournament.py": "edc9f2892499f07af523778aa4a499e185443b3fdf929e217ab5eccd589f958c",
+    "src/eoc/visualize.py": "2b71a94685c459949c0f9307fa79c981ed6c649edb7338c391bd4496b0409b97",
+    "experiments/run_forgiveness_e3.py": "9ae044b4de05586fc7ee5e30ee4dad9bc943a086d26fe75e3757c39d737c721b",
+    "experiments/run_forgiveness.py": "9d474984e206ae82290a7ac165f8b6f8c12b84e68730de5c349aa5f105edcacb",
+    "docs/forgiveness_e3.md": "706242f56d0316a791ddfef834e2f11c16dfcff16351fdeebee2c049688cbb02"
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "regimes": [
+    "fixed",
+    "mixed"
+  ],
+  "generations": 35,
+  "population": 20,
+  "turns": 80,
+  "eval_reps": 20,
+  "train_noise": 0.05,
+  "eval_noise": 0.05,
+  "include_allc": false,
+  "field": [
+    "Tit For Tat",
+    "Always Defect",
+    "Grudger",
+    "Joss (0.9)",
+    "Random (0.5)",
+    "Tester",
+    "Pavlov (Win-Stay Lose-Shift)"
+  ],
+  "payoffs": {
+    "T": 5,
+    "R": 3,
+    "P": 1,
+    "S": 0
+  },
+  "mutation_sigma": 0.06,
+  "elite": 2,
+  "crossover_rate": 0.7,
+  "tournament_k": 3,
+  "field_reps": 5,
+  "peer_reps": 5,
+  "field_weights": {
+    "fixed": 1.0,
+    "mixed": 0.5
+  },
+  "seed_tft": false,
+  "field_seed": "s + i*1000003 + o*97 + r (unchanged from E1/E2)",
+  "peer_seed": "100000000000 + s*1000000 + 2*((j*(j+1)//2+i)*5+r), i<=j",
+  "evaluation_seed": "3000000000000 + s*100000000 + d*10000000 + 2*(k*100+r)",
+  "evaluation_domains": {
+    "population": 0,
+    "common_field": 1,
+    "self": 2,
+    "ALLC": 3
+  },
+  "evaluation_index": "population: j*(j-1)//2+i, i<j; field: opponent index; else 0",
+  "diagonal": "Only first player credited once per diagonal match; distinct pairs credit both.",
+  "population_order": "Final training fitness descending, duplicates retained.",
+  "note": "Source hashes identify executed working-tree code; base commit may precede edits.",
+  "total_seconds": 95.98415606300114,
+  "baseline_seconds": 0.5570543549838476,
+  "records": {
+    "runs": 10,
+    "population_matches": 38000,
+    "champion_matches": 1800,
+    "baseline_matches": 2800
+  }
+}

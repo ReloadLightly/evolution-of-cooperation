@@ -56,6 +56,8 @@ class MemoryOneGA:
         seed: int = 0,
         game: Game | None = None,
         field_reps: int = 1,
+        peer_reps: int = 1,
+        peer_seed: int | None = None,
     ) -> None:
         if population_size < 2:
             raise ValueError("population_size must be >= 2")
@@ -77,6 +79,12 @@ class MemoryOneGA:
         self.seed = seed
         self.game = game or Game()
         self.field_reps = field_reps
+        if not isinstance(peer_reps, int) or isinstance(peer_reps, bool) or peer_reps < 1:
+            raise ValueError("peer_reps must be a positive integer")
+        self.peer_reps = peer_reps
+        self.peer_seed = peer_seed
+        self.field_matches = 0
+        self.peer_matches = 0
         self.rng = random.Random(seed)
         self.population: list[Individual] = []
         self.history: list[GenerationRecord] = []
@@ -101,29 +109,43 @@ class MemoryOneGA:
                     game=self.game,
                     seed=self.seed + tag * 1_000_003 + i * 97 + r,
                 ).play()
+                self.field_matches += 1
                 total += s1
                 n += 1
         return total / n if n else 0.0
 
     def _peer_scores(self) -> list[float]:
+        """Mean payoff per scored match; a diagonal credits player one only.
+
+        An explicit peer_seed selects a separate, pair-indexed namespace.
+        Defaults preserve the historical single-match seeds and scores.
+        Neither schedule consumes the initialization/variation RNG.
+        """
         n = len(self.population)
         totals = [0.0] * n
         counts = [0] * n
         for i in range(n):
             for j in range(i, n):
-                s1, s2 = Match(
-                    self.population[i].genome.clone(),
-                    self.population[j].genome.clone(),
-                    turns=self.turns,
-                    noise=self.noise,
-                    game=self.game,
-                    seed=self.seed + 17 * i + 31 * j,
-                ).play()
-                totals[i] += s1
-                counts[i] += 1
-                if i != j:
-                    totals[j] += s2
-                    counts[j] += 1
+                for r in range(self.peer_reps):
+                    if self.peer_seed is None:
+                        match_seed = self.seed + 17 * i + 31 * j + r * 1_000_003
+                    else:
+                        pair_index = j * (j + 1) // 2 + i
+                        match_seed = self.peer_seed + 2 * (pair_index * self.peer_reps + r)
+                    s1, s2 = Match(
+                        self.population[i].genome.clone(),
+                        self.population[j].genome.clone(),
+                        turns=self.turns,
+                        noise=self.noise,
+                        game=self.game,
+                        seed=match_seed,
+                    ).play()
+                    self.peer_matches += 1
+                    totals[i] += s1
+                    counts[i] += 1
+                    if i != j:
+                        totals[j] += s2
+                        counts[j] += 1
         return [totals[i] / counts[i] for i in range(n)]
 
     def evaluate(self) -> None:
@@ -185,6 +207,8 @@ class MemoryOneGA:
             raise ValueError("generations must be >= 1")
         self.rng = random.Random(self.seed)
         self.history = []
+        self.field_matches = 0
+        self.peer_matches = 0
         self.initialize(seed_tft=seed_tft)
         for g in range(generations):
             self.evaluate()

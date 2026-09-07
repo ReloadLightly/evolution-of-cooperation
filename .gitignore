@@ -2,6 +2,7 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .venv/
+artifacts/forgiveness_e3_*/
 venv/
 *.egg-info/
 dist/

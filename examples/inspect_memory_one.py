@@ -15,6 +15,8 @@ parser.add_argument('--results', type=Path, default=ROOT / 'results/forgiveness_
 parser.add_argument('--run', type=int, default=0)
 parser.add_argument('--noise', type=float, default=.05)
 parser.add_argument('--turns', type=int, default=20)
+parser.add_argument('--match-seed', type=int, default=None,
+                    help='Override the inspection match seed (E3 defaults to its first held-out TFT seed).')
 args = parser.parse_args()
 runs = json.loads(args.results.read_text())
 if not 0 <= args.run < len(runs):
@@ -24,12 +26,18 @@ strategy = MemoryOne(*record['champion'])
 print(f"Training: seed={record['seed']}, noise={record['train_noise']}, ALLC={record['include_allc']}")
 if 'field_reps' in record:
     print(f"Training matches per opponent: {record['field_reps']}")
+if 'regime' in record:
+    print(f"E3 regime: {record['regime']}, field weight: {record['field_weight']}")
 print('Evolved probabilities:')
 for state, value in zip(('first move', 'after CC', 'after CD', 'after DC', 'after DD'), strategy.vector):
     print(f'  {state:12s}: cooperate with probability {value:.4f}')
-match = Match(strategy, MemoryOne.tit_for_tat(), turns=args.turns, noise=args.noise, seed=1_000_000_000_000)
+match_seed = args.match_seed
+if match_seed is None:
+    match_seed = (3_000_000_000_000 + record['seed'] * 100_000_000 + 10_000_000
+                  if 'regime' in record else 1_000_000_000_000)
+match = Match(strategy, MemoryOne.tit_for_tat(), turns=args.turns, noise=args.noise, seed=match_seed)
 score, other_score = match.play()
-print(f'\nAgainst TFT, evaluation noise={args.noise}; C=cooperate, D=defect')
+print(f'\nAgainst TFT, evaluation noise={args.noise}, match seed={match_seed}; C=cooperate, D=defect')
 previous = 'start'
 for turn, (mine, theirs) in enumerate(match.history, 1):
     index = {'start': 0, 'CC': 1, 'CD': 2, 'DC': 3, 'DD': 4}[previous]

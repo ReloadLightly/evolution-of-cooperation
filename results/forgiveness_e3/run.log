@@ -1,0 +1,410 @@
+
+=== seed=0: held-out reference strategies ===
+
+=== seed=0 regime=fixed field_weight=1.0 ===
+gen   0  best= 144.43  mean= 131.39  near=Pavlov     p=(0.80,0.45,0.08,0.32,0.51)  genr=0.08
+gen   1  best= 149.74  mean= 137.89  near=Pavlov     p=(0.83,0.57,0.06,0.28,0.52)  genr=0.06
+gen   2  best= 148.89  mean= 139.08  near=GTFT(0.1)  p=(0.83,0.37,0.13,0.36,0.44)  genr=0.13
+gen   3  best= 147.66  mean= 141.40  near=GTFT(0.1)  p=(0.92,0.35,0.15,0.37,0.43)  genr=0.15
+gen   4  best= 147.77  mean= 141.81  near=GTFT(0.1)  p=(0.74,0.32,0.12,0.35,0.37)  genr=0.12
+gen   5  best= 148.06  mean= 141.86  near=Pavlov     p=(0.91,0.26,0.05,0.25,0.57)  genr=0.05
+gen   6  best= 148.54  mean= 140.98  near=ALLD       p=(0.70,0.06,0.15,0.07,0.63)  genr=0.15
+gen   7  best= 149.97  mean= 142.77  near=ALLD       p=(0.76,0.05,0.14,0.03,0.52)  genr=0.14
+gen   8  best= 150.37  mean= 145.63  near=Pavlov     p=(0.80,0.21,0.16,0.24,0.67)  genr=0.16
+gen   9  best= 150.63  mean= 144.84  near=ALLD       p=(0.75,0.00,0.05,0.03,0.51)  genr=0.05
+gen  10  best= 150.80  mean= 146.04  near=ALLD       p=(0.73,0.01,0.06,0.00,0.50)  genr=0.06
+gen  11  best= 150.66  mean= 146.79  near=ALLD       p=(0.78,0.00,0.07,0.04,0.56)  genr=0.07
+gen  12  best= 150.71  mean= 146.97  near=ALLD       p=(0.80,0.09,0.05,0.00,0.56)  genr=0.05
+gen  13  best= 150.63  mean= 147.16  near=ALLD       p=(0.71,0.03,0.25,0.00,0.51)  genr=0.25
+gen  14  best= 150.34  mean= 146.62  near=ALLD       p=(0.68,0.06,0.09,0.02,0.50)  genr=0.09
+gen  15  best= 150.80  mean= 146.51  near=ALLD       p=(0.82,0.06,0.08,0.02,0.47)  genr=0.08
+gen  16  best= 150.37  mean= 146.83  near=ALLD       p=(0.78,0.00,0.00,0.00,0.61)  genr=0.00
+gen  17  best= 150.77  mean= 147.17  near=ALLD       p=(0.74,0.00,0.00,0.01,0.46)  genr=0.00
+gen  18  best= 150.46  mean= 146.98  near=ALLD       p=(0.72,0.03,0.11,0.00,0.48)  genr=0.11
+gen  19  best= 149.00  mean= 146.52  near=ALLD       p=(0.67,0.03,0.11,0.06,0.40)  genr=0.11
+gen  20  best= 150.20  mean= 147.14  near=Pavlov     p=(0.79,0.03,0.11,0.00,0.72)  genr=0.11
+gen  21  best= 149.51  mean= 146.60  near=Pavlov     p=(0.76,0.01,0.20,0.00,0.72)  genr=0.20
+gen  22  best= 150.11  mean= 146.42  near=ALLD       p=(0.90,0.01,0.21,0.00,0.48)  genr=0.21
+gen  23  best= 150.14  mean= 146.26  near=Pavlov     p=(0.84,0.01,0.20,0.02,0.65)  genr=0.20
+gen  24  best= 150.11  mean= 146.66  near=Pavlov     p=(0.91,0.07,0.06,0.00,0.65)  genr=0.06
+gen  25  best= 149.94  mean= 146.62  near=Pavlov     p=(0.85,0.07,0.19,0.16,0.81)  genr=0.19
+gen  26  best= 150.49  mean= 146.67  near=ALLD       p=(0.71,0.08,0.11,0.01,0.56)  genr=0.11
+gen  27  best= 150.77  mean= 147.21  near=Pavlov     p=(0.87,0.08,0.00,0.02,0.65)  genr=0.00
+gen  28  best= 150.63  mean= 146.88  near=Pavlov     p=(0.74,0.21,0.07,0.00,0.68)  genr=0.07
+gen  29  best= 150.83  mean= 146.73  near=ALLD       p=(0.78,0.08,0.00,0.00,0.54)  genr=0.00
+gen  30  best= 151.23  mean= 146.71  near=ALLD       p=(0.76,0.06,0.00,0.02,0.55)  genr=0.00
+gen  31  best= 150.80  mean= 146.61  near=Pavlov     p=(0.84,0.07,0.13,0.00,0.71)  genr=0.13
+gen  32  best= 150.77  mean= 146.83  near=Pavlov     p=(0.73,0.09,0.00,0.00,0.69)  genr=0.00
+gen  33  best= 150.37  mean= 146.51  near=ALLD       p=(0.71,0.00,0.02,0.00,0.66)  genr=0.02
+gen  34  best= 149.94  mean= 146.74  near=ALLD       p=(0.69,0.00,0.00,0.00,0.51)  genr=0.00
+CHAMPION Memory-1(0.6947327537604999, 0.0, 0.0, 0.0, 0.5069399824917646)  p=(0.69,0.00,0.00,0.00,0.51)  nearest=ALLD (L1=1.20)  generosity=0.00
+Training: 24,500 matches in 3.750s; evaluating held-out matches...
+Held-out: 3,800 population + 180 champion matches; population cooperation=33.6553%, field payoff=1.834643, time=0.720s
+
+=== seed=0 regime=mixed field_weight=0.5 ===
+gen   0  best= 182.90  mean= 162.75  near=Pavlov     p=(0.80,0.45,0.08,0.32,0.51)  genr=0.08
+gen   1  best= 166.22  mean= 155.60  near=Pavlov     p=(0.77,0.44,0.09,0.25,0.44)  genr=0.09
+gen   2  best= 159.01  mean= 150.84  near=Pavlov     p=(0.73,0.43,0.07,0.14,0.43)  genr=0.07
+gen   3  best= 152.90  mean= 147.98  near=Pavlov     p=(0.83,0.41,0.09,0.15,0.42)  genr=0.09
+gen   4  best= 151.17  mean= 147.23  near=ALLD       p=(0.69,0.36,0.07,0.32,0.36)  genr=0.07
+gen   5  best= 149.86  mean= 146.23  near=Pavlov     p=(0.73,0.43,0.07,0.14,0.43)  genr=0.07
+gen   6  best= 148.31  mean= 143.27  near=ALLD       p=(0.68,0.40,0.00,0.07,0.36)  genr=0.00
+gen   7  best= 147.12  mean= 141.83  near=ALLD       p=(0.70,0.32,0.03,0.04,0.25)  genr=0.03
+gen   8  best= 148.04  mean= 140.14  near=ALLD       p=(0.60,0.25,0.06,0.00,0.16)  genr=0.06
+gen   9  best= 141.94  mean= 136.86  near=ALLD       p=(0.66,0.23,0.02,0.02,0.17)  genr=0.02
+gen  10  best= 141.42  mean= 136.04  near=ALLD       p=(0.64,0.24,0.02,0.00,0.16)  genr=0.02
+gen  11  best= 140.14  mean= 133.99  near=ALLD       p=(0.70,0.20,0.00,0.00,0.11)  genr=0.00
+gen  12  best= 134.37  mean= 129.78  near=ALLD       p=(0.68,0.32,0.08,0.01,0.02)  genr=0.08
+gen  13  best= 128.42  mean= 124.57  near=ALLD       p=(0.68,0.27,0.04,0.00,0.00)  genr=0.04
+gen  14  best= 123.85  mean= 121.99  near=ALLD       p=(0.57,0.25,0.09,0.01,0.00)  genr=0.09
+gen  15  best= 124.24  mean= 121.39  near=ALLD       p=(0.44,0.36,0.08,0.02,0.00)  genr=0.08
+gen  16  best= 122.73  mean= 120.40  near=ALLD       p=(0.45,0.32,0.01,0.00,0.00)  genr=0.01
+gen  17  best= 121.43  mean= 119.90  near=ALLD       p=(0.35,0.38,0.02,0.04,0.00)  genr=0.02
+gen  18  best= 122.91  mean= 120.41  near=ALLD       p=(0.52,0.21,0.03,0.03,0.00)  genr=0.03
+gen  19  best= 124.38  mean= 122.27  near=ALLD       p=(0.64,0.00,0.15,0.04,0.00)  genr=0.15
+gen  20  best= 124.02  mean= 121.69  near=ALLD       p=(0.47,0.15,0.00,0.00,0.00)  genr=0.00
+gen  21  best= 124.85  mean= 121.92  near=ALLD       p=(0.38,0.23,0.00,0.00,0.00)  genr=0.00
+gen  22  best= 124.58  mean= 121.80  near=ALLD       p=(0.37,0.25,0.00,0.01,0.00)  genr=0.00
+gen  23  best= 122.90  mean= 120.57  near=ALLD       p=(0.35,0.28,0.06,0.00,0.00)  genr=0.06
+gen  24  best= 120.60  mean= 118.88  near=ALLD       p=(0.32,0.29,0.12,0.00,0.00)  genr=0.12
+gen  25  best= 125.20  mean= 122.17  near=ALLD       p=(0.48,0.33,0.00,0.00,0.00)  genr=0.00
+gen  26  best= 122.85  mean= 121.00  near=ALLD       p=(0.56,0.27,0.21,0.00,0.00)  genr=0.21
+gen  27  best= 123.57  mean= 121.03  near=ALLD       p=(0.27,0.19,0.15,0.00,0.00)  genr=0.15
+gen  28  best= 123.71  mean= 121.14  near=ALLD       p=(0.25,0.17,0.01,0.02,0.00)  genr=0.01
+gen  29  best= 124.37  mean= 121.36  near=ALLD       p=(0.42,0.21,0.06,0.00,0.00)  genr=0.06
+gen  30  best= 120.48  mean= 119.15  near=ALLD       p=(0.42,0.30,0.00,0.00,0.00)  genr=0.00
+gen  31  best= 121.70  mean= 119.39  near=ALLD       p=(0.38,0.21,0.09,0.00,0.00)  genr=0.09
+gen  32  best= 121.47  mean= 119.29  near=ALLD       p=(0.45,0.32,0.01,0.00,0.00)  genr=0.01
+gen  33  best= 121.94  mean= 119.21  near=ALLD       p=(0.37,0.19,0.00,0.01,0.00)  genr=0.00
+gen  34  best= 123.07  mean= 121.03  near=ALLD       p=(0.17,0.25,0.05,0.00,0.05)  genr=0.05
+CHAMPION Memory-1(0.1700100122748175, 0.24538218491870473, 0.04551000835138352, 0.0, 0.05497170661079243)  p=(0.17,0.25,0.05,0.00,0.05)  nearest=ALLD (L1=0.52)  generosity=0.05
+Training: 61,250 matches in 9.181s; evaluating held-out matches...
+Held-out: 3,800 population + 180 champion matches; population cooperation=9.2313%, field payoff=1.763661, time=0.843s
+
+=== seed=1: held-out reference strategies ===
+
+=== seed=1 regime=fixed field_weight=1.0 ===
+gen   0  best= 146.00  mean= 133.99  near=Pavlov     p=(0.49,0.03,0.04,0.70,0.98)  genr=0.04
+gen   1  best= 145.71  mean= 138.24  near=ALLD       p=(0.49,0.00,0.21,0.43,0.50)  genr=0.21
+gen   2  best= 147.03  mean= 141.39  near=Pavlov     p=(0.67,0.28,0.28,0.44,0.78)  genr=0.28
+gen   3  best= 147.23  mean= 140.94  near=Pavlov     p=(0.74,0.31,0.09,0.43,0.57)  genr=0.09
+gen   4  best= 147.77  mean= 141.86  near=ALLD       p=(0.46,0.02,0.02,0.61,0.88)  genr=0.02
+gen   5  best= 150.57  mean= 140.79  near=Pavlov     p=(0.67,0.07,0.00,0.72,0.97)  genr=0.00
+gen   6  best= 148.29  mean= 141.27  near=Pavlov     p=(0.70,0.40,0.02,0.43,0.58)  genr=0.02
+gen   7  best= 148.91  mean= 142.94  near=Pavlov     p=(0.55,0.11,0.06,0.55,0.86)  genr=0.06
+gen   8  best= 148.60  mean= 142.70  near=Pavlov     p=(0.63,0.05,0.11,0.67,0.87)  genr=0.11
+gen   9  best= 147.80  mean= 142.43  near=ALLD       p=(0.39,0.02,0.10,0.60,0.43)  genr=0.10
+gen  10  best= 150.97  mean= 142.66  near=Pavlov     p=(0.66,0.00,0.04,0.61,0.91)  genr=0.04
+gen  11  best= 150.91  mean= 142.77  near=Pavlov     p=(0.63,0.09,0.03,0.66,0.95)  genr=0.03
+gen  12  best= 149.26  mean= 143.38  near=ALLD       p=(0.48,0.06,0.04,0.53,0.53)  genr=0.04
+gen  13  best= 149.80  mean= 142.44  near=Pavlov     p=(0.52,0.19,0.00,0.57,0.82)  genr=0.00
+gen  14  best= 149.06  mean= 142.50  near=ALLD       p=(0.51,0.08,0.00,0.59,0.74)  genr=0.00
+gen  15  best= 149.26  mean= 142.69  near=Pavlov     p=(0.62,0.28,0.04,0.46,0.75)  genr=0.04
+gen  16  best= 148.34  mean= 142.95  near=Pavlov     p=(0.64,0.28,0.00,0.39,0.80)  genr=0.00
+gen  17  best= 148.63  mean= 142.47  near=ALLD       p=(0.63,0.00,0.05,0.46,0.85)  genr=0.05
+gen  18  best= 149.29  mean= 142.88  near=Pavlov     p=(0.59,0.38,0.00,0.34,0.99)  genr=0.00
+gen  19  best= 149.26  mean= 143.36  near=ALLD       p=(0.59,0.12,0.02,0.41,0.64)  genr=0.02
+gen  20  best= 149.80  mean= 143.79  near=Pavlov     p=(0.67,0.17,0.04,0.50,0.84)  genr=0.04
+gen  21  best= 148.86  mean= 143.89  near=Pavlov     p=(0.68,0.07,0.05,0.46,0.83)  genr=0.05
+gen  22  best= 149.29  mean= 143.41  near=Pavlov     p=(0.75,0.16,0.00,0.54,0.82)  genr=0.00
+gen  23  best= 149.51  mean= 143.70  near=Pavlov     p=(0.75,0.15,0.00,0.49,0.90)  genr=0.00
+gen  24  best= 150.54  mean= 144.43  near=Pavlov     p=(0.77,0.17,0.02,0.67,0.79)  genr=0.02
+gen  25  best= 149.71  mean= 144.58  near=Pavlov     p=(0.77,0.19,0.00,0.53,0.86)  genr=0.00
+gen  26  best= 150.11  mean= 143.31  near=Pavlov     p=(0.72,0.05,0.12,0.57,0.85)  genr=0.12
+gen  27  best= 149.34  mean= 143.80  near=Pavlov     p=(0.72,0.11,0.11,0.60,0.82)  genr=0.11
+gen  28  best= 148.57  mean= 143.75  near=Pavlov     p=(0.65,0.00,0.09,0.58,0.98)  genr=0.09
+gen  29  best= 149.51  mean= 143.79  near=Pavlov     p=(0.83,0.00,0.00,0.68,0.74)  genr=0.00
+gen  30  best= 149.69  mean= 144.61  near=ALLD       p=(0.58,0.06,0.06,0.53,0.80)  genr=0.06
+gen  31  best= 148.80  mean= 144.23  near=ALLD       p=(0.62,0.01,0.17,0.56,0.78)  genr=0.17
+gen  32  best= 148.83  mean= 143.30  near=Pavlov     p=(0.87,0.00,0.00,0.61,0.90)  genr=0.00
+gen  33  best= 148.63  mean= 144.58  near=Pavlov     p=(0.66,0.15,0.13,0.64,0.80)  genr=0.13
+gen  34  best= 149.74  mean= 143.68  near=Pavlov     p=(0.87,0.06,0.01,0.46,0.77)  genr=0.01
+CHAMPION Memory-1(0.8650990816485709, 0.058431965847877576, 0.013054061674707107, 0.4621087816049991, 0.7678479542765813)  p=(0.87,0.06,0.01,0.46,0.77)  nearest=Pavlov (L1=1.78)  generosity=0.01
+Training: 24,500 matches in 5.624s; evaluating held-out matches...
+Held-out: 3,800 population + 180 champion matches; population cooperation=45.3699%, field payoff=1.802054, time=1.105s
+
+=== seed=1 regime=mixed field_weight=0.5 ===
+gen   0  best= 172.67  mean= 157.76  near=ALLD       p=(0.45,0.65,0.79,0.09,0.03)  genr=0.79
+gen   1  best= 160.08  mean= 151.67  near=ALLD       p=(0.23,0.23,0.22,0.46,0.29)  genr=0.22
+gen   2  best= 148.35  mean= 144.19  near=ALLD       p=(0.30,0.15,0.21,0.45,0.30)  genr=0.21
+gen   3  best= 148.79  mean= 142.12  near=ALLD       p=(0.30,0.45,0.34,0.15,0.17)  genr=0.34
+gen   4  best= 141.20  mean= 137.28  near=ALLD       p=(0.45,0.21,0.20,0.55,0.18)  genr=0.20
+gen   5  best= 144.54  mean= 139.67  near=ALLD       p=(0.29,0.54,0.22,0.08,0.25)  genr=0.22
+gen   6  best= 141.63  mean= 135.15  near=ALLD       p=(0.13,0.64,0.51,0.00,0.00)  genr=0.51
+gen   7  best= 134.33  mean= 129.93  near=ALLD       p=(0.22,0.45,0.32,0.01,0.03)  genr=0.32
+gen   8  best= 125.31  mean= 123.41  near=ALLD       p=(0.23,0.32,0.40,0.07,0.00)  genr=0.40
+gen   9  best= 127.31  mean= 124.79  near=ALLD       p=(0.14,0.34,0.40,0.00,0.03)  genr=0.40
+gen  10  best= 128.59  mean= 124.92  near=ALLD       p=(0.12,0.29,0.44,0.00,0.00)  genr=0.44
+gen  11  best= 126.12  mean= 123.08  near=ALLD       p=(0.08,0.50,0.28,0.00,0.00)  genr=0.28
+gen  12  best= 127.46  mean= 124.15  near=ALLD       p=(0.15,0.37,0.42,0.07,0.00)  genr=0.42
+gen  13  best= 124.80  mean= 121.81  near=ALLD       p=(0.00,0.38,0.31,0.08,0.00)  genr=0.31
+gen  14  best= 126.32  mean= 123.17  near=ALLD       p=(0.10,0.37,0.22,0.00,0.00)  genr=0.22
+gen  15  best= 125.71  mean= 122.58  near=ALLD       p=(0.09,0.49,0.24,0.00,0.00)  genr=0.24
+gen  16  best= 126.63  mean= 123.49  near=ALLD       p=(0.10,0.20,0.36,0.00,0.00)  genr=0.36
+gen  17  best= 125.19  mean= 122.51  near=ALLD       p=(0.20,0.47,0.21,0.01,0.04)  genr=0.21
+gen  18  best= 123.94  mean= 121.55  near=ALLD       p=(0.15,0.41,0.17,0.02,0.04)  genr=0.17
+gen  19  best= 125.17  mean= 121.18  near=ALLD       p=(0.14,0.03,0.22,0.00,0.00)  genr=0.22
+gen  20  best= 124.92  mean= 121.27  near=ALLD       p=(0.09,0.21,0.04,0.04,0.00)  genr=0.04
+gen  21  best= 122.74  mean= 120.21  near=ALLD       p=(0.11,0.43,0.20,0.04,0.00)  genr=0.20
+gen  22  best= 122.48  mean= 120.49  near=ALLD       p=(0.17,0.17,0.12,0.00,0.00)  genr=0.12
+gen  23  best= 123.02  mean= 121.12  near=ALLD       p=(0.11,0.14,0.15,0.00,0.00)  genr=0.15
+gen  24  best= 121.13  mean= 119.36  near=ALLD       p=(0.15,0.06,0.08,0.00,0.00)  genr=0.08
+gen  25  best= 121.82  mean= 119.85  near=ALLD       p=(0.07,0.26,0.24,0.00,0.00)  genr=0.24
+gen  26  best= 124.85  mean= 121.33  near=ALLD       p=(0.11,0.00,0.00,0.03,0.00)  genr=0.00
+gen  27  best= 120.33  mean= 118.54  near=ALLD       p=(0.13,0.00,0.08,0.00,0.03)  genr=0.08
+gen  28  best= 122.05  mean= 119.50  near=ALLD       p=(0.18,0.23,0.02,0.00,0.00)  genr=0.02
+gen  29  best= 123.56  mean= 120.83  near=ALLD       p=(0.15,0.11,0.09,0.00,0.00)  genr=0.09
+gen  30  best= 123.33  mean= 120.51  near=ALLD       p=(0.30,0.17,0.05,0.00,0.00)  genr=0.05
+gen  31  best= 122.41  mean= 120.17  near=ALLD       p=(0.22,0.07,0.03,0.00,0.05)  genr=0.03
+gen  32  best= 123.71  mean= 121.79  near=ALLD       p=(0.23,0.19,0.00,0.00,0.02)  genr=0.00
+gen  33  best= 123.71  mean= 121.86  near=ALLD       p=(0.17,0.07,0.13,0.06,0.01)  genr=0.13
+gen  34  best= 123.03  mean= 120.94  near=ALLD       p=(0.32,0.17,0.00,0.00,0.00)  genr=0.00
+CHAMPION Memory-1(0.32437725366953063, 0.17209653923767057, 0.0, 0.0, 0.0)  p=(0.32,0.17,0.00,0.00,0.00)  nearest=ALLD (L1=0.50)  generosity=0.00
+Training: 61,250 matches in 15.515s; evaluating held-out matches...
+Held-out: 3,800 population + 180 champion matches; population cooperation=8.7883%, field payoff=1.760000, time=1.317s
+
+=== seed=2: held-out reference strategies ===
+
+=== seed=2 regime=fixed field_weight=1.0 ===
+gen   0  best= 148.83  mean= 134.38  near=Pavlov     p=(0.23,0.88,0.11,0.52,0.85)  genr=0.11
+gen   1  best= 146.06  mean= 138.38  near=Pavlov     p=(0.72,0.47,0.17,0.24,0.69)  genr=0.17
+gen   2  best= 147.80  mean= 140.57  near=Pavlov     p=(0.72,0.47,0.17,0.24,0.69)  genr=0.17
+gen   3  best= 147.80  mean= 140.15  near=Pavlov     p=(0.72,0.47,0.17,0.24,0.69)  genr=0.17
+gen   4  best= 147.80  mean= 140.30  near=Pavlov     p=(0.72,0.47,0.17,0.24,0.69)  genr=0.17
+gen   5  best= 147.80  mean= 141.60  near=Pavlov     p=(0.72,0.47,0.17,0.24,0.69)  genr=0.17
+gen   6  best= 147.80  mean= 140.93  near=Pavlov     p=(0.72,0.47,0.17,0.24,0.69)  genr=0.17
+gen   7  best= 147.86  mean= 141.55  near=Pavlov     p=(0.60,0.40,0.10,0.35,0.84)  genr=0.10
+gen   8  best= 148.51  mean= 141.91  near=Pavlov     p=(0.60,0.40,0.10,0.35,0.84)  genr=0.10
+gen   9  best= 148.51  mean= 141.57  near=Pavlov     p=(0.60,0.40,0.10,0.35,0.84)  genr=0.10
+gen  10  best= 148.51  mean= 142.12  near=Pavlov     p=(0.60,0.40,0.10,0.35,0.84)  genr=0.10
+gen  11  best= 149.00  mean= 141.91  near=Pavlov     p=(0.59,0.38,0.11,0.34,0.68)  genr=0.11
+gen  12  best= 149.54  mean= 141.86  near=Pavlov     p=(0.59,0.38,0.11,0.34,0.68)  genr=0.11
+gen  13  best= 149.54  mean= 141.63  near=Pavlov     p=(0.59,0.38,0.11,0.34,0.68)  genr=0.11
+gen  14  best= 149.54  mean= 141.44  near=Pavlov     p=(0.59,0.38,0.11,0.34,0.68)  genr=0.11
+gen  15  best= 149.54  mean= 143.13  near=Pavlov     p=(0.59,0.38,0.11,0.34,0.68)  genr=0.11
+gen  16  best= 149.54  mean= 142.43  near=Pavlov     p=(0.59,0.38,0.11,0.34,0.68)  genr=0.11
+gen  17  best= 149.54  mean= 142.11  near=Pavlov     p=(0.59,0.38,0.11,0.34,0.68)  genr=0.11
+gen  18  best= 149.54  mean= 142.63  near=Pavlov     p=(0.59,0.38,0.11,0.34,0.68)  genr=0.11
+gen  19  best= 149.54  mean= 142.35  near=Pavlov     p=(0.59,0.38,0.11,0.34,0.68)  genr=0.11
+gen  20  best= 149.54  mean= 143.35  near=Pavlov     p=(0.59,0.38,0.11,0.34,0.68)  genr=0.11
+gen  21  best= 149.54  mean= 143.43  near=Pavlov     p=(0.59,0.38,0.11,0.34,0.68)  genr=0.11
+gen  22  best= 149.54  mean= 143.14  near=Pavlov     p=(0.59,0.38,0.11,0.34,0.68)  genr=0.11
+gen  23  best= 149.54  mean= 143.05  near=Pavlov     p=(0.59,0.38,0.11,0.34,0.68)  genr=0.11
+gen  24  best= 149.54  mean= 142.77  near=Pavlov     p=(0.59,0.38,0.11,0.34,0.68)  genr=0.11
+gen  25  best= 149.63  mean= 142.43  near=ALLD       p=(0.66,0.12,0.11,0.50,0.63)  genr=0.11
+gen  26  best= 149.26  mean= 143.39  near=Pavlov     p=(0.64,0.14,0.12,0.35,0.77)  genr=0.12
+gen  27  best= 150.66  mean= 142.70  near=ALLD       p=(0.45,0.16,0.00,0.30,0.64)  genr=0.00
+gen  28  best= 149.43  mean= 142.94  near=Pavlov     p=(0.86,0.40,0.07,0.56,0.87)  genr=0.07
+gen  29  best= 149.37  mean= 143.07  near=ALLD       p=(0.49,0.12,0.10,0.29,0.87)  genr=0.10
+gen  30  best= 149.51  mean= 144.22  near=Pavlov     p=(0.83,0.32,0.12,0.57,0.93)  genr=0.12
+gen  31  best= 149.03  mean= 143.70  near=ALLD       p=(0.62,0.08,0.14,0.03,0.66)  genr=0.14
+gen  32  best= 149.63  mean= 144.71  near=ALLD       p=(0.63,0.00,0.17,0.00,0.72)  genr=0.17
+gen  33  best= 150.51  mean= 146.03  near=ALLD       p=(0.53,0.05,0.15,0.00,0.71)  genr=0.15
+gen  34  best= 149.09  mean= 145.24  near=ALLD       p=(0.55,0.05,0.21,0.00,0.65)  genr=0.21
+CHAMPION Memory-1(0.5526121740897857, 0.048342023235179034, 0.21430302610985724, 0.0, 0.645636291791432)  p=(0.55,0.05,0.21,0.00,0.65)  nearest=ALLD (L1=1.46)  generosity=0.21
+Training: 24,500 matches in 4.123s; evaluating held-out matches...
+Held-out: 3,800 population + 180 champion matches; population cooperation=38.7326%, field payoff=1.849196, time=0.839s
+
+=== seed=2 regime=mixed field_weight=0.5 ===
+gen   0  best= 173.83  mean= 161.43  near=GTFT(0.1)  p=(0.89,0.53,0.56,0.24,0.02)  genr=0.56
+gen   1  best= 159.89  mean= 152.38  near=ALLD       p=(0.24,0.16,0.31,0.30,0.50)  genr=0.31
+gen   2  best= 154.89  mean= 148.52  near=GTFT(0.1)  p=(0.89,0.53,0.56,0.24,0.02)  genr=0.56
+gen   3  best= 152.94  mean= 147.21  near=GTFT(0.1)  p=(0.70,0.51,0.47,0.27,0.02)  genr=0.47
+gen   4  best= 138.17  mean= 134.53  near=GTFT(0.1)  p=(0.76,0.47,0.32,0.28,0.04)  genr=0.32
+gen   5  best= 133.15  mean= 128.68  near=ALLD       p=(0.72,0.54,0.40,0.04,0.07)  genr=0.40
+gen   6  best= 133.96  mean= 130.10  near=ALLD       p=(0.72,0.54,0.40,0.04,0.07)  genr=0.40
+gen   7  best= 135.27  mean= 131.25  near=ALLD       p=(0.72,0.54,0.40,0.04,0.07)  genr=0.40
+gen   8  best= 129.68  mean= 126.86  near=ALLD       p=(0.88,0.48,0.30,0.05,0.02)  genr=0.30
+gen   9  best= 127.43  mean= 124.27  near=ALLD       p=(0.84,0.43,0.39,0.00,0.05)  genr=0.39
+gen  10  best= 127.82  mean= 124.33  near=ALLD       p=(0.84,0.43,0.39,0.00,0.05)  genr=0.39
+gen  11  best= 125.94  mean= 122.24  near=ALLD       p=(0.77,0.48,0.39,0.00,0.01)  genr=0.39
+gen  12  best= 127.04  mean= 123.66  near=ALLD       p=(0.70,0.55,0.33,0.00,0.00)  genr=0.33
+gen  13  best= 124.27  mean= 121.72  near=ALLD       p=(0.70,0.55,0.33,0.00,0.00)  genr=0.33
+gen  14  best= 126.08  mean= 122.67  near=ALLD       p=(0.70,0.55,0.33,0.00,0.00)  genr=0.33
+gen  15  best= 127.34  mean= 124.38  near=ALLD       p=(0.75,0.35,0.13,0.05,0.00)  genr=0.13
+gen  16  best= 125.46  mean= 122.48  near=ALLD       p=(0.75,0.35,0.13,0.05,0.00)  genr=0.13
+gen  17  best= 123.63  mean= 120.91  near=ALLD       p=(0.69,0.51,0.23,0.00,0.00)  genr=0.23
+gen  18  best= 121.70  mean= 120.01  near=ALLD       p=(0.69,0.51,0.23,0.00,0.00)  genr=0.23
+gen  19  best= 125.10  mean= 122.28  near=ALLD       p=(0.74,0.22,0.10,0.02,0.00)  genr=0.10
+gen  20  best= 123.91  mean= 121.30  near=ALLD       p=(0.74,0.22,0.10,0.02,0.00)  genr=0.10
+gen  21  best= 124.45  mean= 121.74  near=ALLD       p=(0.74,0.22,0.10,0.02,0.00)  genr=0.10
+gen  22  best= 121.17  mean= 118.87  near=ALLD       p=(0.74,0.22,0.10,0.02,0.00)  genr=0.10
+gen  23  best= 122.53  mean= 120.31  near=ALLD       p=(0.74,0.22,0.10,0.02,0.00)  genr=0.10
+gen  24  best= 125.29  mean= 122.79  near=ALLD       p=(0.59,0.24,0.10,0.01,0.01)  genr=0.10
+gen  25  best= 124.53  mean= 122.06  near=ALLD       p=(0.75,0.14,0.05,0.02,0.00)  genr=0.05
+gen  26  best= 123.21  mean= 120.99  near=ALLD       p=(0.75,0.14,0.05,0.02,0.00)  genr=0.05
+gen  27  best= 120.97  mean= 119.07  near=ALLD       p=(0.75,0.14,0.05,0.02,0.00)  genr=0.05
+gen  28  best= 123.28  mean= 121.37  near=ALLD       p=(0.75,0.14,0.05,0.02,0.00)  genr=0.05
+gen  29  best= 123.87  mean= 121.14  near=ALLD       p=(0.75,0.14,0.05,0.02,0.00)  genr=0.05
+gen  30  best= 123.74  mean= 120.73  near=ALLD       p=(0.55,0.25,0.05,0.00,0.00)  genr=0.05
+gen  31  best= 123.07  mean= 120.84  near=ALLD       p=(0.65,0.16,0.00,0.00,0.00)  genr=0.00
+gen  32  best= 123.24  mean= 121.34  near=ALLD       p=(0.65,0.16,0.00,0.00,0.00)  genr=0.00
+gen  33  best= 122.54  mean= 120.73  near=ALLD       p=(0.65,0.16,0.00,0.00,0.00)  genr=0.00
+gen  34  best= 123.37  mean= 120.82  near=ALLD       p=(0.65,0.16,0.00,0.00,0.00)  genr=0.00
+CHAMPION Memory-1(0.6470767606120261, 0.15759655977648843, 0.0, 0.0, 0.0)  p=(0.65,0.16,0.00,0.00,0.00)  nearest=ALLD (L1=0.80)  generosity=0.00
+Training: 61,250 matches in 9.903s; evaluating held-out matches...
+Held-out: 3,800 population + 180 champion matches; population cooperation=8.7146%, field payoff=1.773036, time=0.753s
+
+=== seed=3: held-out reference strategies ===
+
+=== seed=3 regime=fixed field_weight=1.0 ===
+gen   0  best= 145.69  mean= 131.31  near=GTFT(0.1)  p=(0.61,0.16,0.04,0.87,0.31)  genr=0.04
+gen   1  best= 148.14  mean= 138.54  near=GTFT(0.1)  p=(0.76,0.88,0.39,0.73,0.34)  genr=0.39
+gen   2  best= 147.83  mean= 141.06  near=TFT        p=(0.71,0.03,0.00,0.94,0.39)  genr=0.00
+gen   3  best= 150.97  mean= 141.97  near=GTFT(0.1)  p=(0.49,0.37,0.07,0.72,0.49)  genr=0.07
+gen   4  best= 150.97  mean= 142.61  near=GTFT(0.1)  p=(0.49,0.96,0.26,0.61,0.29)  genr=0.26
+gen   5  best= 153.74  mean= 141.80  near=GTFT(0.1)  p=(0.33,1.00,0.29,0.44,0.33)  genr=0.29
+gen   6  best= 149.71  mean= 141.72  near=GTFT(0.1)  p=(0.40,1.00,0.35,0.46,0.36)  genr=0.35
+gen   7  best= 149.91  mean= 143.19  near=GTFT(0.1)  p=(0.40,1.00,0.35,0.46,0.36)  genr=0.35
+gen   8  best= 156.97  mean= 142.42  near=GTFT(0.1)  p=(0.48,1.00,0.25,0.50,0.29)  genr=0.25
+gen   9  best= 152.94  mean= 142.86  near=GTFT(0.1)  p=(0.47,0.98,0.19,0.40,0.49)  genr=0.19
+gen  10  best= 153.29  mean= 142.80  near=GTFT(0.1)  p=(0.47,0.98,0.19,0.40,0.49)  genr=0.19
+gen  11  best= 154.60  mean= 143.06  near=GTFT(0.1)  p=(0.33,0.95,0.30,0.50,0.23)  genr=0.30
+gen  12  best= 157.71  mean= 142.02  near=GTFT(0.1)  p=(0.47,0.99,0.30,0.44,0.27)  genr=0.30
+gen  13  best= 152.91  mean= 140.97  near=GTFT(0.1)  p=(0.49,1.00,0.35,0.34,0.18)  genr=0.35
+gen  14  best= 155.29  mean= 142.54  near=GTFT(0.1)  p=(0.46,0.98,0.30,0.38,0.28)  genr=0.30
+gen  15  best= 153.29  mean= 142.62  near=GTFT(0.1)  p=(0.41,1.00,0.48,0.52,0.38)  genr=0.48
+gen  16  best= 157.51  mean= 142.49  near=GTFT(0.1)  p=(0.43,1.00,0.29,0.42,0.24)  genr=0.29
+gen  17  best= 154.29  mean= 143.71  near=GTFT(0.1)  p=(0.27,0.94,0.43,0.50,0.26)  genr=0.43
+gen  18  best= 155.43  mean= 143.96  near=GTFT(0.1)  p=(0.40,1.00,0.30,0.45,0.30)  genr=0.30
+gen  19  best= 154.31  mean= 143.54  near=GTFT(0.1)  p=(0.33,1.00,0.38,0.52,0.27)  genr=0.38
+gen  20  best= 153.51  mean= 142.81  near=Pavlov     p=(0.43,1.00,0.40,0.36,0.49)  genr=0.40
+gen  21  best= 155.60  mean= 143.01  near=Pavlov     p=(0.43,1.00,0.40,0.36,0.49)  genr=0.40
+gen  22  best= 155.60  mean= 143.80  near=Pavlov     p=(0.43,1.00,0.40,0.36,0.49)  genr=0.40
+gen  23  best= 155.89  mean= 142.62  near=GTFT(0.1)  p=(0.40,1.00,0.44,0.44,0.43)  genr=0.44
+gen  24  best= 154.14  mean= 142.81  near=GTFT(0.1)  p=(0.43,1.00,0.29,0.43,0.41)  genr=0.29
+gen  25  best= 155.94  mean= 143.62  near=GTFT(0.1)  p=(0.43,1.00,0.33,0.35,0.21)  genr=0.33
+gen  26  best= 154.60  mean= 144.73  near=GTFT(0.1)  p=(0.41,1.00,0.36,0.32,0.19)  genr=0.36
+gen  27  best= 153.29  mean= 143.21  near=Pavlov     p=(0.18,0.99,0.40,0.18,0.40)  genr=0.40
+gen  28  best= 152.86  mean= 144.17  near=Pavlov     p=(0.34,1.00,0.34,0.46,0.58)  genr=0.34
+gen  29  best= 153.63  mean= 142.55  near=Pavlov     p=(0.41,0.97,0.12,0.25,0.39)  genr=0.12
+gen  30  best= 152.89  mean= 143.51  near=GTFT(0.1)  p=(0.40,1.00,0.44,0.34,0.44)  genr=0.44
+gen  31  best= 154.46  mean= 143.27  near=GTFT(0.1)  p=(0.40,1.00,0.44,0.34,0.44)  genr=0.44
+gen  32  best= 154.46  mean= 143.01  near=GTFT(0.1)  p=(0.40,1.00,0.44,0.34,0.44)  genr=0.44
+gen  33  best= 158.40  mean= 143.33  near=Pavlov     p=(0.38,1.00,0.38,0.12,0.43)  genr=0.38
+gen  34  best= 154.03  mean= 141.95  near=Pavlov     p=(0.38,1.00,0.38,0.12,0.43)  genr=0.38
+CHAMPION Memory-1(0.3765253474650513, 1.0, 0.37752507233491966, 0.12203196495423166, 0.42657566015213666)  p=(0.38,1.00,0.38,0.12,0.43)  nearest=Pavlov (L1=1.70)  generosity=0.38
+Training: 24,500 matches in 4.863s; evaluating held-out matches...
+Held-out: 3,800 population + 180 champion matches; population cooperation=65.1063%, field payoff=1.800893, time=0.857s
+
+=== seed=3 regime=mixed field_weight=0.5 ===
+gen   0  best= 178.56  mean= 160.38  near=GTFT(0.1)  p=(0.94,0.88,0.10,0.14,0.22)  genr=0.10
+gen   1  best= 160.91  mean= 151.88  near=ALLD       p=(0.08,0.60,0.03,0.20,0.41)  genr=0.03
+gen   2  best= 154.01  mean= 145.86  near=Pavlov     p=(0.62,0.73,0.11,0.06,0.33)  genr=0.11
+gen   3  best= 150.61  mean= 145.53  near=GTFT(0.1)  p=(0.90,0.82,0.10,0.15,0.17)  genr=0.10
+gen   4  best= 146.82  mean= 142.99  near=GTFT(0.1)  p=(0.90,0.82,0.10,0.15,0.17)  genr=0.10
+gen   5  best= 144.71  mean= 141.14  near=ALLD       p=(0.42,0.60,0.00,0.15,0.16)  genr=0.00
+gen   6  best= 139.19  mean= 135.56  near=TFT        p=(0.83,0.90,0.03,0.20,0.03)  genr=0.03
+gen   7  best= 137.31  mean= 134.98  near=ALLD       p=(0.54,0.65,0.06,0.16,0.14)  genr=0.06
+gen   8  best= 135.12  mean= 132.13  near=ALLD       p=(0.48,0.78,0.00,0.07,0.07)  genr=0.00
+gen   9  best= 136.62  mean= 132.76  near=ALLD       p=(0.48,0.78,0.00,0.07,0.07)  genr=0.00
+gen  10  best= 134.11  mean= 130.70  near=ALLD       p=(0.48,0.78,0.00,0.07,0.07)  genr=0.00
+gen  11  best= 130.92  mean= 128.18  near=TFT        p=(0.82,0.97,0.08,0.23,0.00)  genr=0.08
+gen  12  best= 132.30  mean= 128.55  near=GTFT(0.1)  p=(0.70,0.94,0.17,0.03,0.03)  genr=0.17
+gen  13  best= 134.95  mean= 130.29  near=GTFT(0.1)  p=(0.70,0.94,0.17,0.03,0.03)  genr=0.17
+gen  14  best= 137.07  mean= 133.08  near=GTFT(0.1)  p=(0.60,1.00,0.21,0.03,0.04)  genr=0.21
+gen  15  best= 134.46  mean= 129.90  near=GTFT(0.1)  p=(0.59,1.00,0.15,0.05,0.02)  genr=0.15
+gen  16  best= 135.32  mean= 130.57  near=GTFT(0.1)  p=(0.59,1.00,0.15,0.05,0.02)  genr=0.15
+gen  17  best= 135.71  mean= 132.36  near=TFT        p=(0.60,1.00,0.22,0.00,0.00)  genr=0.22
+gen  18  best= 134.92  mean= 131.45  near=TFT        p=(0.68,1.00,0.13,0.00,0.00)  genr=0.13
+gen  19  best= 140.52  mean= 136.97  near=TFT        p=(0.68,1.00,0.13,0.00,0.00)  genr=0.13
+gen  20  best= 140.41  mean= 134.96  near=Pavlov     p=(0.66,1.00,0.23,0.00,0.18)  genr=0.23
+gen  21  best= 141.29  mean= 137.77  near=Pavlov     p=(0.66,1.00,0.23,0.00,0.18)  genr=0.23
+gen  22  best= 146.19  mean= 141.95  near=GTFT(0.1)  p=(0.69,1.00,0.17,0.08,0.11)  genr=0.17
+gen  23  best= 147.29  mean= 143.47  near=Pavlov     p=(0.60,0.99,0.17,0.00,0.12)  genr=0.17
+gen  24  best= 149.95  mean= 145.30  near=Pavlov     p=(0.50,1.00,0.24,0.00,0.31)  genr=0.24
+gen  25  best= 145.42  mean= 142.25  near=Pavlov     p=(0.50,1.00,0.24,0.00,0.31)  genr=0.24
+gen  26  best= 152.28  mean= 145.91  near=Pavlov     p=(0.48,1.00,0.27,0.00,0.29)  genr=0.27
+gen  27  best= 156.53  mean= 152.08  near=Pavlov     p=(0.63,0.95,0.24,0.01,0.12)  genr=0.24
+gen  28  best= 162.91  mean= 154.98  near=Pavlov     p=(0.46,1.00,0.32,0.00,0.27)  genr=0.32
+gen  29  best= 159.87  mean= 154.23  near=Pavlov     p=(0.56,1.00,0.35,0.00,0.30)  genr=0.35
+gen  30  best= 159.09  mean= 151.27  near=Pavlov     p=(0.48,1.00,0.35,0.00,0.36)  genr=0.35
+gen  31  best= 161.71  mean= 153.52  near=Pavlov     p=(0.48,1.00,0.27,0.12,0.29)  genr=0.27
+gen  32  best= 159.45  mean= 153.17  near=Pavlov     p=(0.69,1.00,0.21,0.05,0.23)  genr=0.21
+gen  33  best= 155.55  mean= 149.92  near=Pavlov     p=(0.54,1.00,0.26,0.00,0.32)  genr=0.26
+gen  34  best= 156.88  mean= 150.91  near=Pavlov     p=(0.45,1.00,0.39,0.00,0.18)  genr=0.39
+CHAMPION Memory-1(0.44877554363280187, 1.0, 0.3905956851625763, 0.00466971154807775, 0.17876847109776162)  p=(0.45,1.00,0.39,0.00,0.18)  nearest=Pavlov (L1=1.77)  generosity=0.39
+Training: 61,250 matches in 17.797s; evaluating held-out matches...
+Held-out: 3,800 population + 180 champion matches; population cooperation=41.0117%, field payoff=1.838571, time=0.875s
+
+=== seed=4: held-out reference strategies ===
+
+=== seed=4 regime=fixed field_weight=1.0 ===
+gen   0  best= 147.46  mean= 130.33  near=ALLD       p=(0.10,0.06,0.23,0.77,0.62)  genr=0.23
+gen   1  best= 145.26  mean= 138.73  near=ALLD       p=(0.25,0.12,0.39,0.07,0.15)  genr=0.39
+gen   2  best= 146.34  mean= 141.03  near=ALLD       p=(0.19,0.11,0.35,0.03,0.15)  genr=0.35
+gen   3  best= 146.17  mean= 140.85  near=ALLD       p=(0.49,0.21,0.18,0.20,0.24)  genr=0.18
+gen   4  best= 147.29  mean= 142.09  near=ALLD       p=(0.32,0.27,0.41,0.08,0.24)  genr=0.41
+gen   5  best= 147.31  mean= 142.87  near=ALLD       p=(0.54,0.07,0.19,0.18,0.14)  genr=0.19
+gen   6  best= 148.71  mean= 142.92  near=ALLD       p=(0.34,0.21,0.18,0.00,0.28)  genr=0.18
+gen   7  best= 148.17  mean= 142.43  near=ALLD       p=(0.32,0.06,0.20,0.04,0.17)  genr=0.20
+gen   8  best= 147.66  mean= 143.77  near=ALLD       p=(0.21,0.17,0.16,0.00,0.26)  genr=0.16
+gen   9  best= 149.26  mean= 143.06  near=ALLD       p=(0.18,0.19,0.17,0.00,0.35)  genr=0.17
+gen  10  best= 147.69  mean= 142.06  near=ALLD       p=(0.18,0.19,0.17,0.00,0.35)  genr=0.17
+gen  11  best= 147.69  mean= 143.27  near=ALLD       p=(0.18,0.19,0.17,0.00,0.35)  genr=0.17
+gen  12  best= 147.69  mean= 144.02  near=ALLD       p=(0.18,0.19,0.17,0.00,0.35)  genr=0.17
+gen  13  best= 148.26  mean= 143.86  near=ALLD       p=(0.33,0.22,0.22,0.00,0.22)  genr=0.22
+gen  14  best= 148.57  mean= 145.17  near=ALLD       p=(0.26,0.13,0.25,0.01,0.33)  genr=0.25
+gen  15  best= 148.40  mean= 145.12  near=ALLD       p=(0.44,0.04,0.31,0.00,0.26)  genr=0.31
+gen  16  best= 149.97  mean= 145.48  near=ALLD       p=(0.16,0.00,0.14,0.09,0.41)  genr=0.14
+gen  17  best= 148.63  mean= 144.43  near=ALLD       p=(0.13,0.00,0.15,0.01,0.47)  genr=0.15
+gen  18  best= 148.54  mean= 144.58  near=ALLD       p=(0.18,0.30,0.27,0.01,0.43)  genr=0.27
+gen  19  best= 151.11  mean= 145.09  near=ALLD       p=(0.04,0.25,0.18,0.01,0.57)  genr=0.18
+gen  20  best= 148.83  mean= 145.35  near=ALLD       p=(0.13,0.00,0.15,0.01,0.47)  genr=0.15
+gen  21  best= 148.77  mean= 145.41  near=ALLD       p=(0.00,0.04,0.11,0.00,0.51)  genr=0.11
+gen  22  best= 149.94  mean= 145.46  near=ALLD       p=(0.10,0.00,0.23,0.02,0.45)  genr=0.23
+gen  23  best= 151.23  mean= 146.04  near=ALLD       p=(0.05,0.05,0.08,0.07,0.56)  genr=0.08
+gen  24  best= 148.51  mean= 145.99  near=ALLD       p=(0.00,0.04,0.02,0.01,0.55)  genr=0.02
+gen  25  best= 151.71  mean= 145.39  near=ALLD       p=(0.00,0.00,0.06,0.07,0.51)  genr=0.06
+gen  26  best= 150.94  mean= 145.69  near=ALLD       p=(0.06,0.03,0.00,0.02,0.46)  genr=0.00
+gen  27  best= 151.20  mean= 145.66  near=ALLD       p=(0.06,0.00,0.00,0.08,0.49)  genr=0.00
+gen  28  best= 149.11  mean= 145.69  near=ALLD       p=(0.17,0.10,0.00,0.10,0.48)  genr=0.00
+gen  29  best= 150.43  mean= 146.18  near=ALLD       p=(0.01,0.12,0.07,0.01,0.45)  genr=0.07
+gen  30  best= 151.54  mean= 146.65  near=ALLD       p=(0.15,0.04,0.00,0.06,0.52)  genr=0.00
+gen  31  best= 148.57  mean= 146.23  near=ALLD       p=(0.15,0.04,0.00,0.06,0.52)  genr=0.00
+gen  32  best= 150.77  mean= 145.83  near=ALLD       p=(0.08,0.08,0.02,0.03,0.32)  genr=0.02
+gen  33  best= 148.77  mean= 145.60  near=ALLD       p=(0.00,0.09,0.00,0.05,0.53)  genr=0.00
+gen  34  best= 151.40  mean= 145.44  near=ALLD       p=(0.17,0.07,0.11,0.08,0.65)  genr=0.11
+CHAMPION Memory-1(0.16513228413953893, 0.06681216666090897, 0.10841253499032538, 0.07756997426405474, 0.6539122184842006)  p=(0.17,0.07,0.11,0.08,0.65)  nearest=ALLD (L1=1.07)  generosity=0.11
+Training: 24,500 matches in 4.227s; evaluating held-out matches...
+Held-out: 3,800 population + 180 champion matches; population cooperation=31.7209%, field payoff=1.829554, time=0.777s
+
+=== seed=4 regime=mixed field_weight=0.5 ===
+gen   0  best= 182.03  mean= 155.55  near=ALLD       p=(0.54,0.28,0.17,0.11,0.21)  genr=0.17
+gen   1  best= 165.44  mean= 152.54  near=ALLD       p=(0.54,0.28,0.17,0.11,0.21)  genr=0.17
+gen   2  best= 155.65  mean= 147.12  near=ALLD       p=(0.47,0.27,0.13,0.07,0.21)  genr=0.13
+gen   3  best= 143.37  mean= 139.19  near=ALLD       p=(0.47,0.39,0.17,0.05,0.16)  genr=0.17
+gen   4  best= 140.27  mean= 136.64  near=ALLD       p=(0.45,0.49,0.06,0.00,0.19)  genr=0.06
+gen   5  best= 138.68  mean= 133.36  near=ALLD       p=(0.53,0.33,0.08,0.15,0.07)  genr=0.08
+gen   6  best= 134.48  mean= 130.74  near=ALLD       p=(0.60,0.31,0.00,0.11,0.05)  genr=0.00
+gen   7  best= 131.86  mean= 128.28  near=ALLD       p=(0.33,0.42,0.00,0.07,0.03)  genr=0.00
+gen   8  best= 130.63  mean= 127.47  near=ALLD       p=(0.32,0.40,0.00,0.04,0.00)  genr=0.00
+gen   9  best= 128.54  mean= 124.99  near=ALLD       p=(0.44,0.52,0.14,0.13,0.00)  genr=0.14
+gen  10  best= 126.13  mean= 123.01  near=ALLD       p=(0.44,0.60,0.04,0.08,0.00)  genr=0.04
+gen  11  best= 124.74  mean= 122.38  near=ALLD       p=(0.50,0.43,0.01,0.00,0.02)  genr=0.01
+gen  12  best= 126.23  mean= 123.26  near=ALLD       p=(0.38,0.34,0.00,0.00,0.00)  genr=0.00
+gen  13  best= 122.90  mean= 119.99  near=ALLD       p=(0.46,0.30,0.09,0.00,0.06)  genr=0.09
+gen  14  best= 127.02  mean= 123.22  near=ALLD       p=(0.34,0.56,0.05,0.00,0.05)  genr=0.05
+gen  15  best= 124.05  mean= 121.82  near=ALLD       p=(0.40,0.52,0.02,0.00,0.00)  genr=0.02
+gen  16  best= 123.44  mean= 119.90  near=ALLD       p=(0.47,0.27,0.01,0.03,0.00)  genr=0.01
+gen  17  best= 123.28  mean= 119.67  near=ALLD       p=(0.27,0.39,0.00,0.00,0.05)  genr=0.00
+gen  18  best= 123.11  mean= 119.66  near=ALLD       p=(0.42,0.44,0.00,0.00,0.00)  genr=0.00
+gen  19  best= 122.88  mean= 120.66  near=ALLD       p=(0.39,0.46,0.00,0.01,0.00)  genr=0.00
+gen  20  best= 126.15  mean= 122.13  near=ALLD       p=(0.35,0.52,0.00,0.05,0.01)  genr=0.00
+gen  21  best= 123.85  mean= 120.55  near=ALLD       p=(0.36,0.41,0.12,0.00,0.02)  genr=0.12
+gen  22  best= 123.12  mean= 119.46  near=ALLD       p=(0.29,0.33,0.10,0.02,0.00)  genr=0.10
+gen  23  best= 122.51  mean= 120.00  near=ALLD       p=(0.47,0.51,0.14,0.01,0.00)  genr=0.14
+gen  24  best= 123.41  mean= 120.20  near=ALLD       p=(0.24,0.43,0.08,0.09,0.00)  genr=0.08
+gen  25  best= 120.69  mean= 118.22  near=ALLD       p=(0.32,0.40,0.00,0.04,0.06)  genr=0.00
+gen  26  best= 124.40  mean= 120.72  near=ALLD       p=(0.55,0.54,0.00,0.01,0.00)  genr=0.00
+gen  27  best= 123.68  mean= 120.85  near=ALLD       p=(0.53,0.51,0.04,0.00,0.00)  genr=0.04
+gen  28  best= 126.28  mean= 122.98  near=ALLD       p=(0.42,0.51,0.06,0.01,0.07)  genr=0.06
+gen  29  best= 124.71  mean= 120.33  near=ALLD       p=(0.40,0.64,0.10,0.00,0.00)  genr=0.10
+gen  30  best= 122.51  mean= 120.28  near=ALLD       p=(0.54,0.44,0.03,0.01,0.00)  genr=0.03
+gen  31  best= 123.19  mean= 120.91  near=ALLD       p=(0.44,0.62,0.08,0.00,0.02)  genr=0.08
+gen  32  best= 123.68  mean= 120.59  near=ALLD       p=(0.42,0.48,0.24,0.03,0.03)  genr=0.24
+gen  33  best= 122.47  mean= 120.36  near=ALLD       p=(0.55,0.68,0.16,0.00,0.01)  genr=0.16
+gen  34  best= 125.24  mean= 121.77  near=ALLD       p=(0.44,0.47,0.16,0.00,0.04)  genr=0.16
+CHAMPION Memory-1(0.44262731215274265, 0.4749701719706025, 0.16028024141349492, 0.0, 0.03589947193794235)  p=(0.44,0.47,0.16,0.00,0.04)  nearest=ALLD (L1=1.11)  generosity=0.16
+Training: 61,250 matches in 10.886s; evaluating held-out matches...
+Held-out: 3,800 population + 180 champion matches; population cooperation=10.4563%, field payoff=1.759286, time=0.778s

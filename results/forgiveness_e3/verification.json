@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "fixed_runs_identical_to_e2": 5,
+  "source_hashes_match": true,
+  "python": "3.12.13",
+  "training_matches": 428750,
+  "heldout_records": {
+    "population": 38000,
+    "champion": 1800,
+    "baseline": 2800
+  },
+  "all_metrics_and_paired_differences_recomputed": true,
+  "exact_replay": {
+    "seed": 0,
+    "regime": "mixed",
+    "history_records": 35,
+    "population_genomes": 20,
+    "population_matches": 3800,
+    "champion_matches": 180,
+    "baseline_matches": 560,
+    "training_matches": 61250,
+    "seconds": 19.04317841399461
+  },
+  "verifier_sha256": "80a107487ab1a8ec8c3d4250efeb506b47e805c120ad880fe78022ed538060cd",
+  "evidence_sha256": {
+    "manifest.json": "85c2cefeea509dd086a39f5e93466a131d1fe429c668a20bc7a660593ff7860c",
+    "champions.json": "49b3055a5923e74ae124a91ad552eca37a7f6415a6aaa4d6bd83679f311cfd9b",
+    "populations.json": "bdb47d1a0ac5b7c786d7d54b4a1321ed8c04dd3ca460ea3aa165dace4f573eea",
+    "evaluation.csv": "c0d308312042d4a22bc8042edf0d2a885f4cc59220f9965d1d0b968106046284",
+    "population_evaluation.csv": "a69bc8d5122a9ddffecd46ccd4b0545507bc3dcb67ae4a32d5409c5d58fb5306",
+    "baselines.csv": "760c772d881dc9d98ff0e3639b876aa9243e479465cc4021a405b44a3427a571",
+    "run_metrics.csv": "527ee4938b93fdf33da0965ac9a1e2fd2944ec86eb5d51b1feac191556a95d0c",
+    "paired_differences.csv": "06b9bd9973c6a6178415b9298855d3efb3db67152513162b3ef11835b610b17d"
+  },
+  "note": "Replay excludes wall-clock equality; all listed scientific records compare exactly."
+}
