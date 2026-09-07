@@ -1,0 +1,780 @@
+
+=== seed=0 noise=0% ALLC=False ===
+gen   0  best= 148.57  mean= 123.54  near=ALLC       p=(0.95,0.58,0.45,0.66,1.00)  genr=0.45
+gen   1  best= 150.14  mean= 129.93  near=Pavlov     p=(0.88,0.79,0.36,0.17,0.49)  genr=0.36
+gen   2  best= 144.86  mean= 127.86  near=Pavlov     p=(0.83,0.45,0.37,0.22,0.61)  genr=0.37
+gen   3  best= 148.43  mean= 130.11  near=GTFT(0.1)  p=(0.80,0.37,0.27,0.54,0.49)  genr=0.27
+gen   4  best= 147.57  mean= 129.86  near=Pavlov     p=(0.79,0.47,0.21,0.39,0.84)  genr=0.21
+gen   5  best= 147.00  mean= 128.77  near=Pavlov     p=(0.85,0.61,0.33,0.23,0.61)  genr=0.33
+gen   6  best= 146.71  mean= 129.86  near=Pavlov     p=(0.79,0.44,0.37,0.41,0.75)  genr=0.37
+gen   7  best= 148.57  mean= 130.46  near=Pavlov     p=(0.81,0.42,0.37,0.28,0.62)  genr=0.37
+gen   8  best= 146.00  mean= 129.31  near=Pavlov     p=(0.76,0.40,0.17,0.38,0.55)  genr=0.17
+gen   9  best= 147.71  mean= 130.97  near=Pavlov     p=(0.87,0.47,0.29,0.46,0.64)  genr=0.29
+gen  10  best= 149.43  mean= 132.66  near=Pavlov     p=(0.87,0.38,0.27,0.47,0.58)  genr=0.27
+gen  11  best= 146.57  mean= 130.57  near=Pavlov     p=(0.91,0.53,0.13,0.33,0.62)  genr=0.13
+gen  12  best= 146.71  mean= 130.25  near=GTFT(0.1)  p=(0.93,0.37,0.36,0.32,0.38)  genr=0.36
+gen  13  best= 149.14  mean= 132.15  near=Pavlov     p=(1.00,0.41,0.43,0.47,0.72)  genr=0.43
+gen  14  best= 147.57  mean= 132.39  near=Pavlov     p=(0.78,0.46,0.15,0.45,0.63)  genr=0.15
+gen  15  best= 148.71  mean= 130.56  near=GTFT(0.1)  p=(0.89,0.55,0.17,0.57,0.63)  genr=0.17
+gen  16  best= 147.14  mean= 132.01  near=Pavlov     p=(1.00,0.34,0.33,0.32,0.82)  genr=0.33
+gen  17  best= 147.86  mean= 131.38  near=Pavlov     p=(0.89,0.43,0.26,0.40,0.73)  genr=0.26
+gen  18  best= 148.71  mean= 132.74  near=Pavlov     p=(0.70,0.36,0.33,0.32,0.59)  genr=0.33
+gen  19  best= 145.71  mean= 131.51  near=Pavlov     p=(0.97,0.34,0.51,0.32,0.66)  genr=0.51
+gen  20  best= 147.43  mean= 132.89  near=Pavlov     p=(0.83,0.43,0.00,0.22,0.88)  genr=0.00
+gen  21  best= 148.00  mean= 132.09  near=Pavlov     p=(0.80,0.42,0.09,0.16,0.88)  genr=0.09
+gen  22  best= 145.14  mean= 133.66  near=Pavlov     p=(0.79,0.33,0.30,0.49,0.77)  genr=0.30
+gen  23  best= 146.57  mean= 131.69  near=Pavlov     p=(0.80,0.27,0.29,0.50,0.76)  genr=0.29
+gen  24  best= 146.71  mean= 133.27  near=Pavlov     p=(0.80,0.36,0.31,0.50,0.71)  genr=0.31
+gen  25  best= 147.71  mean= 134.41  near=Pavlov     p=(0.70,0.21,0.36,0.51,0.69)  genr=0.36
+gen  26  best= 148.43  mean= 134.29  near=Pavlov     p=(0.64,0.35,0.34,0.49,0.82)  genr=0.34
+gen  27  best= 147.43  mean= 135.31  near=Pavlov     p=(0.70,0.30,0.33,0.37,0.84)  genr=0.33
+gen  28  best= 146.14  mean= 134.12  near=Pavlov     p=(0.69,0.25,0.36,0.40,0.82)  genr=0.36
+gen  29  best= 149.71  mean= 134.73  near=Pavlov     p=(0.72,0.20,0.23,0.40,0.72)  genr=0.23
+gen  30  best= 147.57  mean= 133.49  near=Pavlov     p=(0.61,0.19,0.15,0.38,0.77)  genr=0.15
+gen  31  best= 146.57  mean= 135.31  near=Pavlov     p=(0.66,0.11,0.36,0.47,0.78)  genr=0.36
+gen  32  best= 148.71  mean= 134.57  near=Pavlov     p=(0.64,0.22,0.28,0.38,0.74)  genr=0.28
+gen  33  best= 148.57  mean= 138.02  near=Pavlov     p=(0.68,0.20,0.17,0.42,0.83)  genr=0.17
+gen  34  best= 147.71  mean= 137.29  near=Pavlov     p=(0.83,0.18,0.15,0.42,0.75)  genr=0.15
+CHAMPION evolved-m1  p=(0.83,0.18,0.15,0.42,0.75)  nearest=Pavlov (L1=1.82)  generosity=0.15
+Held-out evaluation complete.
+
+=== seed=0 noise=0% ALLC=True ===
+gen   0  best= 169.12  mean= 145.59  near=Pavlov     p=(0.80,0.45,0.08,0.32,0.51)  genr=0.08
+gen   1  best= 175.88  mean= 154.74  near=Pavlov     p=(0.90,0.22,0.50,0.15,0.95)  genr=0.50
+gen   2  best= 174.88  mean= 159.40  near=Pavlov     p=(0.84,0.30,0.46,0.18,0.55)  genr=0.46
+gen   3  best= 173.12  mean= 161.14  near=Pavlov     p=(0.94,0.28,0.48,0.19,0.54)  genr=0.48
+gen   4  best= 170.50  mean= 160.86  near=Pavlov     p=(0.81,0.31,0.22,0.40,0.71)  genr=0.22
+gen   5  best= 168.88  mean= 159.29  near=Pavlov     p=(0.80,0.54,0.14,0.23,0.54)  genr=0.14
+gen   6  best= 171.50  mean= 158.79  near=Pavlov     p=(0.83,0.14,0.29,0.49,0.71)  genr=0.29
+gen   7  best= 174.25  mean= 163.39  near=Pavlov     p=(0.79,0.20,0.35,0.43,0.71)  genr=0.35
+gen   8  best= 172.50  mean= 162.71  near=Pavlov     p=(0.84,0.07,0.42,0.45,0.82)  genr=0.42
+gen   9  best= 172.12  mean= 162.33  near=Pavlov     p=(0.81,0.24,0.21,0.42,0.77)  genr=0.21
+gen  10  best= 172.12  mean= 163.34  near=Pavlov     p=(0.92,0.05,0.44,0.39,0.87)  genr=0.44
+gen  11  best= 171.62  mean= 163.76  near=Pavlov     p=(0.85,0.14,0.28,0.34,0.72)  genr=0.28
+gen  12  best= 173.25  mean= 164.45  near=Pavlov     p=(0.82,0.25,0.16,0.27,0.80)  genr=0.16
+gen  13  best= 173.88  mean= 164.31  near=Pavlov     p=(0.93,0.24,0.08,0.29,0.70)  genr=0.08
+gen  14  best= 174.62  mean= 166.94  near=Pavlov     p=(0.76,0.29,0.21,0.29,0.64)  genr=0.21
+gen  15  best= 174.62  mean= 166.04  near=ALLD       p=(0.63,0.01,0.04,0.21,0.65)  genr=0.04
+gen  16  best= 177.38  mean= 168.38  near=Pavlov     p=(0.79,0.08,0.18,0.34,0.69)  genr=0.18
+gen  17  best= 175.50  mean= 168.19  near=Pavlov     p=(0.91,0.06,0.09,0.36,0.67)  genr=0.09
+gen  18  best= 174.12  mean= 168.51  near=ALLD       p=(0.69,0.00,0.20,0.29,0.72)  genr=0.20
+gen  19  best= 173.75  mean= 168.34  near=Pavlov     p=(0.75,0.23,0.35,0.33,0.61)  genr=0.35
+gen  20  best= 179.00  mean= 168.91  near=ALLD       p=(0.82,0.01,0.00,0.03,0.64)  genr=0.00
+gen  21  best= 178.50  mean= 171.29  near=ALLD       p=(0.80,0.00,0.09,0.00,0.64)  genr=0.09
+gen  22  best= 178.00  mean= 170.97  near=ALLD       p=(0.72,0.01,0.04,0.00,0.70)  genr=0.04
+gen  23  best= 177.88  mean= 170.91  near=Pavlov     p=(0.96,0.17,0.15,0.10,0.74)  genr=0.15
+gen  24  best= 179.12  mean= 171.11  near=Pavlov     p=(0.89,0.07,0.04,0.02,0.54)  genr=0.04
+gen  25  best= 177.12  mean= 170.08  near=Pavlov     p=(0.73,0.00,0.12,0.07,0.82)  genr=0.12
+gen  26  best= 178.75  mean= 170.97  near=Pavlov     p=(0.86,0.00,0.23,0.02,0.80)  genr=0.23
+gen  27  best= 177.88  mean= 172.09  near=Pavlov     p=(0.90,0.09,0.21,0.06,0.56)  genr=0.21
+gen  28  best= 178.75  mean= 172.41  near=Pavlov     p=(0.63,0.14,0.14,0.00,0.86)  genr=0.14
+gen  29  best= 178.75  mean= 173.52  near=ALLD       p=(0.76,0.05,0.21,0.00,0.59)  genr=0.21
+gen  30  best= 178.50  mean= 172.87  near=Pavlov     p=(0.60,0.12,0.25,0.10,0.95)  genr=0.25
+gen  31  best= 179.75  mean= 172.71  near=Pavlov     p=(0.73,0.17,0.38,0.00,0.67)  genr=0.38
+gen  32  best= 178.88  mean= 173.72  near=Pavlov     p=(0.66,0.10,0.17,0.00,0.89)  genr=0.17
+gen  33  best= 179.88  mean= 170.86  near=ALLD       p=(0.72,0.14,0.48,0.03,0.64)  genr=0.48
+gen  34  best= 179.38  mean= 171.92  near=Pavlov     p=(0.57,0.07,0.21,0.00,0.93)  genr=0.21
+CHAMPION evolved-m1  p=(0.57,0.07,0.21,0.00,0.93)  nearest=Pavlov (L1=1.64)  generosity=0.21
+Held-out evaluation complete.
+
+=== seed=0 noise=5% ALLC=False ===
+gen   0  best= 150.14  mean= 127.67  near=GTFT(0.1)  p=(0.01,0.72,0.40,0.82,0.67)  genr=0.40
+gen   1  best= 146.29  mean= 128.28  near=GTFT(0.1)  p=(0.59,0.39,0.52,0.53,0.41)  genr=0.52
+gen   2  best= 154.71  mean= 136.29  near=Pavlov     p=(0.90,0.15,0.55,0.18,0.95)  genr=0.55
+gen   3  best= 152.29  mean= 136.44  near=Pavlov     p=(0.99,0.13,0.57,0.19,0.94)  genr=0.57
+gen   4  best= 152.43  mean= 138.56  near=Pavlov     p=(0.74,0.35,0.39,0.51,0.89)  genr=0.39
+gen   5  best= 152.43  mean= 140.74  near=ALLC       p=(0.82,0.34,0.54,0.50,0.97)  genr=0.54
+gen   6  best= 151.86  mean= 133.96  near=GTFT(0.1)  p=(0.78,0.55,0.35,0.61,0.69)  genr=0.35
+gen   7  best= 151.57  mean= 131.99  near=Pavlov     p=(0.83,0.35,0.44,0.46,0.64)  genr=0.44
+gen   8  best= 149.71  mean= 135.96  near=Pavlov     p=(0.91,0.24,0.47,0.36,0.90)  genr=0.47
+gen   9  best= 153.29  mean= 135.12  near=Pavlov     p=(0.73,0.35,0.35,0.50,0.89)  genr=0.35
+gen  10  best= 155.86  mean= 137.69  near=Pavlov     p=(0.77,0.33,0.34,0.46,1.00)  genr=0.34
+gen  11  best= 156.86  mean= 136.37  near=Pavlov     p=(0.73,0.27,0.28,0.31,0.80)  genr=0.28
+gen  12  best= 155.29  mean= 137.01  near=Pavlov     p=(0.76,0.34,0.39,0.40,1.00)  genr=0.39
+gen  13  best= 155.71  mean= 136.51  near=Pavlov     p=(0.80,0.29,0.35,0.50,0.97)  genr=0.35
+gen  14  best= 155.29  mean= 138.26  near=Pavlov     p=(0.88,0.18,0.31,0.56,0.84)  genr=0.31
+gen  15  best= 156.86  mean= 138.27  near=Pavlov     p=(0.92,0.31,0.30,0.63,0.82)  genr=0.30
+gen  16  best= 152.14  mean= 139.26  near=Pavlov     p=(0.73,0.23,0.44,0.29,0.82)  genr=0.44
+gen  17  best= 157.00  mean= 140.80  near=Pavlov     p=(0.87,0.15,0.26,0.22,0.82)  genr=0.26
+gen  18  best= 154.00  mean= 141.59  near=Pavlov     p=(0.83,0.10,0.32,0.46,0.70)  genr=0.32
+gen  19  best= 154.57  mean= 140.80  near=Pavlov     p=(0.79,0.10,0.37,0.54,0.98)  genr=0.37
+gen  20  best= 155.29  mean= 143.29  near=Pavlov     p=(0.87,0.03,0.27,0.43,0.93)  genr=0.27
+gen  21  best= 155.57  mean= 142.95  near=Pavlov     p=(1.00,0.00,0.36,0.32,0.97)  genr=0.36
+gen  22  best= 153.29  mean= 143.23  near=Pavlov     p=(0.88,0.03,0.31,0.38,0.99)  genr=0.31
+gen  23  best= 155.43  mean= 143.10  near=Pavlov     p=(0.95,0.01,0.32,0.55,1.00)  genr=0.32
+gen  24  best= 154.71  mean= 142.21  near=Pavlov     p=(1.00,0.07,0.18,0.50,1.00)  genr=0.18
+gen  25  best= 158.29  mean= 144.04  near=Pavlov     p=(0.85,0.01,0.34,0.37,0.97)  genr=0.34
+gen  26  best= 155.14  mean= 143.11  near=Pavlov     p=(0.96,0.00,0.41,0.41,0.98)  genr=0.41
+gen  27  best= 156.14  mean= 142.77  near=Pavlov     p=(0.93,0.03,0.22,0.42,1.00)  genr=0.22
+gen  28  best= 156.43  mean= 143.62  near=Pavlov     p=(0.96,0.06,0.16,0.54,0.90)  genr=0.16
+gen  29  best= 155.57  mean= 143.92  near=Pavlov     p=(1.00,0.00,0.09,0.52,0.87)  genr=0.09
+gen  30  best= 158.57  mean= 145.40  near=Pavlov     p=(0.96,0.01,0.19,0.41,0.97)  genr=0.19
+gen  31  best= 156.86  mean= 144.41  near=Pavlov     p=(1.00,0.06,0.32,0.24,1.00)  genr=0.32
+gen  32  best= 156.71  mean= 144.16  near=Pavlov     p=(0.81,0.00,0.11,0.20,1.00)  genr=0.11
+gen  33  best= 156.71  mean= 142.75  near=Pavlov     p=(0.90,0.00,0.15,0.37,1.00)  genr=0.15
+gen  34  best= 158.00  mean= 145.46  near=Pavlov     p=(0.98,0.11,0.16,0.24,1.00)  genr=0.16
+CHAMPION evolved-m1  p=(0.98,0.11,0.16,0.24,1.00)  nearest=Pavlov (L1=1.31)  generosity=0.16
+Held-out evaluation complete.
+
+=== seed=0 noise=5% ALLC=True ===
+gen   0  best= 171.50  mean= 147.89  near=Pavlov     p=(0.80,0.45,0.08,0.32,0.51)  genr=0.08
+gen   1  best= 174.88  mean= 157.46  near=Pavlov     p=(0.83,0.52,0.09,0.30,0.54)  genr=0.09
+gen   2  best= 173.38  mean= 160.51  near=Pavlov     p=(0.90,0.11,0.62,0.28,0.90)  genr=0.62
+gen   3  best= 172.75  mean= 161.36  near=Pavlov     p=(0.99,0.09,0.64,0.29,0.89)  genr=0.64
+gen   4  best= 178.62  mean= 162.34  near=Pavlov     p=(0.70,0.32,0.11,0.18,0.53)  genr=0.11
+gen   5  best= 181.12  mean= 163.62  near=Pavlov     p=(0.92,0.34,0.27,0.29,0.45)  genr=0.27
+gen   6  best= 175.50  mean= 159.62  near=Pavlov     p=(0.77,0.39,0.28,0.38,0.64)  genr=0.28
+gen   7  best= 178.00  mean= 160.88  near=Pavlov     p=(0.71,0.34,0.40,0.39,0.64)  genr=0.40
+gen   8  best= 177.25  mean= 159.96  near=Pavlov     p=(0.86,0.37,0.09,0.21,0.70)  genr=0.09
+gen   9  best= 179.12  mean= 162.07  near=Pavlov     p=(0.75,0.33,0.21,0.35,0.84)  genr=0.21
+gen  10  best= 177.75  mean= 165.38  near=Pavlov     p=(0.75,0.34,0.19,0.37,0.88)  genr=0.19
+gen  11  best= 178.62  mean= 163.38  near=Pavlov     p=(0.74,0.25,0.14,0.16,0.75)  genr=0.14
+gen  12  best= 181.38  mean= 164.82  near=Pavlov     p=(0.74,0.34,0.24,0.31,0.92)  genr=0.24
+gen  13  best= 183.50  mean= 163.82  near=Pavlov     p=(0.74,0.29,0.21,0.22,0.82)  genr=0.21
+gen  14  best= 179.38  mean= 165.81  near=Pavlov     p=(0.76,0.18,0.23,0.21,0.61)  genr=0.23
+gen  15  best= 181.62  mean= 168.14  near=Pavlov     p=(0.65,0.31,0.13,0.19,0.68)  genr=0.13
+gen  16  best= 179.00  mean= 166.41  near=ALLD       p=(0.55,0.07,0.15,0.19,0.80)  genr=0.15
+gen  17  best= 182.88  mean= 170.19  near=Pavlov     p=(0.68,0.06,0.25,0.17,0.84)  genr=0.25
+gen  18  best= 179.12  mean= 168.93  near=ALLD       p=(0.70,0.16,0.14,0.29,0.60)  genr=0.14
+gen  19  best= 183.62  mean= 171.43  near=Pavlov     p=(0.66,0.02,0.24,0.00,0.89)  genr=0.24
+gen  20  best= 184.25  mean= 172.58  near=Pavlov     p=(0.63,0.02,0.18,0.03,0.91)  genr=0.18
+gen  21  best= 183.00  mean= 172.81  near=Pavlov     p=(0.77,0.00,0.16,0.00,0.85)  genr=0.16
+gen  22  best= 185.12  mean= 173.86  near=ALLD       p=(0.57,0.09,0.21,0.00,0.82)  genr=0.21
+gen  23  best= 184.38  mean= 172.72  near=Pavlov     p=(0.68,0.12,0.30,0.00,0.93)  genr=0.30
+gen  24  best= 184.62  mean= 173.68  near=Pavlov     p=(0.63,0.14,0.30,0.01,0.99)  genr=0.30
+gen  25  best= 181.88  mean= 174.49  near=ALLD       p=(0.52,0.12,0.27,0.19,0.67)  genr=0.27
+gen  26  best= 182.38  mean= 171.31  near=Pavlov     p=(0.54,0.13,0.36,0.00,1.00)  genr=0.36
+gen  27  best= 184.25  mean= 171.82  near=Pavlov     p=(0.64,0.00,0.27,0.17,0.90)  genr=0.27
+gen  28  best= 182.38  mean= 172.51  near=Pavlov     p=(0.59,0.12,0.37,0.00,1.00)  genr=0.37
+gen  29  best= 183.88  mean= 172.17  near=Pavlov     p=(0.72,0.04,0.33,0.06,0.93)  genr=0.33
+gen  30  best= 184.38  mean= 172.14  near=Pavlov     p=(0.58,0.19,0.39,0.00,0.97)  genr=0.39
+gen  31  best= 182.12  mean= 173.48  near=Pavlov     p=(0.62,0.05,0.23,0.00,1.00)  genr=0.23
+gen  32  best= 184.25  mean= 174.42  near=Pavlov     p=(0.57,0.01,0.35,0.16,0.98)  genr=0.35
+gen  33  best= 183.50  mean= 171.73  near=ALLD       p=(0.63,0.00,0.16,0.10,0.74)  genr=0.16
+gen  34  best= 183.12  mean= 174.39  near=Pavlov     p=(0.57,0.25,0.42,0.00,0.95)  genr=0.42
+CHAMPION evolved-m1  p=(0.57,0.25,0.42,0.00,0.95)  nearest=Pavlov (L1=1.65)  generosity=0.42
+Held-out evaluation complete.
+
+=== seed=1 noise=0% ALLC=False ===
+gen   0  best= 147.86  mean= 126.15  near=GTFT(0.1)  p=(0.74,0.81,0.52,0.56,0.43)  genr=0.52
+gen   1  best= 153.57  mean= 131.06  near=GTFT(0.1)  p=(0.73,0.79,0.46,0.55,0.42)  genr=0.46
+gen   2  best= 164.14  mean= 134.74  near=GTFT(0.1)  p=(0.65,1.00,0.38,0.85,0.70)  genr=0.38
+gen   3  best= 167.71  mean= 136.15  near=GTFT(0.1)  p=(0.70,1.00,0.27,0.74,0.74)  genr=0.27
+gen   4  best= 165.00  mean= 142.83  near=GTFT(0.1)  p=(0.70,1.00,0.27,0.74,0.74)  genr=0.27
+gen   5  best= 169.57  mean= 146.71  near=GTFT(0.1)  p=(0.75,1.00,0.17,0.88,0.72)  genr=0.17
+gen   6  best= 169.14  mean= 146.62  near=GTFT(0.1)  p=(0.68,1.00,0.20,0.84,0.73)  genr=0.20
+gen   7  best= 170.71  mean= 156.39  near=GTFT(0.1)  p=(0.76,1.00,0.17,0.83,0.67)  genr=0.17
+gen   8  best= 171.14  mean= 151.95  near=GTFT(0.1)  p=(1.00,1.00,0.17,0.90,0.70)  genr=0.17
+gen   9  best= 169.00  mean= 151.18  near=GTFT(0.1)  p=(0.64,1.00,0.14,0.83,0.71)  genr=0.14
+gen  10  best= 169.57  mean= 150.91  near=GTFT(0.1)  p=(0.74,1.00,0.20,0.73,0.74)  genr=0.20
+gen  11  best= 171.57  mean= 151.47  near=GTFT(0.1)  p=(0.81,1.00,0.29,0.71,0.53)  genr=0.29
+gen  12  best= 169.14  mean= 151.94  near=GTFT(0.1)  p=(0.83,1.00,0.13,0.89,0.51)  genr=0.13
+gen  13  best= 172.71  mean= 156.43  near=GTFT(0.1)  p=(0.78,1.00,0.19,0.86,0.44)  genr=0.19
+gen  14  best= 171.14  mean= 154.83  near=GTFT(0.1)  p=(0.78,1.00,0.19,0.86,0.44)  genr=0.19
+gen  15  best= 173.71  mean= 156.46  near=GTFT(0.1)  p=(0.85,1.00,0.21,0.94,0.39)  genr=0.21
+gen  16  best= 171.00  mean= 155.33  near=GTFT(0.1)  p=(0.85,1.00,0.21,0.94,0.39)  genr=0.21
+gen  17  best= 174.29  mean= 158.79  near=GTFT(0.1)  p=(0.82,1.00,0.08,1.00,0.53)  genr=0.08
+gen  18  best= 175.29  mean= 160.86  near=GTFT(0.1)  p=(0.84,1.00,0.13,0.74,0.26)  genr=0.13
+gen  19  best= 176.29  mean= 158.66  near=GTFT(0.1)  p=(0.81,1.00,0.11,0.73,0.21)  genr=0.11
+gen  20  best= 174.43  mean= 156.44  near=GTFT(0.1)  p=(0.89,1.00,0.19,0.74,0.29)  genr=0.19
+gen  21  best= 174.86  mean= 155.84  near=GTFT(0.1)  p=(0.88,1.00,0.07,0.71,0.20)  genr=0.07
+gen  22  best= 180.29  mean= 157.29  near=GTFT(0.1)  p=(0.95,1.00,0.15,0.66,0.14)  genr=0.15
+gen  23  best= 181.14  mean= 157.83  near=GTFT(0.1)  p=(1.00,1.00,0.21,0.69,0.06)  genr=0.21
+gen  24  best= 172.57  mean= 152.84  near=GTFT(0.1)  p=(1.00,1.00,0.21,0.69,0.06)  genr=0.21
+gen  25  best= 182.29  mean= 151.44  near=GTFT(0.1)  p=(1.00,1.00,0.25,0.64,0.12)  genr=0.25
+gen  26  best= 177.43  mean= 155.71  near=GTFT(0.1)  p=(0.98,1.00,0.35,0.80,0.11)  genr=0.35
+gen  27  best= 176.29  mean= 161.36  near=GTFT(0.1)  p=(1.00,1.00,0.43,0.71,0.14)  genr=0.43
+gen  28  best= 178.71  mean= 158.26  near=TFT        p=(0.95,1.00,0.26,0.79,0.00)  genr=0.26
+gen  29  best= 181.57  mean= 158.08  near=TFT        p=(0.95,1.00,0.35,0.74,0.00)  genr=0.35
+gen  30  best= 177.71  mean= 157.90  near=GTFT(0.1)  p=(1.00,1.00,0.35,0.70,0.05)  genr=0.35
+gen  31  best= 178.71  mean= 158.01  near=GTFT(0.1)  p=(0.93,1.00,0.35,0.65,0.04)  genr=0.35
+gen  32  best= 180.57  mean= 160.71  near=GTFT(0.1)  p=(0.96,1.00,0.27,0.75,0.01)  genr=0.27
+gen  33  best= 174.29  mean= 156.09  near=GTFT(0.1)  p=(0.88,1.00,0.18,0.83,0.08)  genr=0.18
+gen  34  best= 175.57  mean= 154.66  near=GTFT(0.1)  p=(0.79,1.00,0.25,0.80,0.13)  genr=0.25
+CHAMPION evolved-m1  p=(0.79,1.00,0.25,0.80,0.13)  nearest=GTFT(0.1) (L1=0.60)  generosity=0.25
+Held-out evaluation complete.
+
+=== seed=1 noise=0% ALLC=True ===
+gen   0  best= 169.00  mean= 150.33  near=Pavlov     p=(0.49,0.03,0.04,0.70,0.98)  genr=0.04
+gen   1  best= 173.88  mean= 159.36  near=ALLD       p=(0.48,0.01,0.00,0.69,0.98)  genr=0.00
+gen   2  best= 173.12  mean= 158.80  near=ALLC       p=(0.41,0.91,0.79,0.42,0.48)  genr=0.79
+gen   3  best= 177.38  mean= 158.14  near=Pavlov     p=(0.75,0.22,0.10,0.48,0.78)  genr=0.10
+gen   4  best= 171.50  mean= 161.92  near=ALLD       p=(0.40,0.20,0.20,0.59,0.68)  genr=0.20
+gen   5  best= 177.00  mean= 158.05  near=Pavlov     p=(0.68,0.26,0.07,0.42,0.79)  genr=0.07
+gen   6  best= 174.75  mean= 160.43  near=Pavlov     p=(0.81,0.27,0.17,0.63,0.85)  genr=0.17
+gen   7  best= 175.75  mean= 160.59  near=Pavlov     p=(0.89,0.30,0.14,0.61,0.80)  genr=0.14
+gen   8  best= 174.75  mean= 159.14  near=ALLD       p=(0.37,0.22,0.16,0.48,0.69)  genr=0.16
+gen   9  best= 174.62  mean= 160.59  near=Pavlov     p=(0.72,0.36,0.21,0.46,0.89)  genr=0.21
+gen  10  best= 179.25  mean= 162.91  near=Pavlov     p=(0.61,0.04,0.09,0.34,0.88)  genr=0.09
+gen  11  best= 178.88  mean= 164.11  near=Pavlov     p=(0.71,0.19,0.38,0.26,0.74)  genr=0.38
+gen  12  best= 179.38  mean= 166.71  near=Pavlov     p=(0.83,0.10,0.23,0.27,0.93)  genr=0.23
+gen  13  best= 180.50  mean= 165.19  near=Pavlov     p=(0.88,0.34,0.10,0.16,0.91)  genr=0.10
+gen  14  best= 179.00  mean= 166.70  near=Pavlov     p=(0.85,0.15,0.30,0.07,0.97)  genr=0.30
+gen  15  best= 180.12  mean= 169.04  near=Pavlov     p=(0.80,0.02,0.11,0.07,0.89)  genr=0.11
+gen  16  best= 181.50  mean= 168.53  near=Pavlov     p=(0.70,0.19,0.22,0.00,1.00)  genr=0.22
+gen  17  best= 180.12  mean= 168.93  near=Pavlov     p=(0.87,0.14,0.20,0.11,1.00)  genr=0.20
+gen  18  best= 180.75  mean= 168.21  near=Pavlov     p=(0.51,0.25,0.35,0.06,0.98)  genr=0.35
+gen  19  best= 179.50  mean= 166.93  near=Pavlov     p=(0.81,0.25,0.16,0.12,0.91)  genr=0.16
+gen  20  best= 179.75  mean= 166.75  near=Pavlov     p=(0.65,0.14,0.03,0.12,1.00)  genr=0.03
+gen  21  best= 179.38  mean= 166.91  near=Pavlov     p=(0.87,0.20,0.16,0.08,0.79)  genr=0.16
+gen  22  best= 179.62  mean= 166.56  near=Pavlov     p=(0.75,0.17,0.03,0.17,1.00)  genr=0.03
+gen  23  best= 179.12  mean= 167.09  near=Pavlov     p=(0.78,0.17,0.02,0.19,0.90)  genr=0.02
+gen  24  best= 181.12  mean= 167.26  near=Pavlov     p=(0.98,0.02,0.08,0.00,0.78)  genr=0.08
+gen  25  best= 179.75  mean= 168.88  near=Pavlov     p=(0.85,0.14,0.12,0.07,0.73)  genr=0.12
+gen  26  best= 180.25  mean= 170.75  near=Pavlov     p=(0.98,0.03,0.14,0.01,0.76)  genr=0.14
+gen  27  best= 181.12  mean= 172.24  near=Pavlov     p=(0.77,0.04,0.12,0.17,0.93)  genr=0.12
+gen  28  best= 181.12  mean= 172.01  near=Pavlov     p=(1.00,0.06,0.23,0.05,0.86)  genr=0.23
+gen  29  best= 182.12  mean= 170.47  near=Pavlov     p=(0.99,0.06,0.36,0.01,0.78)  genr=0.36
+gen  30  best= 181.50  mean= 171.99  near=Pavlov     p=(1.00,0.11,0.37,0.00,0.70)  genr=0.37
+gen  31  best= 180.00  mean= 171.95  near=ALLD       p=(0.88,0.06,0.20,0.00,0.50)  genr=0.20
+gen  32  best= 178.38  mean= 171.51  near=ALLD       p=(0.89,0.11,0.14,0.13,0.46)  genr=0.14
+gen  33  best= 180.38  mean= 170.40  near=Pavlov     p=(0.95,0.06,0.28,0.01,0.68)  genr=0.28
+gen  34  best= 180.38  mean= 172.07  near=Pavlov     p=(0.89,0.09,0.00,0.00,1.00)  genr=0.00
+CHAMPION evolved-m1  p=(0.89,0.09,0.00,0.00,1.00)  nearest=Pavlov (L1=1.03)  generosity=0.00
+Held-out evaluation complete.
+
+=== seed=1 noise=5% ALLC=False ===
+gen   0  best= 152.14  mean= 134.55  near=ALLD       p=(0.42,0.03,0.22,0.44,0.50)  genr=0.22
+gen   1  best= 150.29  mean= 136.49  near=ALLD       p=(0.40,0.09,0.04,0.71,0.88)  genr=0.04
+gen   2  best= 151.86  mean= 140.84  near=ALLD       p=(0.40,0.09,0.04,0.71,0.88)  genr=0.04
+gen   3  best= 152.57  mean= 141.46  near=ALLD       p=(0.48,0.01,0.08,0.86,0.98)  genr=0.08
+gen   4  best= 152.57  mean= 139.62  near=ALLD       p=(0.48,0.16,0.12,0.53,0.72)  genr=0.12
+gen   5  best= 149.57  mean= 140.21  near=ALLD       p=(0.54,0.12,0.29,0.14,0.50)  genr=0.29
+gen   6  best= 147.86  mean= 141.61  near=ALLD       p=(0.57,0.01,0.23,0.60,0.69)  genr=0.23
+gen   7  best= 150.71  mean= 142.06  near=ALLD       p=(0.36,0.07,0.08,0.75,0.85)  genr=0.08
+gen   8  best= 154.29  mean= 142.52  near=ALLD       p=(0.32,0.00,0.04,0.78,0.79)  genr=0.04
+gen   9  best= 152.57  mean= 142.04  near=ALLD       p=(0.32,0.00,0.03,0.81,0.90)  genr=0.03
+gen  10  best= 155.71  mean= 142.46  near=ALLD       p=(0.43,0.00,0.10,0.78,1.00)  genr=0.10
+gen  11  best= 153.14  mean= 141.49  near=ALLD       p=(0.29,0.06,0.10,0.78,0.82)  genr=0.10
+gen  12  best= 153.00  mean= 139.52  near=ALLD       p=(0.48,0.07,0.06,0.84,0.93)  genr=0.06
+gen  13  best= 153.29  mean= 140.68  near=ALLD       p=(0.17,0.10,0.15,0.85,0.76)  genr=0.15
+gen  14  best= 153.29  mean= 138.25  near=TFT        p=(0.49,0.17,0.00,0.90,0.88)  genr=0.00
+gen  15  best= 152.29  mean= 141.94  near=ALLD       p=(0.18,0.07,0.00,0.90,0.89)  genr=0.00
+gen  16  best= 154.57  mean= 140.86  near=ALLD       p=(0.27,0.08,0.00,0.98,0.88)  genr=0.00
+gen  17  best= 152.57  mean= 141.23  near=ALLD       p=(0.27,0.08,0.00,0.98,0.88)  genr=0.00
+gen  18  best= 152.57  mean= 140.73  near=ALLD       p=(0.27,0.08,0.00,0.98,0.88)  genr=0.00
+gen  19  best= 155.71  mean= 141.20  near=ALLD       p=(0.12,0.19,0.00,0.78,0.80)  genr=0.00
+gen  20  best= 152.14  mean= 137.29  near=ALLD       p=(0.11,0.09,0.00,0.78,0.77)  genr=0.00
+gen  21  best= 151.14  mean= 138.81  near=ALLD       p=(0.01,0.07,0.00,0.79,0.85)  genr=0.00
+gen  22  best= 156.00  mean= 136.60  near=ALLD       p=(0.16,0.05,0.05,0.93,0.78)  genr=0.05
+gen  23  best= 153.00  mean= 137.91  near=ALLD       p=(0.23,0.12,0.00,0.89,0.75)  genr=0.00
+gen  24  best= 154.86  mean= 138.64  near=ALLD       p=(0.19,0.04,0.00,1.00,0.75)  genr=0.00
+gen  25  best= 151.43  mean= 138.85  near=ALLD       p=(0.19,0.04,0.00,1.00,0.75)  genr=0.00
+gen  26  best= 152.57  mean= 138.78  near=ALLD       p=(0.18,0.15,0.06,0.94,0.75)  genr=0.06
+gen  27  best= 158.00  mean= 140.40  near=ALLD       p=(0.13,0.09,0.00,0.93,0.71)  genr=0.00
+gen  28  best= 151.57  mean= 137.69  near=ALLD       p=(0.08,0.29,0.00,0.93,0.71)  genr=0.00
+gen  29  best= 155.29  mean= 139.99  near=ALLD       p=(0.12,0.24,0.03,0.78,0.72)  genr=0.03
+gen  30  best= 153.86  mean= 138.96  near=ALLD       p=(0.00,0.17,0.03,0.93,0.71)  genr=0.03
+gen  31  best= 152.29  mean= 137.90  near=ALLD       p=(0.00,0.15,0.02,0.98,0.75)  genr=0.02
+gen  32  best= 154.86  mean= 141.16  near=ALLD       p=(0.00,0.12,0.00,0.97,0.84)  genr=0.00
+gen  33  best= 152.86  mean= 138.78  near=ALLD       p=(0.00,0.32,0.10,1.00,0.75)  genr=0.10
+gen  34  best= 154.43  mean= 136.64  near=ALLD       p=(0.00,0.32,0.16,0.97,0.80)  genr=0.16
+CHAMPION evolved-m1  p=(0.00,0.32,0.16,0.97,0.80)  nearest=ALLD (L1=2.25)  generosity=0.16
+Held-out evaluation complete.
+
+=== seed=1 noise=5% ALLC=True ===
+gen   0  best= 176.88  mean= 155.87  near=ALLD       p=(0.42,0.03,0.22,0.44,0.50)  genr=0.22
+gen   1  best= 172.38  mean= 159.14  near=Pavlov     p=(0.52,0.05,0.02,0.68,0.98)  genr=0.02
+gen   2  best= 174.38  mean= 165.76  near=Pavlov     p=(0.52,0.05,0.02,0.68,0.98)  genr=0.02
+gen   3  best= 176.62  mean= 165.76  near=Pavlov     p=(0.57,0.61,0.78,0.00,0.43)  genr=0.78
+gen   4  best= 174.88  mean= 162.57  near=ALLD       p=(0.56,0.10,0.10,0.55,0.75)  genr=0.10
+gen   5  best= 174.75  mean= 165.22  near=GTFT(0.1)  p=(0.57,0.27,0.17,0.64,0.61)  genr=0.17
+gen   6  best= 173.62  mean= 161.78  near=GTFT(0.1)  p=(0.49,0.39,0.20,0.61,0.62)  genr=0.20
+gen   7  best= 172.12  mean= 164.16  near=Pavlov     p=(0.65,0.61,0.67,0.08,0.61)  genr=0.67
+gen   8  best= 171.88  mean= 162.40  near=ALLD       p=(0.38,0.25,0.15,0.58,0.71)  genr=0.15
+gen   9  best= 173.75  mean= 162.49  near=ALLD       p=(0.37,0.13,0.14,0.60,0.76)  genr=0.14
+gen  10  best= 175.50  mean= 164.85  near=ALLD       p=(0.39,0.06,0.19,0.36,0.60)  genr=0.19
+gen  11  best= 174.62  mean= 164.62  near=ALLD       p=(0.55,0.21,0.38,0.22,0.64)  genr=0.38
+gen  12  best= 175.00  mean= 160.64  near=ALLD       p=(0.51,0.05,0.23,0.33,0.77)  genr=0.23
+gen  13  best= 174.50  mean= 164.67  near=Pavlov     p=(0.47,0.43,0.28,0.31,0.73)  genr=0.28
+gen  14  best= 177.12  mean= 165.28  near=Pavlov     p=(0.54,0.37,0.31,0.13,0.76)  genr=0.31
+gen  15  best= 176.00  mean= 168.89  near=Pavlov     p=(0.61,0.29,0.22,0.16,0.88)  genr=0.22
+gen  16  best= 176.00  mean= 168.96  near=Pavlov     p=(0.78,0.26,0.34,0.14,0.81)  genr=0.34
+gen  17  best= 177.88  mean= 169.60  near=Pavlov     p=(0.74,0.23,0.13,0.05,0.90)  genr=0.13
+gen  18  best= 179.50  mean= 169.37  near=Pavlov     p=(0.67,0.33,0.25,0.09,0.92)  genr=0.25
+gen  19  best= 179.38  mean= 169.97  near=Pavlov     p=(0.67,0.12,0.36,0.09,0.83)  genr=0.36
+gen  20  best= 179.38  mean= 171.91  near=Pavlov     p=(0.69,0.31,0.00,0.17,0.83)  genr=0.00
+gen  21  best= 179.00  mean= 170.93  near=Pavlov     p=(0.60,0.14,0.46,0.08,0.87)  genr=0.46
+gen  22  best= 179.50  mean= 172.62  near=Pavlov     p=(0.77,0.21,0.18,0.02,0.97)  genr=0.18
+gen  23  best= 178.62  mean= 171.64  near=Pavlov     p=(0.78,0.21,0.13,0.00,1.00)  genr=0.13
+gen  24  best= 181.75  mean= 172.19  near=Pavlov     p=(0.82,0.12,0.25,0.00,0.83)  genr=0.25
+gen  25  best= 180.00  mean= 173.82  near=Pavlov     p=(0.87,0.05,0.39,0.03,0.90)  genr=0.39
+gen  26  best= 180.62  mean= 174.29  near=Pavlov     p=(0.69,0.11,0.15,0.00,0.83)  genr=0.15
+gen  27  best= 180.75  mean= 173.59  near=Pavlov     p=(0.77,0.32,0.20,0.00,0.95)  genr=0.20
+gen  28  best= 181.50  mean= 173.09  near=Pavlov     p=(0.83,0.21,0.25,0.04,0.72)  genr=0.25
+gen  29  best= 181.62  mean= 172.85  near=Pavlov     p=(0.84,0.03,0.16,0.00,0.89)  genr=0.16
+gen  30  best= 180.38  mean= 174.65  near=Pavlov     p=(0.77,0.06,0.23,0.00,0.90)  genr=0.23
+gen  31  best= 182.38  mean= 175.47  near=Pavlov     p=(1.00,0.00,0.05,0.00,0.74)  genr=0.05
+gen  32  best= 182.88  mean= 174.84  near=Pavlov     p=(0.99,0.06,0.10,0.00,0.78)  genr=0.10
+gen  33  best= 181.50  mean= 175.64  near=Pavlov     p=(0.76,0.11,0.05,0.00,0.68)  genr=0.05
+gen  34  best= 181.25  mean= 175.81  near=Pavlov     p=(0.91,0.06,0.03,0.00,0.84)  genr=0.03
+CHAMPION evolved-m1  p=(0.91,0.06,0.03,0.00,0.84)  nearest=Pavlov (L1=1.22)  generosity=0.03
+Held-out evaluation complete.
+
+=== seed=2 noise=0% ALLC=False ===
+gen   0  best= 152.29  mean= 129.26  near=ALLC       p=(0.76,0.79,0.35,0.98,0.96)  genr=0.35
+gen   1  best= 160.71  mean= 135.64  near=ALLC       p=(0.90,1.00,0.47,0.58,0.93)  genr=0.47
+gen   2  best= 164.29  mean= 134.94  near=GTFT(0.1)  p=(0.59,1.00,0.22,0.68,0.75)  genr=0.22
+gen   3  best= 168.57  mean= 136.63  near=Pavlov     p=(0.97,0.98,0.43,0.46,0.92)  genr=0.43
+gen   4  best= 190.71  mean= 144.75  near=ALLC       p=(0.90,1.00,0.55,0.60,0.92)  genr=0.55
+gen   5  best= 167.43  mean= 148.68  near=GTFT(0.1)  p=(0.88,1.00,0.42,0.61,0.64)  genr=0.42
+gen   6  best= 168.29  mean= 151.91  near=Pavlov     p=(0.87,1.00,0.40,0.52,0.99)  genr=0.40
+gen   7  best= 190.00  mean= 151.68  near=Pavlov     p=(0.99,0.99,0.35,0.53,0.72)  genr=0.35
+gen   8  best= 165.29  mean= 150.09  near=Pavlov     p=(0.86,0.99,0.60,0.33,0.97)  genr=0.60
+gen   9  best= 169.14  mean= 153.24  near=GTFT(0.1)  p=(0.99,1.00,0.30,0.67,0.68)  genr=0.30
+gen  10  best= 169.14  mean= 152.71  near=Pavlov     p=(0.93,1.00,0.34,0.29,0.96)  genr=0.34
+gen  11  best= 169.29  mean= 152.40  near=Pavlov     p=(0.98,1.00,0.31,0.57,0.76)  genr=0.31
+gen  12  best= 170.86  mean= 154.45  near=GTFT(0.1)  p=(0.85,1.00,0.26,0.81,0.76)  genr=0.26
+gen  13  best= 170.71  mean= 155.92  near=GTFT(0.1)  p=(0.75,1.00,0.36,0.74,0.47)  genr=0.36
+gen  14  best= 193.86  mean= 160.76  near=GTFT(0.1)  p=(0.75,1.00,0.36,0.74,0.47)  genr=0.36
+gen  15  best= 193.86  mean= 154.14  near=GTFT(0.1)  p=(0.75,1.00,0.36,0.74,0.47)  genr=0.36
+gen  16  best= 195.57  mean= 159.64  near=GTFT(0.1)  p=(0.70,1.00,0.44,0.77,0.52)  genr=0.44
+gen  17  best= 193.43  mean= 158.40  near=GTFT(0.1)  p=(0.70,1.00,0.44,0.77,0.52)  genr=0.44
+gen  18  best= 193.43  mean= 155.77  near=GTFT(0.1)  p=(0.70,1.00,0.44,0.77,0.52)  genr=0.44
+gen  19  best= 193.43  mean= 158.04  near=GTFT(0.1)  p=(0.70,1.00,0.44,0.77,0.52)  genr=0.44
+gen  20  best= 196.43  mean= 158.64  near=GTFT(0.1)  p=(0.66,1.00,0.39,0.72,0.43)  genr=0.39
+gen  21  best= 194.57  mean= 153.19  near=GTFT(0.1)  p=(0.66,1.00,0.39,0.72,0.43)  genr=0.39
+gen  22  best= 194.57  mean= 156.82  near=GTFT(0.1)  p=(0.66,1.00,0.39,0.72,0.43)  genr=0.39
+gen  23  best= 194.57  mean= 156.99  near=GTFT(0.1)  p=(0.66,1.00,0.39,0.72,0.43)  genr=0.39
+gen  24  best= 194.57  mean= 154.10  near=GTFT(0.1)  p=(0.66,1.00,0.39,0.72,0.43)  genr=0.39
+gen  25  best= 195.43  mean= 158.70  near=GTFT(0.1)  p=(0.65,1.00,0.44,0.79,0.52)  genr=0.44
+gen  26  best= 193.43  mean= 152.56  near=GTFT(0.1)  p=(0.65,1.00,0.44,0.79,0.52)  genr=0.44
+gen  27  best= 193.43  mean= 155.48  near=GTFT(0.1)  p=(0.65,1.00,0.44,0.79,0.52)  genr=0.44
+gen  28  best= 193.43  mean= 161.13  near=GTFT(0.1)  p=(0.65,1.00,0.44,0.79,0.52)  genr=0.44
+gen  29  best= 193.43  mean= 161.71  near=GTFT(0.1)  p=(0.65,1.00,0.44,0.79,0.52)  genr=0.44
+gen  30  best= 193.43  mean= 154.29  near=GTFT(0.1)  p=(0.65,1.00,0.44,0.79,0.52)  genr=0.44
+gen  31  best= 193.43  mean= 153.17  near=GTFT(0.1)  p=(0.65,1.00,0.44,0.79,0.52)  genr=0.44
+gen  32  best= 193.43  mean= 153.69  near=GTFT(0.1)  p=(0.65,1.00,0.44,0.79,0.52)  genr=0.44
+gen  33  best= 193.43  mean= 165.69  near=GTFT(0.1)  p=(0.65,1.00,0.44,0.79,0.52)  genr=0.44
+gen  34  best= 195.43  mean= 158.64  near=GTFT(0.1)  p=(0.65,0.98,0.50,0.78,0.39)  genr=0.50
+CHAMPION evolved-m1  p=(0.65,0.98,0.50,0.78,0.39)  nearest=GTFT(0.1) (L1=1.27)  generosity=0.50
+Held-out evaluation complete.
+
+=== seed=2 noise=0% ALLC=True ===
+gen   0  best= 168.38  mean= 150.84  near=ALLC       p=(0.96,0.71,0.50,0.52,0.65)  genr=0.50
+gen   1  best= 181.75  mean= 155.60  near=GTFT(0.1)  p=(0.90,1.00,0.52,0.54,0.18)  genr=0.52
+gen   2  best= 178.75  mean= 158.74  near=GTFT(0.1)  p=(0.90,1.00,0.52,0.54,0.18)  genr=0.52
+gen   3  best= 178.75  mean= 162.87  near=GTFT(0.1)  p=(0.90,1.00,0.52,0.54,0.18)  genr=0.52
+gen   4  best= 178.75  mean= 161.84  near=GTFT(0.1)  p=(0.90,1.00,0.52,0.54,0.18)  genr=0.52
+gen   5  best= 178.75  mean= 160.78  near=GTFT(0.1)  p=(0.90,1.00,0.52,0.54,0.18)  genr=0.52
+gen   6  best= 178.75  mean= 164.89  near=GTFT(0.1)  p=(0.90,1.00,0.52,0.54,0.18)  genr=0.52
+gen   7  best= 198.38  mean= 163.20  near=GTFT(0.1)  p=(1.00,0.99,0.33,0.37,0.31)  genr=0.33
+gen   8  best= 184.12  mean= 162.79  near=GTFT(0.1)  p=(0.89,0.99,0.41,0.67,0.13)  genr=0.41
+gen   9  best= 183.75  mean= 164.46  near=GTFT(0.1)  p=(0.87,1.00,0.44,0.64,0.15)  genr=0.44
+gen  10  best= 181.25  mean= 167.18  near=GTFT(0.1)  p=(0.98,1.00,0.36,0.74,0.13)  genr=0.36
+gen  11  best= 184.88  mean= 160.28  near=GTFT(0.1)  p=(0.98,1.00,0.39,0.69,0.16)  genr=0.39
+gen  12  best= 183.62  mean= 167.70  near=GTFT(0.1)  p=(0.90,1.00,0.41,0.61,0.40)  genr=0.41
+gen  13  best= 186.75  mean= 168.08  near=GTFT(0.1)  p=(0.91,1.00,0.42,0.70,0.07)  genr=0.42
+gen  14  best= 185.12  mean= 171.86  near=GTFT(0.1)  p=(0.74,1.00,0.33,0.52,0.47)  genr=0.33
+gen  15  best= 199.12  mean= 167.89  near=GTFT(0.1)  p=(0.74,1.00,0.33,0.52,0.47)  genr=0.33
+gen  16  best= 203.00  mean= 172.72  near=GTFT(0.1)  p=(0.69,1.00,0.41,0.55,0.51)  genr=0.41
+gen  17  best= 197.88  mean= 171.37  near=GTFT(0.1)  p=(0.69,1.00,0.41,0.55,0.51)  genr=0.41
+gen  18  best= 197.88  mean= 168.38  near=GTFT(0.1)  p=(0.69,1.00,0.41,0.55,0.51)  genr=0.41
+gen  19  best= 197.88  mean= 170.78  near=GTFT(0.1)  p=(0.69,1.00,0.41,0.55,0.51)  genr=0.41
+gen  20  best= 197.88  mean= 168.55  near=GTFT(0.1)  p=(0.69,1.00,0.41,0.55,0.51)  genr=0.41
+gen  21  best= 197.88  mean= 165.38  near=GTFT(0.1)  p=(0.69,1.00,0.41,0.55,0.51)  genr=0.41
+gen  22  best= 197.88  mean= 170.24  near=GTFT(0.1)  p=(0.69,1.00,0.41,0.55,0.51)  genr=0.41
+gen  23  best= 197.88  mean= 169.61  near=GTFT(0.1)  p=(0.69,1.00,0.41,0.55,0.51)  genr=0.41
+gen  24  best= 202.38  mean= 172.06  near=GTFT(0.1)  p=(0.66,1.00,0.49,0.65,0.50)  genr=0.49
+gen  25  best= 198.25  mean= 170.13  near=GTFT(0.1)  p=(0.66,1.00,0.49,0.65,0.50)  genr=0.49
+gen  26  best= 198.25  mean= 165.12  near=GTFT(0.1)  p=(0.66,1.00,0.49,0.65,0.50)  genr=0.49
+gen  27  best= 198.25  mean= 165.11  near=GTFT(0.1)  p=(0.66,1.00,0.49,0.65,0.50)  genr=0.49
+gen  28  best= 198.25  mean= 166.84  near=GTFT(0.1)  p=(0.66,1.00,0.49,0.65,0.50)  genr=0.49
+gen  29  best= 198.25  mean= 168.94  near=GTFT(0.1)  p=(0.66,1.00,0.49,0.65,0.50)  genr=0.49
+gen  30  best= 198.25  mean= 163.20  near=GTFT(0.1)  p=(0.66,1.00,0.49,0.65,0.50)  genr=0.49
+gen  31  best= 203.12  mean= 162.41  near=GTFT(0.1)  p=(0.63,0.99,0.43,0.53,0.32)  genr=0.43
+gen  32  best= 204.50  mean= 164.72  near=GTFT(0.1)  p=(0.63,1.00,0.34,0.36,0.40)  genr=0.34
+gen  33  best= 199.38  mean= 170.26  near=GTFT(0.1)  p=(0.60,1.00,0.28,0.27,0.33)  genr=0.28
+gen  34  best= 197.75  mean= 165.65  near=Pavlov     p=(0.60,0.98,0.53,0.31,0.44)  genr=0.53
+CHAMPION evolved-m1  p=(0.60,0.98,0.53,0.31,0.44)  nearest=Pavlov (L1=1.81)  generosity=0.53
+Held-out evaluation complete.
+
+=== seed=2 noise=5% ALLC=False ===
+gen   0  best= 157.00  mean= 135.08  near=GTFT(0.1)  p=(0.49,0.92,0.50,0.83,0.35)  genr=0.50
+gen   1  best= 153.00  mean= 137.49  near=GTFT(0.1)  p=(0.29,0.85,0.12,0.71,0.39)  genr=0.12
+gen   2  best= 153.86  mean= 136.89  near=GTFT(0.1)  p=(0.29,0.77,0.04,0.71,0.37)  genr=0.04
+gen   3  best= 158.43  mean= 138.92  near=GTFT(0.1)  p=(0.37,0.97,0.42,0.68,0.31)  genr=0.42
+gen   4  best= 155.86  mean= 136.66  near=GTFT(0.1)  p=(0.23,0.80,0.18,0.86,0.31)  genr=0.18
+gen   5  best= 152.00  mean= 136.91  near=GTFT(0.1)  p=(0.31,0.74,0.29,0.61,0.28)  genr=0.29
+gen   6  best= 154.00  mean= 138.06  near=GTFT(0.1)  p=(0.27,0.81,0.04,0.86,0.25)  genr=0.04
+gen   7  best= 151.29  mean= 139.74  near=TFT        p=(0.30,0.76,0.00,0.88,0.15)  genr=0.00
+gen   8  best= 160.43  mean= 140.06  near=GTFT(0.1)  p=(0.36,0.80,0.13,0.77,0.24)  genr=0.13
+gen   9  best= 157.14  mean= 138.51  near=TFT        p=(0.33,0.86,0.00,0.71,0.36)  genr=0.00
+gen  10  best= 162.43  mean= 139.53  near=GTFT(0.1)  p=(0.33,0.86,0.19,0.77,0.27)  genr=0.19
+gen  11  best= 154.57  mean= 138.46  near=GTFT(0.1)  p=(0.16,0.70,0.14,0.66,0.27)  genr=0.14
+gen  12  best= 159.43  mean= 139.11  near=GTFT(0.1)  p=(0.28,0.91,0.15,0.67,0.25)  genr=0.15
+gen  13  best= 160.71  mean= 140.03  near=GTFT(0.1)  p=(0.33,1.00,0.01,0.72,0.18)  genr=0.01
+gen  14  best= 158.00  mean= 140.66  near=GTFT(0.1)  p=(0.23,0.65,0.12,0.77,0.28)  genr=0.12
+gen  15  best= 153.43  mean= 137.64  near=GTFT(0.1)  p=(0.26,0.78,0.09,0.74,0.19)  genr=0.09
+gen  16  best= 157.57  mean= 139.57  near=GTFT(0.1)  p=(0.32,0.78,0.13,0.77,0.20)  genr=0.13
+gen  17  best= 157.71  mean= 140.91  near=GTFT(0.1)  p=(0.18,0.87,0.11,0.74,0.20)  genr=0.11
+gen  18  best= 156.43  mean= 140.49  near=GTFT(0.1)  p=(0.27,0.89,0.18,0.60,0.27)  genr=0.18
+gen  19  best= 162.14  mean= 140.31  near=GTFT(0.1)  p=(0.42,0.94,0.17,0.67,0.28)  genr=0.17
+gen  20  best= 157.86  mean= 139.75  near=GTFT(0.1)  p=(0.12,0.80,0.10,0.61,0.20)  genr=0.10
+gen  21  best= 158.14  mean= 141.01  near=TFT        p=(0.33,0.94,0.00,0.65,0.33)  genr=0.00
+gen  22  best= 160.14  mean= 139.06  near=GTFT(0.1)  p=(0.16,0.90,0.01,0.59,0.16)  genr=0.01
+gen  23  best= 152.43  mean= 140.79  near=GTFT(0.1)  p=(0.28,0.91,0.13,0.68,0.29)  genr=0.13
+gen  24  best= 160.71  mean= 142.72  near=GTFT(0.1)  p=(0.30,0.97,0.13,0.63,0.46)  genr=0.13
+gen  25  best= 160.86  mean= 141.83  near=GTFT(0.1)  p=(0.31,1.00,0.11,0.58,0.47)  genr=0.11
+gen  26  best= 156.29  mean= 142.18  near=GTFT(0.1)  p=(0.27,0.98,0.18,0.59,0.50)  genr=0.18
+gen  27  best= 172.43  mean= 141.54  near=GTFT(0.1)  p=(0.40,0.99,0.04,0.58,0.43)  genr=0.04
+gen  28  best= 174.86  mean= 141.84  near=GTFT(0.1)  p=(0.28,0.98,0.14,0.69,0.49)  genr=0.14
+gen  29  best= 170.86  mean= 143.81  near=GTFT(0.1)  p=(0.17,0.99,0.22,0.48,0.40)  genr=0.22
+gen  30  best= 167.00  mean= 143.89  near=GTFT(0.1)  p=(0.34,1.00,0.05,0.67,0.38)  genr=0.05
+gen  31  best= 165.43  mean= 142.35  near=GTFT(0.1)  p=(0.10,0.96,0.14,0.35,0.36)  genr=0.14
+gen  32  best= 158.57  mean= 142.60  near=GTFT(0.1)  p=(0.22,0.88,0.13,0.50,0.34)  genr=0.13
+gen  33  best= 159.43  mean= 145.63  near=GTFT(0.1)  p=(0.33,1.00,0.11,0.63,0.46)  genr=0.11
+gen  34  best= 166.86  mean= 142.48  near=GTFT(0.1)  p=(0.43,1.00,0.12,0.69,0.40)  genr=0.12
+CHAMPION evolved-m1  p=(0.43,1.00,0.12,0.69,0.40)  nearest=GTFT(0.1) (L1=1.20)  generosity=0.12
+Held-out evaluation complete.
+
+=== seed=2 noise=5% ALLC=True ===
+gen   0  best= 176.12  mean= 154.97  near=Pavlov     p=(0.72,0.49,0.22,0.32,0.70)  genr=0.22
+gen   1  best= 171.88  mean= 159.75  near=Pavlov     p=(0.65,0.52,0.30,0.37,0.76)  genr=0.30
+gen   2  best= 170.62  mean= 160.64  near=Pavlov     p=(0.65,0.44,0.22,0.37,0.75)  genr=0.22
+gen   3  best= 177.00  mean= 161.57  near=Pavlov     p=(0.67,0.47,0.23,0.27,0.77)  genr=0.23
+gen   4  best= 177.00  mean= 164.51  near=Pavlov     p=(0.59,0.50,0.16,0.31,0.65)  genr=0.16
+gen   5  best= 178.38  mean= 163.88  near=Pavlov     p=(0.76,0.53,0.14,0.25,0.58)  genr=0.14
+gen   6  best= 177.62  mean= 164.82  near=Pavlov     p=(0.71,0.41,0.22,0.31,0.73)  genr=0.22
+gen   7  best= 183.12  mean= 167.26  near=Pavlov     p=(0.57,0.39,0.10,0.17,0.67)  genr=0.10
+gen   8  best= 183.12  mean= 168.56  near=Pavlov     p=(0.71,0.42,0.11,0.15,0.64)  genr=0.11
+gen   9  best= 179.88  mean= 169.07  near=Pavlov     p=(0.71,0.56,0.19,0.26,0.59)  genr=0.19
+gen  10  best= 181.25  mean= 167.48  near=Pavlov     p=(0.84,0.45,0.00,0.13,0.66)  genr=0.00
+gen  11  best= 182.25  mean= 168.74  near=Pavlov     p=(0.72,0.40,0.05,0.18,0.60)  genr=0.05
+gen  12  best= 182.50  mean= 171.16  near=Pavlov     p=(0.82,0.40,0.10,0.21,0.70)  genr=0.10
+gen  13  best= 181.50  mean= 171.03  near=Pavlov     p=(0.75,0.24,0.14,0.12,0.55)  genr=0.14
+gen  14  best= 182.12  mean= 171.66  near=Pavlov     p=(0.67,0.59,0.00,0.00,0.54)  genr=0.00
+gen  15  best= 181.38  mean= 171.86  near=Pavlov     p=(0.80,0.43,0.09,0.13,0.67)  genr=0.09
+gen  16  best= 179.62  mean= 171.01  near=Pavlov     p=(0.78,0.38,0.04,0.07,0.51)  genr=0.04
+gen  17  best= 182.75  mean= 170.91  near=Pavlov     p=(0.76,0.35,0.00,0.18,0.44)  genr=0.00
+gen  18  best= 181.25  mean= 171.31  near=ALLD       p=(0.72,0.20,0.09,0.09,0.40)  genr=0.09
+gen  19  best= 182.62  mean= 171.15  near=Pavlov     p=(0.91,0.33,0.08,0.08,0.48)  genr=0.08
+gen  20  best= 181.25  mean= 170.76  near=Pavlov     p=(0.87,0.32,0.00,0.09,0.41)  genr=0.00
+gen  21  best= 183.62  mean= 172.79  near=Pavlov     p=(0.80,0.36,0.07,0.04,0.48)  genr=0.07
+gen  22  best= 183.00  mean= 171.86  near=Pavlov     p=(1.00,0.30,0.07,0.09,0.51)  genr=0.07
+gen  23  best= 183.38  mean= 172.69  near=Pavlov     p=(0.83,0.47,0.19,0.05,0.46)  genr=0.19
+gen  24  best= 185.00  mean= 171.83  near=ALLD       p=(0.45,0.31,0.00,0.00,0.52)  genr=0.00
+gen  25  best= 185.50  mean= 172.48  near=ALLD       p=(0.46,0.34,0.08,0.00,0.54)  genr=0.08
+gen  26  best= 182.12  mean= 171.79  near=ALLD       p=(0.78,0.20,0.15,0.00,0.46)  genr=0.15
+gen  27  best= 183.50  mean= 173.22  near=ALLD       p=(0.45,0.33,0.19,0.00,0.39)  genr=0.19
+gen  28  best= 183.12  mean= 172.91  near=ALLD       p=(0.45,0.32,0.22,0.00,0.51)  genr=0.22
+gen  29  best= 184.25  mean= 172.56  near=ALLD       p=(0.67,0.15,0.00,0.09,0.51)  genr=0.00
+gen  30  best= 184.62  mean= 170.76  near=ALLD       p=(0.44,0.37,0.18,0.04,0.60)  genr=0.18
+gen  31  best= 182.00  mean= 173.19  near=ALLD       p=(0.62,0.24,0.17,0.07,0.46)  genr=0.17
+gen  32  best= 183.88  mean= 173.21  near=ALLD       p=(0.57,0.31,0.09,0.03,0.59)  genr=0.09
+gen  33  best= 183.62  mean= 173.38  near=ALLD       p=(0.51,0.00,0.05,0.09,0.42)  genr=0.05
+gen  34  best= 182.75  mean= 173.43  near=ALLD       p=(0.45,0.29,0.11,0.00,0.42)  genr=0.11
+CHAMPION evolved-m1  p=(0.45,0.29,0.11,0.00,0.42)  nearest=ALLD (L1=1.28)  generosity=0.11
+Held-out evaluation complete.
+
+=== seed=3 noise=0% ALLC=False ===
+gen   0  best= 146.43  mean= 125.81  near=ALLD       p=(0.24,0.54,0.37,0.60,0.63)  genr=0.37
+gen   1  best= 146.43  mean= 128.48  near=ALLD       p=(0.24,0.54,0.37,0.60,0.63)  genr=0.37
+gen   2  best= 155.43  mean= 136.25  near=GTFT(0.1)  p=(0.88,0.95,0.47,0.88,0.23)  genr=0.47
+gen   3  best= 182.29  mean= 139.38  near=GTFT(0.1)  p=(1.00,1.00,0.20,0.37,0.28)  genr=0.20
+gen   4  best= 174.57  mean= 153.76  near=GTFT(0.1)  p=(0.94,1.00,0.16,0.36,0.23)  genr=0.16
+gen   5  best= 177.57  mean= 156.24  near=GTFT(0.1)  p=(0.95,1.00,0.16,0.35,0.25)  genr=0.16
+gen   6  best= 176.14  mean= 158.78  near=GTFT(0.1)  p=(0.99,1.00,0.12,0.45,0.22)  genr=0.12
+gen   7  best= 177.71  mean= 158.95  near=GTFT(0.1)  p=(1.00,1.00,0.27,0.59,0.29)  genr=0.27
+gen   8  best= 186.43  mean= 167.07  near=GTFT(0.1)  p=(1.00,1.00,0.17,0.32,0.14)  genr=0.17
+gen   9  best= 182.43  mean= 161.44  near=GTFT(0.1)  p=(1.00,1.00,0.29,0.37,0.15)  genr=0.29
+gen  10  best= 176.43  mean= 161.47  near=GTFT(0.1)  p=(1.00,1.00,0.09,0.40,0.26)  genr=0.09
+gen  11  best= 179.43  mean= 159.26  near=GTFT(0.1)  p=(0.91,1.00,0.37,0.50,0.15)  genr=0.37
+gen  12  best= 183.29  mean= 158.04  near=GTFT(0.1)  p=(1.00,1.00,0.07,0.41,0.17)  genr=0.07
+gen  13  best= 188.29  mean= 157.24  near=GTFT(0.1)  p=(0.85,1.00,0.32,0.34,0.17)  genr=0.32
+gen  14  best= 185.71  mean= 163.21  near=GTFT(0.1)  p=(0.79,1.00,0.34,0.39,0.06)  genr=0.34
+gen  15  best= 185.29  mean= 161.59  near=GTFT(0.1)  p=(0.79,1.00,0.28,0.42,0.04)  genr=0.28
+gen  16  best= 177.29  mean= 159.43  near=GTFT(0.1)  p=(0.95,1.00,0.11,0.47,0.21)  genr=0.11
+gen  17  best= 181.29  mean= 159.19  near=GTFT(0.1)  p=(1.00,1.00,0.22,0.51,0.17)  genr=0.22
+gen  18  best= 175.71  mean= 156.26  near=GTFT(0.1)  p=(0.94,1.00,0.36,0.61,0.35)  genr=0.36
+gen  19  best= 182.29  mean= 157.30  near=GTFT(0.1)  p=(0.93,1.00,0.12,0.53,0.20)  genr=0.12
+gen  20  best= 177.00  mean= 158.57  near=GTFT(0.1)  p=(0.93,1.00,0.13,0.40,0.20)  genr=0.13
+gen  21  best= 182.29  mean= 162.76  near=GTFT(0.1)  p=(0.99,1.00,0.20,0.56,0.17)  genr=0.20
+gen  22  best= 175.43  mean= 164.80  near=GTFT(0.1)  p=(0.87,1.00,0.10,0.39,0.12)  genr=0.10
+gen  23  best= 187.57  mean= 154.72  near=GTFT(0.1)  p=(1.00,1.00,0.27,0.45,0.09)  genr=0.27
+gen  24  best= 189.43  mean= 159.06  near=GTFT(0.1)  p=(0.81,1.00,0.12,0.39,0.16)  genr=0.12
+gen  25  best= 182.14  mean= 162.76  near=GTFT(0.1)  p=(0.94,1.00,0.33,0.39,0.12)  genr=0.33
+gen  26  best= 177.14  mean= 158.28  near=GTFT(0.1)  p=(0.96,1.00,0.27,0.31,0.05)  genr=0.27
+gen  27  best= 178.43  mean= 154.31  near=GTFT(0.1)  p=(0.88,1.00,0.32,0.33,0.12)  genr=0.32
+gen  28  best= 189.14  mean= 163.13  near=GTFT(0.1)  p=(0.83,1.00,0.28,0.51,0.21)  genr=0.28
+gen  29  best= 188.29  mean= 165.98  near=GTFT(0.1)  p=(0.84,1.00,0.36,0.32,0.13)  genr=0.36
+gen  30  best= 176.86  mean= 162.34  near=GTFT(0.1)  p=(1.00,1.00,0.45,0.26,0.06)  genr=0.45
+gen  31  best= 176.43  mean= 155.38  near=GTFT(0.1)  p=(0.82,1.00,0.31,0.18,0.28)  genr=0.31
+gen  32  best= 181.71  mean= 157.56  near=GTFT(0.1)  p=(0.76,0.98,0.37,0.31,0.23)  genr=0.37
+gen  33  best= 179.43  mean= 155.60  near=GTFT(0.1)  p=(0.89,1.00,0.25,0.41,0.10)  genr=0.25
+gen  34  best= 176.86  mean= 160.81  near=GTFT(0.1)  p=(0.90,1.00,0.28,0.47,0.11)  genr=0.28
+CHAMPION evolved-m1  p=(0.90,1.00,0.28,0.47,0.11)  nearest=GTFT(0.1) (L1=0.83)  generosity=0.28
+Held-out evaluation complete.
+
+=== seed=3 noise=0% ALLC=True ===
+gen   0  best= 169.25  mean= 148.18  near=ALLC       p=(0.39,0.35,0.59,0.58,0.90)  genr=0.59
+gen   1  best= 168.88  mean= 151.88  near=Pavlov     p=(1.00,0.39,0.73,0.19,0.45)  genr=0.73
+gen   2  best= 171.88  mean= 156.57  near=ALLC       p=(0.62,0.32,0.69,0.32,0.80)  genr=0.69
+gen   3  best= 173.88  mean= 157.44  near=GTFT(0.1)  p=(0.56,0.53,0.28,0.51,0.49)  genr=0.28
+gen   4  best= 173.75  mean= 161.04  near=Pavlov     p=(0.90,1.00,0.15,0.19,0.39)  genr=0.15
+gen   5  best= 182.38  mean= 161.77  near=Pavlov     p=(0.91,1.00,0.06,0.24,0.31)  genr=0.06
+gen   6  best= 188.75  mean= 163.71  near=Pavlov     p=(0.74,1.00,0.19,0.03,0.43)  genr=0.19
+gen   7  best= 197.88  mean= 165.79  near=Pavlov     p=(0.74,1.00,0.25,0.00,0.42)  genr=0.25
+gen   8  best= 196.38  mean= 171.44  near=Pavlov     p=(0.81,1.00,0.16,0.07,0.40)  genr=0.16
+gen   9  best= 196.50  mean= 171.37  near=Pavlov     p=(0.71,1.00,0.18,0.05,0.49)  genr=0.18
+gen  10  best= 202.75  mean= 173.93  near=Pavlov     p=(0.68,1.00,0.46,0.00,0.55)  genr=0.46
+gen  11  best= 187.50  mean= 169.93  near=Pavlov     p=(0.93,0.98,0.31,0.03,0.43)  genr=0.31
+gen  12  best= 217.00  mean= 171.15  near=Pavlov     p=(0.65,1.00,0.35,0.00,0.50)  genr=0.35
+gen  13  best= 209.50  mean= 174.05  near=Pavlov     p=(0.62,1.00,0.45,0.05,0.46)  genr=0.45
+gen  14  best= 203.00  mean= 177.01  near=Pavlov     p=(0.85,1.00,0.40,0.01,0.35)  genr=0.40
+gen  15  best= 206.75  mean= 179.59  near=Pavlov     p=(0.89,1.00,0.31,0.00,0.35)  genr=0.31
+gen  16  best= 198.12  mean= 174.10  near=Pavlov     p=(0.59,1.00,0.31,0.00,0.41)  genr=0.31
+gen  17  best= 204.62  mean= 177.46  near=Pavlov     p=(0.82,1.00,0.43,0.00,0.28)  genr=0.43
+gen  18  best= 201.12  mean= 177.80  near=Pavlov     p=(0.58,1.00,0.23,0.00,0.28)  genr=0.23
+gen  19  best= 205.25  mean= 177.03  near=Pavlov     p=(0.50,1.00,0.31,0.07,0.24)  genr=0.31
+gen  20  best= 206.62  mean= 176.68  near=Pavlov     p=(0.50,1.00,0.31,0.00,0.24)  genr=0.31
+gen  21  best= 212.25  mean= 182.78  near=Pavlov     p=(0.48,1.00,0.42,0.02,0.37)  genr=0.42
+gen  22  best= 205.38  mean= 180.06  near=Pavlov     p=(0.47,1.00,0.33,0.00,0.35)  genr=0.33
+gen  23  best= 205.75  mean= 172.24  near=Pavlov     p=(0.79,1.00,0.51,0.00,0.30)  genr=0.51
+gen  24  best= 218.88  mean= 180.38  near=Pavlov     p=(0.73,1.00,0.61,0.00,0.37)  genr=0.61
+gen  25  best= 216.62  mean= 181.08  near=Pavlov     p=(0.70,1.00,0.52,0.00,0.19)  genr=0.52
+gen  26  best= 200.38  mean= 176.68  near=Pavlov     p=(0.79,1.00,0.36,0.00,0.24)  genr=0.36
+gen  27  best= 195.38  mean= 173.27  near=Pavlov     p=(0.71,0.96,0.62,0.00,0.45)  genr=0.62
+gen  28  best= 203.25  mean= 175.49  near=Pavlov     p=(0.71,1.00,0.52,0.07,0.24)  genr=0.52
+gen  29  best= 205.88  mean= 173.24  near=Pavlov     p=(0.76,1.00,0.61,0.00,0.30)  genr=0.61
+gen  30  best= 205.50  mean= 177.22  near=Pavlov     p=(0.80,1.00,0.56,0.00,0.30)  genr=0.56
+gen  31  best= 192.88  mean= 173.11  near=GTFT(0.1)  p=(0.78,1.00,0.45,0.00,0.09)  genr=0.45
+gen  32  best= 202.25  mean= 173.46  near=Pavlov     p=(0.77,1.00,0.49,0.00,0.16)  genr=0.49
+gen  33  best= 199.62  mean= 169.43  near=GTFT(0.1)  p=(0.80,1.00,0.47,0.25,0.15)  genr=0.47
+gen  34  best= 196.50  mean= 174.47  near=GTFT(0.1)  p=(0.62,1.00,0.72,0.00,0.04)  genr=0.72
+CHAMPION evolved-m1  p=(0.62,1.00,0.72,0.00,0.04)  nearest=GTFT(0.1) (L1=2.06)  generosity=0.72
+Held-out evaluation complete.
+
+=== seed=3 noise=5% ALLC=False ===
+gen   0  best= 149.57  mean= 128.33  near=ALLC       p=(0.03,0.87,0.47,0.72,0.88)  genr=0.47
+gen   1  best= 155.57  mean= 137.29  near=ALLD       p=(0.03,0.59,0.00,0.72,0.32)  genr=0.00
+gen   2  best= 157.29  mean= 141.18  near=GTFT(0.1)  p=(0.56,0.81,0.24,0.67,0.20)  genr=0.24
+gen   3  best= 154.00  mean= 139.08  near=GTFT(0.1)  p=(0.17,0.66,0.20,0.67,0.75)  genr=0.20
+gen   4  best= 159.14  mean= 140.79  near=GTFT(0.1)  p=(0.59,0.82,0.24,0.56,0.28)  genr=0.24
+gen   5  best= 157.00  mean= 139.72  near=GTFT(0.1)  p=(0.43,0.85,0.28,0.40,0.32)  genr=0.28
+gen   6  best= 157.29  mean= 140.16  near=GTFT(0.1)  p=(0.36,0.67,0.18,0.71,0.35)  genr=0.18
+gen   7  best= 161.29  mean= 140.31  near=GTFT(0.1)  p=(0.45,0.61,0.24,0.66,0.52)  genr=0.24
+gen   8  best= 156.14  mean= 139.81  near=GTFT(0.1)  p=(0.34,0.82,0.24,0.59,0.41)  genr=0.24
+gen   9  best= 155.00  mean= 139.74  near=GTFT(0.1)  p=(0.31,0.84,0.07,0.55,0.31)  genr=0.07
+gen  10  best= 154.00  mean= 139.85  near=GTFT(0.1)  p=(0.38,0.65,0.34,0.59,0.49)  genr=0.34
+gen  11  best= 156.71  mean= 140.71  near=GTFT(0.1)  p=(0.65,0.62,0.32,0.44,0.36)  genr=0.32
+gen  12  best= 156.86  mean= 140.83  near=GTFT(0.1)  p=(0.60,0.65,0.14,0.49,0.31)  genr=0.14
+gen  13  best= 155.29  mean= 140.29  near=GTFT(0.1)  p=(0.59,0.57,0.14,0.47,0.32)  genr=0.14
+gen  14  best= 157.43  mean= 140.41  near=GTFT(0.1)  p=(0.59,0.62,0.17,0.53,0.24)  genr=0.17
+gen  15  best= 158.14  mean= 140.86  near=GTFT(0.1)  p=(0.52,0.72,0.05,0.55,0.31)  genr=0.05
+gen  16  best= 153.71  mean= 139.57  near=GTFT(0.1)  p=(0.66,0.57,0.12,0.58,0.31)  genr=0.12
+gen  17  best= 153.57  mean= 139.63  near=GTFT(0.1)  p=(0.54,0.72,0.23,0.76,0.24)  genr=0.23
+gen  18  best= 158.57  mean= 141.26  near=GTFT(0.1)  p=(0.43,0.73,0.03,0.49,0.36)  genr=0.03
+gen  19  best= 156.86  mean= 142.34  near=GTFT(0.1)  p=(0.35,0.76,0.11,0.56,0.33)  genr=0.11
+gen  20  best= 155.86  mean= 140.99  near=GTFT(0.1)  p=(0.35,0.79,0.11,0.43,0.32)  genr=0.11
+gen  21  best= 156.14  mean= 141.56  near=GTFT(0.1)  p=(0.37,0.67,0.12,0.43,0.35)  genr=0.12
+gen  22  best= 155.00  mean= 140.81  near=GTFT(0.1)  p=(0.55,0.81,0.14,0.74,0.27)  genr=0.14
+gen  23  best= 158.86  mean= 141.59  near=GTFT(0.1)  p=(0.61,0.77,0.24,0.56,0.38)  genr=0.24
+gen  24  best= 158.71  mean= 140.37  near=GTFT(0.1)  p=(0.57,0.77,0.09,0.81,0.22)  genr=0.09
+gen  25  best= 159.57  mean= 140.97  near=GTFT(0.1)  p=(0.41,0.71,0.15,0.45,0.36)  genr=0.15
+gen  26  best= 155.43  mean= 141.01  near=GTFT(0.1)  p=(0.39,0.72,0.19,0.42,0.33)  genr=0.19
+gen  27  best= 157.14  mean= 141.04  near=Pavlov     p=(0.40,0.65,0.04,0.58,0.66)  genr=0.04
+gen  28  best= 157.43  mean= 142.48  near=GTFT(0.1)  p=(0.49,0.84,0.10,0.35,0.28)  genr=0.10
+gen  29  best= 157.43  mean= 140.71  near=Pavlov     p=(0.42,0.66,0.01,0.56,0.68)  genr=0.01
+gen  30  best= 155.57  mean= 141.31  near=GTFT(0.1)  p=(0.41,0.67,0.00,0.61,0.59)  genr=0.00
+gen  31  best= 156.57  mean= 141.99  near=GTFT(0.1)  p=(0.35,0.70,0.06,0.59,0.64)  genr=0.06
+gen  32  best= 158.57  mean= 142.27  near=GTFT(0.1)  p=(0.46,0.78,0.04,0.58,0.38)  genr=0.04
+gen  33  best= 154.86  mean= 139.84  near=Pavlov     p=(0.47,0.77,0.01,0.38,0.60)  genr=0.01
+gen  34  best= 155.57  mean= 141.41  near=Pavlov     p=(0.48,0.65,0.06,0.39,0.54)  genr=0.06
+CHAMPION evolved-m1  p=(0.48,0.65,0.06,0.39,0.54)  nearest=Pavlov (L1=1.77)  generosity=0.06
+Held-out evaluation complete.
+
+=== seed=3 noise=5% ALLC=True ===
+gen   0  best= 165.12  mean= 149.65  near=ALLC       p=(0.03,0.87,0.47,0.72,0.88)  genr=0.47
+gen   1  best= 175.12  mean= 159.16  near=ALLC       p=(0.59,0.30,0.67,0.51,0.46)  genr=0.67
+gen   2  best= 177.62  mean= 161.38  near=ALLD       p=(0.71,0.09,0.21,0.56,0.35)  genr=0.21
+gen   3  best= 178.12  mean= 163.04  near=ALLD       p=(0.05,0.47,0.00,0.17,0.51)  genr=0.00
+gen   4  best= 177.38  mean= 165.83  near=ALLD       p=(0.75,0.10,0.21,0.45,0.43)  genr=0.21
+gen   5  best= 180.62  mean= 165.68  near=ALLD       p=(0.59,0.14,0.25,0.28,0.47)  genr=0.25
+gen   6  best= 178.75  mean= 166.91  near=ALLD       p=(0.40,0.24,0.15,0.36,0.30)  genr=0.15
+gen   7  best= 182.25  mean= 168.29  near=ALLD       p=(0.68,0.13,0.19,0.16,0.40)  genr=0.19
+gen   8  best= 176.12  mean= 166.63  near=ALLD       p=(0.51,0.34,0.09,0.37,0.28)  genr=0.09
+gen   9  best= 179.50  mean= 167.24  near=GTFT(0.1)  p=(0.62,0.31,0.06,0.51,0.46)  genr=0.06
+gen  10  best= 178.75  mean= 167.03  near=ALLD       p=(0.68,0.26,0.31,0.26,0.41)  genr=0.31
+gen  11  best= 177.62  mean= 168.57  near=ALLD       p=(0.65,0.18,0.29,0.27,0.36)  genr=0.29
+gen  12  best= 178.38  mean= 169.22  near=ALLD       p=(0.60,0.00,0.11,0.16,0.39)  genr=0.11
+gen  13  best= 179.25  mean= 168.14  near=ALLD       p=(0.58,0.21,0.08,0.26,0.37)  genr=0.08
+gen  14  best= 179.50  mean= 168.96  near=ALLD       p=(0.64,0.00,0.11,0.17,0.41)  genr=0.11
+gen  15  best= 179.50  mean= 170.14  near=ALLD       p=(0.66,0.21,0.10,0.32,0.43)  genr=0.10
+gen  16  best= 181.00  mean= 169.73  near=ALLD       p=(0.60,0.23,0.08,0.26,0.38)  genr=0.08
+gen  17  best= 178.50  mean= 168.64  near=ALLD       p=(0.49,0.04,0.32,0.18,0.34)  genr=0.32
+gen  18  best= 182.00  mean= 170.83  near=ALLD       p=(0.62,0.17,0.18,0.24,0.36)  genr=0.18
+gen  19  best= 180.38  mean= 171.87  near=ALLD       p=(0.54,0.20,0.26,0.31,0.33)  genr=0.26
+gen  20  best= 181.12  mean= 169.79  near=ALLD       p=(0.54,0.23,0.26,0.18,0.33)  genr=0.26
+gen  21  best= 181.62  mean= 171.78  near=ALLD       p=(0.50,0.07,0.26,0.12,0.37)  genr=0.26
+gen  22  best= 182.12  mean= 171.03  near=ALLD       p=(0.50,0.07,0.26,0.09,0.38)  genr=0.26
+gen  23  best= 181.62  mean= 172.06  near=ALLD       p=(0.49,0.14,0.37,0.16,0.37)  genr=0.37
+gen  24  best= 182.50  mean= 171.06  near=ALLD       p=(0.56,0.03,0.22,0.07,0.40)  genr=0.22
+gen  25  best= 180.88  mean= 172.14  near=ALLD       p=(0.57,0.07,0.20,0.20,0.49)  genr=0.20
+gen  26  best= 180.50  mean= 170.95  near=ALLD       p=(0.49,0.04,0.11,0.18,0.48)  genr=0.11
+gen  27  best= 185.12  mean= 171.62  near=ALLD       p=(0.54,0.00,0.15,0.03,0.54)  genr=0.15
+gen  28  best= 180.25  mean= 171.47  near=ALLD       p=(0.51,0.12,0.02,0.26,0.44)  genr=0.02
+gen  29  best= 182.88  mean= 171.70  near=ALLD       p=(0.46,0.01,0.11,0.13,0.55)  genr=0.11
+gen  30  best= 183.12  mean= 173.13  near=ALLD       p=(0.47,0.01,0.13,0.20,0.48)  genr=0.13
+gen  31  best= 182.75  mean= 173.96  near=ALLD       p=(0.42,0.05,0.16,0.00,0.65)  genr=0.16
+gen  32  best= 182.25  mean= 174.23  near=ALLD       p=(0.45,0.12,0.06,0.14,0.47)  genr=0.06
+gen  33  best= 181.38  mean= 173.64  near=ALLD       p=(0.65,0.00,0.00,0.07,0.30)  genr=0.00
+gen  34  best= 181.38  mean= 173.54  near=ALLD       p=(0.61,0.18,0.10,0.01,0.51)  genr=0.10
+CHAMPION evolved-m1  p=(0.61,0.18,0.10,0.01,0.51)  nearest=ALLD (L1=1.42)  generosity=0.10
+Held-out evaluation complete.
+
+=== seed=4 noise=0% ALLC=False ===
+gen   0  best= 153.57  mean= 123.31  near=ALLC       p=(0.30,0.91,0.57,0.88,0.85)  genr=0.57
+gen   1  best= 147.43  mean= 131.02  near=Pavlov     p=(0.22,0.55,0.39,0.41,1.00)  genr=0.39
+gen   2  best= 150.00  mean= 131.14  near=ALLD       p=(0.49,0.27,0.25,0.25,0.31)  genr=0.25
+gen   3  best= 149.29  mean= 129.41  near=Pavlov     p=(0.23,0.81,0.50,0.39,0.80)  genr=0.50
+gen   4  best= 151.00  mean= 133.40  near=ALLD       p=(0.30,0.34,0.28,0.53,0.70)  genr=0.28
+gen   5  best= 151.14  mean= 130.04  near=Pavlov     p=(0.48,0.36,0.33,0.51,0.90)  genr=0.33
+gen   6  best= 147.86  mean= 131.98  near=GTFT(0.1)  p=(0.42,0.52,0.21,0.53,0.57)  genr=0.21
+gen   7  best= 146.29  mean= 131.00  near=Pavlov     p=(0.47,0.53,0.24,0.49,0.67)  genr=0.24
+gen   8  best= 145.86  mean= 133.62  near=Pavlov     p=(0.29,0.54,0.25,0.55,0.68)  genr=0.25
+gen   9  best= 146.57  mean= 131.14  near=GTFT(0.1)  p=(0.37,0.49,0.23,0.56,0.60)  genr=0.23
+gen  10  best= 146.43  mean= 131.22  near=Pavlov     p=(0.33,0.63,0.21,0.23,0.64)  genr=0.21
+gen  11  best= 147.86  mean= 132.50  near=Pavlov     p=(0.42,0.69,0.17,0.11,0.63)  genr=0.17
+gen  12  best= 146.86  mean= 134.27  near=Pavlov     p=(0.42,0.69,0.17,0.11,0.63)  genr=0.17
+gen  13  best= 146.86  mean= 138.34  near=Pavlov     p=(0.42,0.69,0.17,0.11,0.63)  genr=0.17
+gen  14  best= 147.29  mean= 134.71  near=Pavlov     p=(0.38,0.60,0.17,0.14,0.72)  genr=0.17
+gen  15  best= 148.43  mean= 136.16  near=Pavlov     p=(0.51,0.60,0.31,0.04,0.74)  genr=0.31
+gen  16  best= 148.00  mean= 138.65  near=Pavlov     p=(0.60,0.72,0.14,0.00,0.73)  genr=0.14
+gen  17  best= 150.29  mean= 139.87  near=Pavlov     p=(0.37,0.88,0.07,0.09,0.71)  genr=0.07
+gen  18  best= 160.00  mean= 138.93  near=Pavlov     p=(0.39,0.99,0.08,0.08,0.75)  genr=0.08
+gen  19  best= 177.14  mean= 139.41  near=Pavlov     p=(0.39,0.99,0.08,0.08,0.75)  genr=0.08
+gen  20  best= 177.14  mean= 145.62  near=Pavlov     p=(0.39,0.99,0.08,0.08,0.75)  genr=0.08
+gen  21  best= 178.43  mean= 154.85  near=Pavlov     p=(0.35,1.00,0.00,0.17,0.56)  genr=0.00
+gen  22  best= 191.14  mean= 159.76  near=Pavlov     p=(0.57,1.00,0.08,0.14,0.94)  genr=0.08
+gen  23  best= 189.86  mean= 155.58  near=Pavlov     p=(0.57,1.00,0.08,0.14,0.94)  genr=0.08
+gen  24  best= 190.57  mean= 155.98  near=Pavlov     p=(0.50,1.00,0.10,0.09,0.72)  genr=0.10
+gen  25  best= 192.29  mean= 153.56  near=Pavlov     p=(0.54,1.00,0.09,0.00,0.94)  genr=0.09
+gen  26  best= 191.86  mean= 159.20  near=Pavlov     p=(0.53,1.00,0.03,0.08,0.82)  genr=0.03
+gen  27  best= 191.29  mean= 159.15  near=Pavlov     p=(0.53,1.00,0.03,0.08,0.82)  genr=0.03
+gen  28  best= 191.29  mean= 154.23  near=Pavlov     p=(0.53,1.00,0.03,0.08,0.82)  genr=0.03
+gen  29  best= 191.29  mean= 153.45  near=Pavlov     p=(0.53,1.00,0.03,0.08,0.82)  genr=0.03
+gen  30  best= 191.29  mean= 154.08  near=Pavlov     p=(0.53,1.00,0.03,0.08,0.82)  genr=0.03
+gen  31  best= 192.57  mean= 159.25  near=Pavlov     p=(0.52,1.00,0.06,0.08,0.89)  genr=0.06
+gen  32  best= 190.71  mean= 156.84  near=Pavlov     p=(0.52,1.00,0.06,0.08,0.89)  genr=0.06
+gen  33  best= 193.00  mean= 155.21  near=Pavlov     p=(0.48,1.00,0.06,0.24,0.92)  genr=0.06
+gen  34  best= 190.71  mean= 154.32  near=Pavlov     p=(0.44,1.00,0.09,0.12,0.85)  genr=0.09
+CHAMPION evolved-m1  p=(0.44,1.00,0.09,0.12,0.85)  nearest=Pavlov (L1=0.92)  generosity=0.09
+Held-out evaluation complete.
+
+=== seed=4 noise=0% ALLC=True ===
+gen   0  best= 171.50  mean= 147.00  near=Pavlov     p=(0.31,0.81,0.04,0.05,0.63)  genr=0.04
+gen   1  best= 174.12  mean= 156.67  near=Pavlov     p=(0.31,0.81,0.04,0.05,0.63)  genr=0.04
+gen   2  best= 178.50  mean= 163.02  near=Pavlov     p=(0.43,0.91,0.00,0.00,0.54)  genr=0.00
+gen   3  best= 188.25  mean= 164.20  near=Pavlov     p=(0.24,0.93,0.04,0.00,0.57)  genr=0.04
+gen   4  best= 189.25  mean= 166.44  near=Pavlov     p=(0.19,1.00,0.16,0.02,0.55)  genr=0.16
+gen   5  best= 215.62  mean= 173.16  near=Pavlov     p=(0.19,1.00,0.16,0.02,0.55)  genr=0.16
+gen   6  best= 215.62  mean= 172.01  near=Pavlov     p=(0.19,1.00,0.16,0.02,0.55)  genr=0.16
+gen   7  best= 216.00  mean= 178.54  near=Pavlov     p=(0.23,1.00,0.16,0.00,0.56)  genr=0.16
+gen   8  best= 218.38  mean= 181.96  near=Pavlov     p=(0.23,1.00,0.16,0.00,0.56)  genr=0.16
+gen   9  best= 218.38  mean= 184.36  near=Pavlov     p=(0.23,1.00,0.16,0.00,0.56)  genr=0.16
+gen  10  best= 218.38  mean= 184.97  near=Pavlov     p=(0.23,1.00,0.16,0.00,0.56)  genr=0.16
+gen  11  best= 218.38  mean= 184.24  near=Pavlov     p=(0.23,1.00,0.16,0.00,0.56)  genr=0.16
+gen  12  best= 218.38  mean= 188.12  near=Pavlov     p=(0.23,1.00,0.16,0.00,0.56)  genr=0.16
+gen  13  best= 222.38  mean= 187.90  near=Pavlov     p=(0.32,1.00,0.24,0.00,0.56)  genr=0.24
+gen  14  best= 218.00  mean= 189.09  near=Pavlov     p=(0.32,1.00,0.24,0.00,0.56)  genr=0.24
+gen  15  best= 218.00  mean= 183.34  near=Pavlov     p=(0.32,1.00,0.24,0.00,0.56)  genr=0.24
+gen  16  best= 222.25  mean= 187.79  near=Pavlov     p=(0.39,1.00,0.12,0.00,0.59)  genr=0.12
+gen  17  best= 222.25  mean= 186.63  near=Pavlov     p=(0.34,1.00,0.27,0.00,0.53)  genr=0.27
+gen  18  best= 221.12  mean= 184.18  near=Pavlov     p=(0.30,1.00,0.28,0.00,0.54)  genr=0.28
+gen  19  best= 221.88  mean= 182.24  near=Pavlov     p=(0.37,1.00,0.23,0.00,0.61)  genr=0.23
+gen  20  best= 221.12  mean= 185.00  near=Pavlov     p=(0.34,1.00,0.27,0.00,0.53)  genr=0.27
+gen  21  best= 222.50  mean= 184.08  near=Pavlov     p=(0.35,1.00,0.29,0.00,0.53)  genr=0.29
+gen  22  best= 221.62  mean= 187.14  near=Pavlov     p=(0.37,1.00,0.23,0.00,0.61)  genr=0.23
+gen  23  best= 221.00  mean= 184.28  near=Pavlov     p=(0.35,1.00,0.29,0.00,0.53)  genr=0.29
+gen  24  best= 221.62  mean= 183.51  near=Pavlov     p=(0.37,1.00,0.23,0.00,0.61)  genr=0.23
+gen  25  best= 221.75  mean= 183.64  near=Pavlov     p=(0.44,1.00,0.21,0.00,0.56)  genr=0.21
+gen  26  best= 221.00  mean= 188.81  near=Pavlov     p=(0.35,1.00,0.29,0.00,0.53)  genr=0.29
+gen  27  best= 218.50  mean= 185.54  near=Pavlov     p=(0.35,1.00,0.29,0.00,0.53)  genr=0.29
+gen  28  best= 218.50  mean= 181.71  near=Pavlov     p=(0.35,1.00,0.29,0.00,0.53)  genr=0.29
+gen  29  best= 218.50  mean= 180.84  near=Pavlov     p=(0.35,1.00,0.29,0.00,0.53)  genr=0.29
+gen  30  best= 218.88  mean= 187.04  near=Pavlov     p=(0.15,1.00,0.15,0.00,0.59)  genr=0.15
+gen  31  best= 221.00  mean= 184.03  near=Pavlov     p=(0.35,1.00,0.29,0.00,0.53)  genr=0.29
+gen  32  best= 218.50  mean= 180.80  near=Pavlov     p=(0.35,1.00,0.29,0.00,0.53)  genr=0.29
+gen  33  best= 218.50  mean= 178.53  near=Pavlov     p=(0.35,1.00,0.29,0.00,0.53)  genr=0.29
+gen  34  best= 218.50  mean= 182.46  near=Pavlov     p=(0.35,1.00,0.29,0.00,0.53)  genr=0.29
+CHAMPION evolved-m1  p=(0.35,1.00,0.29,0.00,0.53)  nearest=Pavlov (L1=1.41)  generosity=0.29
+Held-out evaluation complete.
+
+=== seed=4 noise=5% ALLC=False ===
+gen   0  best= 151.57  mean= 130.96  near=ALLD       p=(0.54,0.28,0.17,0.11,0.21)  genr=0.17
+gen   1  best= 152.71  mean= 140.83  near=Pavlov     p=(0.21,0.81,0.03,0.00,0.67)  genr=0.03
+gen   2  best= 155.43  mean= 141.27  near=Pavlov     p=(0.22,0.77,0.00,0.00,0.66)  genr=0.00
+gen   3  best= 155.71  mean= 144.26  near=Pavlov     p=(0.40,0.78,0.27,0.11,0.56)  genr=0.27
+gen   4  best= 162.71  mean= 145.83  near=Pavlov     p=(0.15,0.98,0.11,0.01,0.58)  genr=0.11
+gen   5  best= 161.00  mean= 146.79  near=Pavlov     p=(0.11,1.00,0.02,0.05,0.57)  genr=0.02
+gen   6  best= 159.71  mean= 148.07  near=Pavlov     p=(0.16,1.00,0.08,0.00,0.51)  genr=0.08
+gen   7  best= 160.14  mean= 147.52  near=Pavlov     p=(0.11,0.93,0.08,0.00,0.55)  genr=0.08
+gen   8  best= 159.71  mean= 149.37  near=ALLD       p=(0.04,0.92,0.08,0.02,0.49)  genr=0.08
+gen   9  best= 161.71  mean= 148.79  near=Pavlov     p=(0.02,0.94,0.09,0.00,0.58)  genr=0.09
+gen  10  best= 170.14  mean= 149.21  near=Pavlov     p=(0.17,1.00,0.17,0.01,0.41)  genr=0.17
+gen  11  best= 164.00  mean= 149.13  near=Pavlov     p=(0.07,1.00,0.25,0.16,0.46)  genr=0.25
+gen  12  best= 157.86  mean= 149.80  near=Pavlov     p=(0.07,1.00,0.25,0.16,0.46)  genr=0.25
+gen  13  best= 160.00  mean= 149.00  near=Pavlov     p=(0.12,1.00,0.36,0.01,0.42)  genr=0.36
+gen  14  best= 163.57  mean= 149.14  near=Pavlov     p=(0.11,1.00,0.21,0.00,0.49)  genr=0.21
+gen  15  best= 161.57  mean= 150.34  near=Pavlov     p=(0.07,1.00,0.23,0.06,0.59)  genr=0.23
+gen  16  best= 162.43  mean= 149.49  near=Pavlov     p=(0.07,1.00,0.23,0.06,0.59)  genr=0.23
+gen  17  best= 164.57  mean= 152.00  near=ALLD       p=(0.00,1.00,0.24,0.03,0.36)  genr=0.24
+gen  18  best= 164.71  mean= 152.79  near=Pavlov     p=(0.01,1.00,0.09,0.00,0.62)  genr=0.09
+gen  19  best= 158.29  mean= 149.76  near=Pavlov     p=(0.11,0.92,0.21,0.06,0.58)  genr=0.21
+gen  20  best= 169.00  mean= 149.21  near=Pavlov     p=(0.13,1.00,0.33,0.09,0.51)  genr=0.33
+gen  21  best= 162.43  mean= 151.11  near=Pavlov     p=(0.24,0.96,0.28,0.00,0.55)  genr=0.28
+gen  22  best= 158.29  mean= 150.85  near=Pavlov     p=(0.24,0.96,0.28,0.00,0.55)  genr=0.28
+gen  23  best= 169.29  mean= 148.48  near=Pavlov     p=(0.21,1.00,0.23,0.13,0.52)  genr=0.23
+gen  24  best= 163.29  mean= 151.32  near=Pavlov     p=(0.21,1.00,0.23,0.13,0.52)  genr=0.23
+gen  25  best= 163.29  mean= 150.22  near=Pavlov     p=(0.21,1.00,0.23,0.13,0.52)  genr=0.23
+gen  26  best= 163.29  mean= 151.91  near=Pavlov     p=(0.21,1.00,0.23,0.13,0.52)  genr=0.23
+gen  27  best= 163.29  mean= 150.84  near=Pavlov     p=(0.21,1.00,0.23,0.13,0.52)  genr=0.23
+gen  28  best= 163.29  mean= 149.95  near=Pavlov     p=(0.21,1.00,0.23,0.13,0.52)  genr=0.23
+gen  29  best= 167.86  mean= 150.26  near=ALLD       p=(0.11,1.00,0.30,0.24,0.35)  genr=0.30
+gen  30  best= 163.86  mean= 149.80  near=Pavlov     p=(0.26,0.97,0.25,0.10,0.39)  genr=0.25
+gen  31  best= 168.86  mean= 147.14  near=ALLD       p=(0.11,1.00,0.38,0.27,0.34)  genr=0.38
+gen  32  best= 169.29  mean= 148.96  near=ALLD       p=(0.04,1.00,0.28,0.33,0.40)  genr=0.28
+gen  33  best= 161.43  mean= 148.07  near=ALLD       p=(0.06,0.96,0.33,0.20,0.44)  genr=0.33
+gen  34  best= 162.14  mean= 147.72  near=ALLD       p=(0.05,0.93,0.39,0.25,0.36)  genr=0.39
+CHAMPION evolved-m1  p=(0.05,0.93,0.39,0.25,0.36)  nearest=ALLD (L1=1.99)  generosity=0.39
+Held-out evaluation complete.
+
+=== seed=4 noise=5% ALLC=True ===
+gen   0  best= 177.38  mean= 152.39  near=ALLD       p=(0.54,0.28,0.17,0.11,0.21)  genr=0.17
+gen   1  best= 177.38  mean= 163.29  near=ALLD       p=(0.54,0.28,0.17,0.11,0.21)  genr=0.17
+gen   2  best= 178.75  mean= 165.23  near=ALLD       p=(0.47,0.27,0.13,0.07,0.21)  genr=0.13
+gen   3  best= 184.00  mean= 171.65  near=Pavlov     p=(0.23,0.85,0.01,0.00,0.67)  genr=0.01
+gen   4  best= 182.38  mean= 171.36  near=Pavlov     p=(0.39,0.92,0.04,0.05,0.51)  genr=0.04
+gen   5  best= 181.12  mean= 171.19  near=ALLD       p=(0.46,0.36,0.04,0.00,0.21)  genr=0.04
+gen   6  best= 180.88  mean= 171.18  near=ALLD       p=(0.27,0.39,0.22,0.00,0.23)  genr=0.22
+gen   7  best= 180.75  mean= 172.88  near=ALLD       p=(0.04,0.36,0.07,0.00,0.43)  genr=0.07
+gen   8  best= 178.38  mean= 172.70  near=ALLD       p=(0.48,0.36,0.29,0.04,0.33)  genr=0.29
+gen   9  best= 183.88  mean= 172.24  near=ALLD       p=(0.46,0.38,0.30,0.01,0.42)  genr=0.30
+gen  10  best= 180.38  mean= 171.31  near=ALLD       p=(0.21,0.38,0.09,0.00,0.43)  genr=0.09
+gen  11  best= 180.50  mean= 171.41  near=ALLD       p=(0.45,0.17,0.36,0.00,0.28)  genr=0.36
+gen  12  best= 181.88  mean= 172.45  near=ALLD       p=(0.44,0.22,0.22,0.07,0.36)  genr=0.22
+gen  13  best= 182.12  mean= 172.61  near=ALLD       p=(0.51,0.20,0.37,0.00,0.29)  genr=0.37
+gen  14  best= 179.88  mean= 171.85  near=ALLD       p=(0.59,0.42,0.33,0.06,0.27)  genr=0.33
+gen  15  best= 180.62  mean= 172.24  near=ALLD       p=(0.52,0.32,0.16,0.00,0.45)  genr=0.16
+gen  16  best= 179.75  mean= 171.95  near=ALLD       p=(0.60,0.33,0.17,0.00,0.30)  genr=0.17
+gen  17  best= 178.62  mean= 170.34  near=ALLD       p=(0.49,0.23,0.24,0.06,0.42)  genr=0.24
+gen  18  best= 182.50  mean= 171.57  near=ALLD       p=(0.72,0.21,0.28,0.00,0.27)  genr=0.28
+gen  19  best= 178.00  mean= 170.66  near=ALLD       p=(0.60,0.23,0.26,0.00,0.19)  genr=0.26
+gen  20  best= 180.12  mean= 171.75  near=Pavlov     p=(0.58,0.53,0.23,0.00,0.46)  genr=0.23
+gen  21  best= 180.12  mean= 170.78  near=ALLD       p=(0.48,0.34,0.20,0.00,0.41)  genr=0.20
+gen  22  best= 181.25  mean= 170.68  near=ALLD       p=(0.41,0.26,0.19,0.02,0.36)  genr=0.19
+gen  23  best= 181.62  mean= 170.61  near=ALLD       p=(0.44,0.39,0.23,0.00,0.33)  genr=0.23
+gen  24  best= 180.75  mean= 172.75  near=ALLD       p=(0.42,0.49,0.12,0.02,0.36)  genr=0.12
+gen  25  best= 179.88  mean= 171.82  near=ALLD       p=(0.35,0.28,0.28,0.00,0.30)  genr=0.28
+gen  26  best= 180.50  mean= 171.48  near=ALLD       p=(0.72,0.17,0.09,0.04,0.20)  genr=0.09
+gen  27  best= 182.00  mean= 171.99  near=ALLD       p=(0.52,0.18,0.17,0.00,0.29)  genr=0.17
+gen  28  best= 180.62  mean= 171.79  near=ALLD       p=(0.66,0.29,0.11,0.00,0.29)  genr=0.11
+gen  29  best= 180.88  mean= 172.32  near=ALLD       p=(0.72,0.39,0.11,0.00,0.36)  genr=0.11
+gen  30  best= 180.88  mean= 173.26  near=ALLD       p=(0.48,0.04,0.12,0.03,0.37)  genr=0.12
+gen  31  best= 180.12  mean= 172.82  near=ALLD       p=(0.63,0.21,0.02,0.02,0.32)  genr=0.02
+gen  32  best= 183.00  mean= 173.29  near=ALLD       p=(0.38,0.14,0.06,0.01,0.24)  genr=0.06
+gen  33  best= 179.75  mean= 172.91  near=ALLD       p=(0.40,0.25,0.15,0.06,0.48)  genr=0.15
+gen  34  best= 181.50  mean= 172.02  near=ALLD       p=(0.42,0.23,0.09,0.02,0.46)  genr=0.09
+CHAMPION evolved-m1  p=(0.42,0.23,0.09,0.02,0.46)  nearest=ALLD (L1=1.22)  generosity=0.09
+Held-out evaluation complete.

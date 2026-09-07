@@ -13,12 +13,12 @@ from eoc.strategies import AlwaysCooperate, AlwaysDefect, Joss, TitForTat
 OUT = ROOT / "artifacts"
 OUT.mkdir(exist_ok=True)
 
-def probe(champ):
-    lines = [format_vector(champ)]
+def probe(champ, noise=0.0):
+    lines = [f"Evaluation noise={noise}", format_vector(champ)]
     for label, opp in [("TFT", TitForTat()), ("ALLC", AlwaysCooperate()), ("ALLD", AlwaysDefect()), ("Joss", Joss(0.9)), ("self", champ.clone())]:
         scores, coops = [], []
         for seed in range(4):
-            m = Match(champ.clone(), opp.clone(), turns=80, seed=seed)
+            m = Match(champ.clone(), opp.clone(), turns=80, noise=noise, seed=seed)
             s1, _ = m.play()
             c1, _ = m.cooperation_rates()
             scores.append(s1); coops.append(c1)
@@ -29,7 +29,7 @@ def run_case(title, noise, field_weight, log):
     log(f"\n=== {title} ===")
     ga = MemoryOneGA(field=representative_eight(), population_size=18, turns=50, noise=noise, mutation_sigma=0.08, elite=2, seed=9, field_weight=field_weight, coevolve=field_weight < 1.0)
     result = ga.run(generations=20, seed_tft=False, log=log)
-    log(probe(result.champion))
+    log(probe(result.champion, noise=noise))
     return result.champion
 
 def main():

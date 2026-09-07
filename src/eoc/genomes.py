@@ -156,6 +156,27 @@ class MemoryOne(Player):
     def clone(self) -> Player:
         return MemoryOne(*self.vector, label=self.name)
 
+    def generosity(self) -> float:
+        """Probability of cooperating after CD, not an overall cooperation rate."""
+        return self.p_cd
+
+    def nearest_named(self) -> tuple[str, float]:
+        """Closest reference vector by L1 distance; a descriptive label only.
+
+        Ties follow the reference order. Proximity does not establish that two
+        strategies behave alike against a particular opponent.
+        """
+        references = {
+            "TFT": self.tit_for_tat(),
+            "GTFT(0.1)": self.generous_tft(0.1),
+            "Pavlov": self.pavlov(),
+            "ALLC": self.always_cooperate(),
+            "ALLD": self.always_defect(),
+        }
+        distances = [(name, sum(abs(a - b) for a, b in zip(self.vector, ref.vector)))
+                     for name, ref in references.items()]
+        return min(distances, key=lambda item: item[1])
+
     @classmethod
     def tit_for_tat(cls) -> MemoryOne:
         return cls(1, 1, 0, 1, 0, label="Memory-1(TFT)")

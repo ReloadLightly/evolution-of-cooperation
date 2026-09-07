@@ -43,7 +43,7 @@ def representative_eight() -> list[Player]:
 
 
 def no_sucker_field() -> list[Player]:
-    """Eight-strategy mix without Always-Cooperate."""
+    """Legacy alternative mix; changes multiple opponents, not an ALLC ablation."""
     return [
         TitForTat(),
         TitForTwoTats(),
@@ -54,6 +54,19 @@ def no_sucker_field() -> list[Player]:
         Tester(),
         Pavlov(),
     ]
+
+
+def controlled_forgiveness_field(include_allc: bool = True) -> list[Player]:
+    """Seven fixed opponents, optionally followed by ALLC.
+
+    Appending ALLC preserves the indices (and match seeds) of shared opponents.
+    Fitness is the equally weighted mean over seven or eight opponents.
+    """
+    field = [TitForTat(), AlwaysDefect(), Grudger(), Joss(0.9),
+             Random(0.5), Tester(), Pavlov()]
+    if include_allc:
+        field.append(AlwaysCooperate())
+    return field
 
 
 def axelrod_like_field() -> list[Player]:

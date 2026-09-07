@@ -13,12 +13,12 @@ from eoc.strategies import AlwaysCooperate, AlwaysDefect, Joss, TitForTat
 OUT = ROOT / "artifacts"
 OUT.mkdir(exist_ok=True)
 
-def probe(champ):
-    lines = [format_vector(champ)]
+def probe(champ, noise=0.05):
+    lines = [f"Evaluation noise={noise}", format_vector(champ)]
     for label, opp in [("TFT", TitForTat()), ("ALLC", AlwaysCooperate()), ("ALLD", AlwaysDefect()), ("Joss", Joss(0.9)), ("self", champ.clone())]:
         scores, coops = [], []
         for seed in range(5):
-            m = Match(champ.clone(), opp.clone(), turns=80, seed=seed)
+            m = Match(champ.clone(), opp.clone(), turns=80, noise=noise, seed=seed)
             s1, _ = m.play(); c1, _ = m.cooperation_rates()
             scores.append(s1); coops.append(c1)
         lines.append(f"  vs {label:<6} score={sum(scores)/len(scores):6.1f}  coop={100*sum(coops)/len(coops):5.1f}%")

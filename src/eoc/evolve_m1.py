@@ -89,7 +89,6 @@ class MemoryOneGA:
             self.population[0] = Individual(MemoryOne.tit_for_tat())
 
     def _score_against_field(self, genome: MemoryOne, tag: int) -> float:
-        total = n = 0.0, 0
         total = 0.0
         n = 0
         for i, opp in enumerate(self.field):
@@ -182,6 +181,10 @@ class MemoryOneGA:
         self.population = elite + children
 
     def run(self, generations: int = 40, seed_tft: bool = False, log: Callable[[str], None] | None = None) -> EvolveResult:
+        if generations < 1:
+            raise ValueError("generations must be >= 1")
+        self.rng = random.Random(self.seed)
+        self.history = []
         self.initialize(seed_tft=seed_tft)
         for g in range(generations):
             self.evaluate()
